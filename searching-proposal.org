@@ -1,0 +1,190 @@
+#+TITLE: Orgzly Search (PROPOSAL)
+#+STARTUP: showall indent
+
+* Orgzly Search
+
+This is a proposal for extending the [[http://www.orgzly.com/help/#Search][current search]] support in [[http://www.orgzly.com][Orgzly]].
+
+Search results, agenda or a specific note must all be accessible using
+a query. That way everything can be swipe&click away (drawer) or be
+linked to from outside the app (widget).
+
+** Searching
+*** Condition
+
+Basic format of a condition is:
+
+=PROPERTY.OPERATOR.VALUE=
+
+Any text can be specified as well (double-quoted if it contains
+spaces) and will be searched for anywhere in the note.
+
+**** Property
+
+Following properties are supported:
+
+| =title=    | note's title              |
+| =body=     | note's body               |
+| =s=        | scheduled time            |
+| =d=        | deadline time             |
+| =c=        | closed time               |
+| =i=        | specific state (is state) |
+| =ic=       | state class               |
+| =tn=       | note's tag                |
+| =t=        | note's and inherited tag  |
+| =p=        | priority                  |
+| =clocked=  | total clock time          |
+| =clocking= | currently clocked task    |
+| =clockin=  | clock-in time             |
+| =clockout= | clock-out time            |
+
+In addition, any specific note's property can be used. /(There could
+be conflicts.)/
+
+**** Operator
+
+Following relational operators are supported:
+
+| =eq= | equal to                 |
+| =ne= | not equal to             |
+| =lt= | less than                |
+| =le= | less than or equal to    |
+| =gt= | greater than             |
+| =ge= | greater than or equal to |
+
+Operator can be omitted in which case =eq= is assumed. For example,
+these two conditions are the same:
+
+- =t.eq.office=
+- =t.office=
+
+The exceptions are =s= and =d= properties, for which default operator
+is =le=.
+
+**** Value
+
+For time-based properties (=s=, =d=, etc.), you can use values such
+as:
+
+| =3d=                      | three days from now   |
+| =1w=                      | one week from now     |
+| =3m=                      | three months from now |
+| =1y=                      | one year from now     |
+| =-5d=                     | five days ago         |
+| =today=  =tod=            | today's date          |
+| =tomorrow=  =tmrw=  =tom= | one day from now      |
+| =yesterday=               | one day ago           |
+| =now=                     | today's time          |
+| =none=  =no=              | value not set         |
+| =2015-01-16=              | specific date         |
+
+For searching by state (=i=) any string defined as either =TODO= or
+=DONE= state can be used as a value.
+
+When searching by state class (=ic=), there are three possible types
+of values:
+
+| =done=       | notes with one of the =DONE= states |
+| =todo=       | notes with one of the =TODO= states |
+| =none=  =no= | notes with no state set             |
+
+When searching by tags (=t= or =tn=) a word containing any character
+except for =space= and =:= can be used.
+
+Value for priority searching (=p=) is a character from =a= to =z=.
+
+*** Multiple conditions
+
+Multiple conditions can be specified at the same time. Conditions are
+separated with space or a logical operator.
+
+Following logical operators are supported:
+
+- =not=
+- =and=
+- =or=
+
+=not= has higher precedence than =and= which has higher precedence
+then =or=.
+
+Parentheses (=(= =)=) can be used to explicitly denote precedence by
+grouping parts of a condition that should be evaluated first.
+
+Property can also be prepended with =-= (with no space in between)
+which is equivalent to using =not= before the condition.  For example,
+these two conditions are the same:
+
+- =-i.done=
+- =not i.done=
+
+If conditions are separated by space, logical =and= is assumed.
+
+*** Helper conditions
+
+| =due= | =s.le.today or d.le.today= |
+
+/More useful helpers?/
+
+*** Examples
+
+- =-ic.done -ic.none=           :: Notes with a state set which are not done
+- =ic.todo -i.wait=             :: Notes with a todo type of state, except =WAIT=
+- =i.todo or i.next or i.wait=  :: Notes with either =TODO=, =NEXT= or =WAIT= state set
+- =i.next t.errand=             :: =NEXT= notes tagged with =errand=
+- =b.Home t.buy=                :: Notes from =Home= notebook tagged with =buy=
+- =i.wait=                      :: Notes with =WAIT= state
+- =-ic.done votes.gt.5=         :: Tasks not done with =votes= property larger then =5=
+
+/More useful examples?/
+
+** Sorting
+
+Notes are sorted by notebook name then priority. If =s= is used in the
+query, they are sorted by notebook name then priority then scheduled
+time. They are always sorted by position in the notebook last.
+
+You can change this behavior by using =o=.
+
+| =o.PROPERTY=  | sort by property                 |
+| =-o.PROPERTY= | sort by property (reverse order) |
+
+Following properties are supported:
+
+| =b=  =book=  =notebook=        | notebook name  |
+| =s=  =sched=  =scheduled=      | scheduled time |
+| =d=  =dead=  =deadline=        | deadline time  |
+| =p=  =pri=  =prio=  =priority= | priority       |
+
+*** Examples
+
+- =o.book o.pri=     :: Sort by notebook name then priority
+- =o.book o.pri o.s= :: Sort by notebook name then priority then scheduled time
+
+** Agenda & Grouping
+
+You can display an agenda for a specific period using:
+
+=a.PERIOD=
+
+Period can be for example:
+
+| =-7d=                   | from 7 days ago until today      |
+| =-7d.-2d=               | from 7 days ago until 2 days ago |
+| =2015-01-01.2015-01-31= | for a specific time period       |
+
+Notes will be grouped by day.
+
+You can change the grouping using:
+
+ =g.GROUP=
+
+Supported groups are:
+
+| =day=  | day  |
+| =week= | week |
+| =year= | year |
+| =tag=  | tag  |
+
+/Does this even make sense?/
+
+/Is "a" just a helper and grouping a separate feature?/

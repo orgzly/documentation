@@ -1,3 +1,4 @@
 - [[android/getting-started.org][Getting Started with Orgzly]] :: Notebook imported to Android app
+- [[android/changelog.org][Change Log]]                        :: Change Log for Android app
 - [[searching-proposal.org][Search queries syntax (Proposal)]] :: Proposed syntax for searching
 - [[miscellaneous.org][A little bit of Everything]]            :: Everything else (needs sorting)

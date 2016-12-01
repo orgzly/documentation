@@ -139,11 +139,11 @@ If conditions are separated by space, logical =and= is assumed.
 
 ** Sorting
 
-Notes are sorted by notebook name then priority. If =s= is used in the
-query, they are sorted by notebook name then priority then scheduled
+Notes are sorted by notebook name then priority. If =s= or =d= are
+used in the query, they are also sorted by scheduled or deadline
 time. They are always sorted by position in the notebook last.
 
-You can change this behavior by using =o=.
+You can change this behavior by using =o= operator.
 
 | =o.PROPERTY=  | sort by property                 |
 | =-o.PROPERTY= | sort by property (reverse order) |

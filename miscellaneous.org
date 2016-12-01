@@ -169,6 +169,24 @@ which are tagged with =beeblebrox=.
 
 *PRIORITY* is a priority starting from ~A~.
 
+** Sorting
+
+Notes are sorted by notebook name then priority. If =s= or =d= are
+used in the query, they are also sorted by scheduled or deadline
+time. They are always sorted by position in the notebook last.
+
+You can change this behavior by using =o= operator.
+
+| =o.PROPERTY=  | sort by property                 |
+| =.o.PROPERTY= | sort by property (reverse order) |
+
+Following properties are supported:
+
+| =b=  =book=  =notebook=        | notebook name  |
+| =s=  =sched=  =scheduled=      | scheduled time |
+| =d=  =dead=  =deadline=        | deadline time  |
+| =p=  =pri=  =prio=  =priority= | priority       |
+
 ** Examples
 
 - ~i.todo t.john~ -- Search for =TODO= notes which are tagged with =john=
@@ -179,6 +197,10 @@ which are tagged with =beeblebrox=.
   string =buy= in their title, content or any of the tags
 
 - ~s.1d p.a~ -- Search for priority ~A~ notes scheduled for tomorrow or earlier (same as ~p.a s.tom~)
+
+- =s.1d o.book o.pri= -- Search for notes scheduled for tomorrow sorting them by notebook name then priority
+
+- =o.book o.pri o.s= -- Sort by notebook name then priority then scheduled time
 
 ** Future plans
 

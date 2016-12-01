@@ -1,17 +1,22 @@
-* Change Log
-** v1.4.6
-*** v1.4.6-beta.1
-**** Search operators for sorting (o and .o) :feat:
+#+OPTIONS: html-postamble:nil num:nil html-style:nil tags:nil
+#+TODO: FEAT IMPR FIX | DONE
+
+* v1.4.6
+:PROPERTIES:
+:CUSTOM_ID: v146
+:END:
+** v1.4.6-beta.1 :preprod:
+*** FEAT Search operators for sorting (~o~ and ~.o~)
 
 Sorting from https://gist.github.com/nevenz/7a8377eafb1d9ed8ffae.
-Except for "-o" support -- use ".o" instead for now.
+Except for ~-o~ support -- use ~.o~ instead for now.
 
-**** Save note on keyboard's action button press :feat:
+*** FEAT Save note on keyboard's action button press
 
 This allows much quicker note creation, as you don't need to move your
 finger all the way to the top to save the note.
 
-**** Separate notes with new-line or not (new option) :feat:
+*** FEAT Separate notes with new-line or not (new option)
 
 New setting with 3 possible values:
 
@@ -19,62 +24,72 @@ New setting with 3 possible values:
 - Multi-line notes only
 - Never
 
-**** Dismiss Snackbar on any touch :impr:
+*** IMPR Dismiss Snackbar on any touch
 
-**** Close drawer when Snackbar is displayed :impr:
+*** IMPR Close drawer when Snackbar is displayed
 
 After starting sync from the drawer, "No repos configured" Snackbar
 was being displayed below drawer.
 
-**** Syncing moved to new SyncService :impr:
+*** IMPR Syncing moved to new SyncService
 
 No user visible changes yet, but this is the first step for auto-sync.
 
-**** Remove support for parsing CLOCK for now :fix:
+*** FIX Remove support for parsing =CLOCK= for now
 
-No special handling of CLOCK entries for now, they are treated as part
-of note's body for now.  Needs full LOGBOOK support to work properly.
-**** Fix b search operator parsing (dot as a book name) :fix:
-**** Hide cycle-visibility menu item if book doesn't exist :fix:
+No special handling of =CLOCK= entries for now, they are treated as
+part of note's body for now.  Needs full =LOGBOOK= support to work
+properly.
 
-** v1.4.5
-*** v1.4.5-beta.1
-**** Show Snackbar after creating note and action to create another :feat:
-**** Open note by clicking it from search results :impr:
-**** Allow note content text to be selected, even if not in Edit mode :impr:
-**** Enter Edit mode for new notes and when clicking note content :impr:
-**** Open keyboard when switching to Edit mode :impr:
-**** Check for storage permission before creating directory repo :impr:
-**** Encode Dropbox and directory repo URLs :fix:
-**** Fix possible crash when canceling sync :fix:
-**** Fix possible duplicates when searching using t operator :fix:
-**** Stop displaying only one title line :fix:
+*** FIX Fix ~b~ search operator parsing (dot as a book name)
+*** FIX Hide cycle-visibility menu item if book doesn't exist
 
-** v1.4.4
-*** v1.4.4-beta.1
+* v1.4.5
+:PROPERTIES:
+:CUSTOM_ID: v145
+:END:
+** v1.4.5-beta.1 :preprod:
+*** FEAT Show Snackbar after creating note and action to create another
+*** IMPR Open note by clicking it from search results
+*** IMPR Allow note content text to be selected, even if not in Edit mode
+*** IMPR Enter Edit mode for new notes and when clicking note content
+*** IMPR Open keyboard when switching to Edit mode
+*** IMPR Check for storage permission before creating directory repo
+*** FIX Encode Dropbox and directory repo URLs
+*** FIX Fix possible crash when canceling sync
+*** FIX Fix possible duplicates when searching using t operator
+*** FIX Stop displaying only one title line
 
-**** Links (http and mailto) support in note editor :feat:
+* v1.4.4
+:PROPERTIES:
+:CUSTOM_ID: v144
+:END:
+** v1.4.4-beta.1 :preprod:
+*** FEAT Links (http and mailto) support in note editor
 
-http, https and mailto are currently supported.  Both standalone and
-within square brackets (both with and without the name).  IOW:
+=http=, =https= and =mailto= are currently supported.  Both standalone
+and within square brackets (both with and without the name).  In other
+words:
 
-  http://www.orgzly.com
-  [[mailto:support@orgzly.com][Support]]
-  [[http://www.orgzly.com/help]]
+#+BEGIN_EXAMPLE
+http://www.orgzly.com
+[[mailto:support@orgzly.com][Support]]
+[[http://www.orgzly.com/help]]
+#+END_EXAMPLE
 
 should all work and be displayed as expected.
 
 You can switch between editing and viewing note's content now.
 
-**** Tags inheritance (t operator)
+*** FEAT Tags inheritance (~t~ operator)
 
-t.tag now searches for inherited tags as well.
+~t.tag~ now searches for inherited tags as well.
 
-**** Search by note's tag only (new tn operator)
+*** FEAT Search by note's tag only (new tn operator)
 
-This is what t.tag used to do.
+This is what ~t.tag~ used to do.
 
-**** Floating action button
+*** FEAT Floating action button
 
 For new notebooks, notes and saved searches.  It should be added for
 repos as well.
@@ -84,47 +99,59 @@ recommended.  So something else will be done to speed up the creation
 of new notes (save on back, quick creation from the list like in
 Todoist for example etc.)
 
-** v1.4.3
-*** Quick-fix
-**** Encode links of notebooks synced by older versions :fix:
+* v1.4.3
+:PROPERTIES:
+:CUSTOM_ID: v143
+:END:
+** Quick-fix :preprod:
+*** FIX Encode links of notebooks synced by older versions
 
-** v1.4.2
-*** v1.4.2-beta.1
-**** Renaming notebooks :feat:
-**** UI for PROPERTIES :feat:
-**** Chinese translation :feat:
+* v1.4.2
+:PROPERTIES:
+:CUSTOM_ID: v142
+:END:
+** v1.4.2-beta.1 :preprod:
+*** FEAT Renaming notebooks
+*** FEAT UI for =PROPERTIES=
+*** FEAT Chinese translation
 
 Thanks to Dongbin Shi for reverse engineering the APK. :)
 
-**** Use first configured keyword when marking note as done :fix:
+*** FIX Use first configured keyword when marking note as done
 
-"DONE" was hardcoded, so if it wasn't in the list of done keywords,
+=DONE= was hardcoded, so if it wasn't in the list of done keywords,
 clicking checkmark had no effect.
 
-**** Notebooks encoding fix when using directory repo type :fix:
+*** FIX Notebooks encoding fix when using directory repo type
 
-** v1.4.1
-*** v1.4.1-beta.1
+* v1.4.1
+:PROPERTIES:
+:CUSTOM_ID: v141
+:END:
+** v1.4.1-beta.1 :preprod:
 
-**** Sort notebooks by name (new option) :feat:
-**** Support .b.notebook search expression :feat:
-**** Prompt to save or discard changes on back press :feat:
-**** Show snackbar on sync errors :feat:
-**** Skip files starting with .# when syncing :impr:
-**** Display new repo buttons instead of empty repository list :impr:
-**** Display titles of notebooks in a list when sharing to Orgzly :impr:
-**** Use Dropbox API v2 :impr:
+*** FEAT Sort notebooks by name (new option)
+*** FEAT Support ~.b.notebook~ search expression
+*** FEAT Prompt to save or discard changes on back press
+*** FEAT Show snackbar on sync errors
+*** IMPR Skip files starting with =.#= when syncing
+*** IMPR Display new repo buttons instead of empty repository list
+*** IMPR Display titles of notebooks in a list when sharing to Orgzly
+*** IMPR Use Dropbox API v2
 
-** v1.4
-*** v1.4-beta.4
+* v1.4
+:PROPERTIES:
+:CUSTOM_ID: v140
+:END:
+** v1.4-beta.4 :preprod:
 
-**** Add "Fold content" option :feat:
+*** FEAT Add "Fold content" option
 
 Mentioned in another thread and requested elsewhere as well.  Folding
 button will now be displayed even for notes without children and
 content will be hidden if note is folded.
 
-**** Add "Display content in search" option :feat:
+*** FEAT Add "Display content in search" option
 
 Folding notes in search results doesn't make sense.  Since it's the
 same flag as folding content, this option is added instead.
@@ -132,27 +159,27 @@ same flag as folding content, this option is added instead.
 You can't hide/show content per note in search results, but you can
 quickly open the note itself, so it should be OK.
 
-**** Rearrange Settings :impr:
+*** IMPR Rearrange Settings
 
-**** Update "What's New" dialog's button when DB upgrade is in progress :feat:
+*** FEAT Update "What's New" dialog's button when DB upgrade is in progress
 
 This is instead of displaying the toast when DB upgrade might take a
 long time.  You won't notice anything unless you're upgrading from
 previously released version.
 
-**** Use large bullet for folded notes with children :impr:
+*** IMPR Use large bullet for folded notes with children
 
 Probably *too* large, but that might not be a bad thing. WorkFlowy's
 bullets are nice, but I'd prefer not to use icons and ⦿ looks even
 worse.  Might change (multiple times) in the future.
 
-*** v1.4-beta.3
+** v1.4-beta.3 :preprod:
 
-**** Fix table for those that had 1.4-beta.1 installed :fix:
+*** FIX Fix table for those that had 1.4-beta.1 installed
 
-*** v1.4-beta.2
-**** Fix bullets text style :fix:
-**** Fix inserting timestamps to DB :fix:
+** v1.4-beta.2 :preprod:
+*** FIX Fix bullets text style
+*** FIX Fix inserting timestamps to DB
 
 Inserting times to DB was broken in some cases (due to
 https://code.google.com/p/android/issues/detail?id=13045).
@@ -162,8 +189,8 @@ notice something wrong with times.  Only affects users who had beta.1
 installed.  There will be another beta after which this will not be
 needed.
 
-*** v1.4-beta.1
-**** Folding notes :feat:
+** v1.4-beta.1 :preprod:
+*** FEAT Folding notes
 
 DB upgrade can take some time if you have large files (due simple but
 not very efficient SQL to set notes' parents).
@@ -172,79 +199,91 @@ Also, there's room for optimizations to speed up
 moving/promoting/demoting/pasting which could be slow currently in some
 cases.
 
-**** List density: Comfortable, Cozy, Compact :feat:
+*** FEAT List density: Comfortable, Cozy, Compact
 
-*Comfortable* layout is probably going to be changed to visually
+/Comfortable/ layout is probably going to be changed to visually
 separate title from tags, state etc. and have more cleaner multi-line
 look.
 
-*Cozy* is default.
+/Cozy/ is default.
 
-*Compact* has no padding and allows displaying even more notes on the
+/Compact/ has no padding and allows displaying even more notes on the
 screen.  Personally, I think there's never enough of them, so more
 work's going to happen there, like an option to display title on a
 single line ("This is a long title which ...") etc.
 
-** v1.3.5
-*** v1.3.5-beta.1
-**** Support "d" (deadline) search operator :feat:
+* v1.3.5
+:PROPERTIES:
+:CUSTOM_ID: v135
+:END:
+** v1.3.5-beta.1 :preprod:
+*** FEAT Support ~d~ (deadline) search operator
 
-Similar to "s".
+Similar to ~s~ (scheduled).
 
-**** Setting for selecting displayed notebook details :feat:
+*** FEAT Setting for selecting displayed notebook details
 
 To avoid messy notebooks list. Default contains only few lines now.
 
-**** Allow years with more then 4 digits :fix:
+*** FIX Allow years with more then 4 digits
 
-Thanks to the immortal who used ++100y and reported the crash.
+Thanks to the immortal who used ~++100y~ and reported the crash.
 
-**** Add confirmation of Dropbox unlinking :impr:
-**** Trim notebook name :impr:
-**** Hide import notebooks icon :impr:
+*** IMPR Add confirmation of Dropbox unlinking
+*** IMPR Trim notebook name
+*** IMPR Hide import notebooks icon
 
 Suggested by user to keep the same order of actions on both notebooks
 and notebook views.
 
-**** Lighter notebook sync error messages :impr:
+*** IMPR Lighter notebook sync error messages
 
 With dark theme sync error messages were difficult to read.
 
-**** Use compact notes list by default :impr:
+*** IMPR Use compact notes list by default
 
-** v1.3.4
-*** v1.3.4-beta.1
-**** Support using Orgzly for "Note to self" voice action :feat:
-**** Fixed quick-menu opening (issue on some devices) :fix:
-**** Shift time at least once for ++ repeater :fix:
-**** Scroll to last note when opening quick-menu :fix:
-**** "What's New" layout cleanup
+* v1.3.4
+:PROPERTIES:
+:CUSTOM_ID: v134
+:END:
+** v1.3.4-beta.1 :preprod:
+*** FEAT Support using Orgzly for "Note to self" voice action
+*** FIX Fixed quick-menu opening (issue on some devices)
+*** FIX Shift time at least once for =++= repeater
+*** FIX Scroll to last note when opening quick-menu
+*** IMPR "What's New" layout cleanup
 
-** v1.3.3
-*** v1.3.3-beta.1
-**** Handle storage permission on Marshmallow :fix:
+* v1.3.3
+:PROPERTIES:
+:CUSTOM_ID: v133
+:END:
+** v1.3.3-beta.1 :preprod:
+*** FIX Handle storage permission on Marshmallow
 
 From v1.3.2 Orgzly doesn't require any permissions to be installed on
 Marshmallow.  But if you want to export a notebook or use a Local
 Directory repository type, you will be now asked to grant Storage
 permission from within the app.
 
-**** Fixed title's auto-correction :fix:
+*** FIX Fixed title's auto-correction
 
 Back to textMultiLine which seems to imply textAutoCorrect.
 
-**** Smaller improvements :impr:
+*** IMPR Smaller improvements
 
 - Renames in various places:
-  - Book -> Notebook (in sync status messages)
-  - Use -> Select (in file browser)
-  - Minimum -> Lowest (priority in settings)
-  - Device Storage -> Local Directory (repo type)
+  - Book -- Notebook (in sync status messages)
+  - Use -- Select (in file browser)
+  - Minimum -- Lowest (priority in settings)
+  - Device Storage -- Local Directory (repo type)
 
 - TextInputLayout usage in repo views (a.k.a. pretty hints)
 
-** v1.3.2
-*** v1.3.2-beta.1
+* v1.3.2
+:PROPERTIES:
+:CUSTOM_ID: v132
+:END:
+** v1.3.2-beta.1 :preprod:
 
 Mostly bug fixes.
 
@@ -254,25 +293,31 @@ support libraries' versions.
 There is also some more under-the-hood work done for supporting
 collapsing notes.
 
-**** Support for right-to-left layouts :feat:
+*** FEAT Support for right-to-left layouts
 
 This probably has some design issues -- if you notice anything that
 doesn't look as it should -- do tell.
 
-**** Various bug fixes and improvements :impr:
+*** IMPR Various bug fixes and improvements
 
 - Issue with moving notes after using cut & paste
 - Lingering CAB when creating note from quick-menu
 - New-line replacing for title in note editor
 - State color changes -- lighter for dark theme, darker for light
 
-** v1.3.1
-*** v1.3.1-beta.1
-**** Dark color scheme :feat:
-**** Multiple .i expressions supported :impr:
+* v1.3.1
+:PROPERTIES:
+:CUSTOM_ID: v131
+:END:
+** v1.3.1-beta.1 :preprod:
+*** FEAT Dark color scheme
+*** IMPR Multiple ~.i~ expressions supported
 
-** v1.3
-*** v1.3-beta.1
+* v1.3
+:PROPERTIES:
+:CUSTOM_ID: v130
+:END:
+** v1.3-beta.1 :preprod:
 
 Minimum required Android version is now 4.0 "Ice Cream Sandwich".
 
@@ -281,7 +326,7 @@ support for older versions will allow quite a lot of code cleanup,
 faster development and using some of the new features.  For example,
 nice quick pickers for repeater editing.
 
-**** Recurring tasks (repeater editing) :feat:
+*** FEAT Recurring tasks (repeater editing)
 
 All 3 types are supported.
 
@@ -290,67 +335,60 @@ available as you cycle through different types and it includes terms
 used in Org mode code as well (cumulate, catch-up, restart) which might
 help a little.  Or confuse them more.
 
-**** Saved searches editing :feat:
+*** FEAT Saved searches editing
 
 You can now create, edit, delete and re-position saved searches.
 
 I will be posting a proposal for improving search queries soon, which
 will make this feature quite powerful.
 
-**** Done button in note's quick-menu :feat:
+*** FEAT Done button in note's quick-menu
 
 Quickly set note's state to DONE.  Added as cycling through states,
 especially when using a repeater, felt kinda random (with more states).
 
-**** Settings button in drawer :feat:
-**** Larger font for note body and notebook description :impr:
+*** FEAT Settings button in drawer
+*** IMPR Larger font for note body and notebook description
 
-** v1.2.2
-*** v1.2.2-beta.1
-**** Large font size setting :feat:
-**** Search operator p.priority added :feat:
+* v1.2.2
+:PROPERTIES:
+:CUSTOM_ID: v122
+:END:
+** v1.2.2-beta.1 :preprod:
+*** FEAT Large font size setting
+*** FEAT Search operator ~p.priority~ added
 
 Search by priority. See http://www.orgzly.com/help#Search.
 
-**** Search operator s.day upgraded :feat:
+*** FEAT Search operator ~s.day~ upgraded
 
-Search by scheduled time -- s.2d will find those scheduled for the day
-after tomorrow or earlier.  See http://www.orgzly.com/help#Search.
+Search by scheduled time -- ~s.2d~ will find those scheduled for the
+day after tomorrow or earlier.  See http://www.orgzly.com/help#Search.
 
-**** Tags parsing :fix:
+*** FIX Tags parsing
 
-Previously, only 0-9a-zA-Z_@ were allowed when parsing tags.
+Previously, only =0-9a-zA-Z_@= were allowed when parsing tags.
 
 You should be able to use any character (except space and colon) now.
 
-**** Delete-note added to quick-menu :feat:
-**** ... and everything else :impr:
-***** Move, Cut and Paste actions moved to overflow menu
+*** FEAT Delete-note added to quick-menu
+*** IMPR Various smaller improvements
 
-"Select notes -> Edit" now contains only Schedule and State.
+- Move, Cut and Paste actions moved to overflow menu
+- Icons for today, tomorrow and next-week changed
+- Added warning about missing support for alarms
+- Slightly darker todo keywords
+- Removed horizontal line above quick-menu
+- Do not allow empty note title when saving
+- "Notebook's description" instead of "Add text to notebook"
+- Few more tiny design changes here and there
 
-***** Icons for today, tomorrow and next-week changed
-
-This is in timestamp dialog.  Perhaps they have been simplified a
-little too much -- a label below them could be added.
-
-***** Added warning about missing support for alarms
-
-Toast is displayed after deadline time is set, since users have been
-reporting that alarms are not working.
-
-***** Slightly darker todo keywords
-***** Removed horizontal line above quick-menu
-***** Do not allow empty note title when saving
-***** "Notebook's description" instead of "Add text to notebook"
-
-Hopefully this makes a little more sense for non-Org mode user.
-
-***** Few more tiny design changes here and there
-
-** v1.2.1
-*** Quick-fix
-**** Pressing Back not closing Search/CAB :fix:
+* v1.2.1
+:PROPERTIES:
+:CUSTOM_ID: v121
+:END:
+** Quick-fix :preprod:
+*** FIX Pressing Back not closing Search/CAB
 
 Search and contextual action bar (displayed when notes are selected)
 were not being closed after Back button press.
@@ -360,9 +398,12 @@ Crashes followed in most cases -- thanks for the reports!
 Update to the latest Android Support Library caused this, which is now
 downgraded.
 
-** v1.2
-*** v1.2-beta.2
-**** Open left-fling menu in Search :impr:
+* v1.2
+:PROPERTIES:
+:CUSTOM_ID: v120
+:END:
+** v1.2-beta.2 :preprod:
+*** IMPR Open left-fling menu in Search
 
 It contains a single button now -- open note.  This directly opens a
 note from Search results.
@@ -375,19 +416,19 @@ since newly created note might not even appear in the current view
 As mentioned, menus will become configurable, so perhaps it's best to
 wait until then -- user will be able to add those buttons if he wants.
 
-**** Icons changes :impr:
+*** IMPR Icons changes
 
 For:
 
 - Next and previous state
 - New note above/under/below
 
-**** Thicker horizontal line above menu buttons :impr:
+*** IMPR Thicker horizontal line above menu buttons
 
 This line is likely to be removed, once more buttons are added.
 
-*** v1.2-beta.1
-**** Swipe notes to open menus :feat:
+** v1.2-beta.1 :preprod:
+*** FEAT Swipe notes to open menus
 
 This should speed up the usage a lot.
 
@@ -416,23 +457,23 @@ The original idea was to cycle through states by swiping, but:
   probably not a good idea to allow it -- it's too easy to swipe by
   mistake
 
-**** Current location in app marked in drawer :feat:
+*** FEAT Current location in app marked in drawer
 
 Known searches are marked too, even if you enter them manually.
 
-**** Use web page title when sharing to Orgzly :impr:
+*** IMPR Use web page title when sharing to Orgzly
 
 Web page's title ends up as note's title and URL is appended to note's
 body.
 
-**** States' letters-only requirement removed :fix:
+*** FIX States' letters-only requirement removed
 
 Previously, you could only use [A-Z] for state keywords (which was
 obvious when you add a new keyword and re-parse notes).
 
 This check is now removed.
 
-**** Smaller improvements
+*** IMPR Various smaller improvements
 
 - Open keyboard automatically when creating new repo
 - Description change when creating new repo
@@ -443,24 +484,27 @@ This check is now removed.
   - Blood red for notebook sync error
   - Lighter title and notebook-modified icon in notebook card
 
-** v1.1.1
-*** v1.1.1-beta.1
-**** Flagged unsynced notebooks :feat:
+* v1.1.1
+:PROPERTIES:
+:CUSTOM_ID: v111
+:END:
+** v1.1.1-beta.1 :preprod:
+*** FEAT Flagged unsynced notebooks
 
 If notebook has been modified after the last sync, a small sync icon
 is displayed (both in Notebooks and drawer).
 
-**** Create directories from file browser :feat:
+*** FEAT Create directories from file browser
 
 It is now possible to create new directories from "Device Storage"
 sync method's browser.
 
-**** Set creation time for notes (new option) :feat:
+*** FEAT Set creation time for notes (new option)
 
 CREATED property is added.  Name of the property can be changed.
 Timestamp includes time and it's inactive.
 
-**** Delete remote notebooks (check-box) :feat:
+*** FEAT Delete remote notebooks (check-box)
 
 When long-clicking a notebook and selecting "Delete", there is a
 check-box now in the dialog.  If checked, remote notebook will be
@@ -468,7 +512,7 @@ deleted too.
 
 This is currently done immediately, not on the next sync.
 
-**** Drawer improvements :impr:
+*** IMPR Drawer improvements
 
 Visible changes:
 
@@ -481,7 +525,7 @@ Together with changes under the hood, this will allow:
 - Clicking Searches to add, edit and delete searches
 - Marking currently opened view in the drawer
 
-**** Bug fixes and smaller improvements :impr:fix:
+*** IMPR Bug fixes and smaller improvements
 
 - Bug left in the previous release is now fixed (opening different
   notebook while the list of notes is scrolling)
@@ -491,9 +535,12 @@ Together with changes under the hood, this will allow:
 - Share to Orgzly -- small look improvement for notebook selector (now
   wide and elevated)
 
-** v1.1.0
-*** v1.1.0-beta.1
-**** Sync with directories on your device :feat:
+* v1.1.0
+:PROPERTIES:
+:CUSTOM_ID: v110
+:END:
+** v1.1.0-beta.1 :preprod:
+*** FEAT Sync with directories on your device
 
 Browser is implemented.  You can't create new directories yet and
 syncing of the deletion of notebooks is not yet possible.
@@ -501,7 +548,7 @@ syncing of the deletion of notebooks is not yet possible.
 Dropbox link/unlink button is moved from the main view of
 repositories.
 
-**** Options for more compact note list :feat:
+*** FEAT Options for more compact note list
 
 Instead of (previously planned) option for Comfortable/Cozy/Compact
 modes, two new options have been added:
@@ -514,7 +561,7 @@ It's one additional option for more flexibility.
 Maybe another one for truncating a heading (instead of wrapping) would
 be useful...
 
-**** Minor changes here and there :impr:
+*** IMPR Minor changes here and there
 
 - Notebook's encodings are now one per row (used/detected).  Notebooks
   list is getting too messy, there'll be a new option added to hide
@@ -522,9 +569,12 @@ be useful...
 
 - Settings status/action bar color change (again).
 
-** v1.0.0
-*** v1.0.0-beta.7
-**** Importing chosen notebooks when using some apps :fix:
+* v1.0.0
+:PROPERTIES:
+:CUSTOM_ID: v100
+:END:
+** v1.0.0-beta.7 :preprod:
+*** FIX Importing chosen notebooks when using some apps
 
 Fixes an issue when trying to import a notebook from Google Drive for
 example.
@@ -532,35 +582,35 @@ example.
 Since file name is not available in all cases, a dialog with a
 notebook name is now displayed after choosing a file.
 
-**** Target API 22 (Android 5.1) :feat:
-*** v1.0.0-beta.6
-**** Timestamp parsing in some locales :fix:
+*** FEAT Target API 22 (Android 5.1)
+** v1.0.0-beta.6 :preprod:
+*** FIX Timestamp parsing in some locales
 
 Fixed an issue causing a crash in some locales.
 
-**** Use .org.txt files too when syncing :feat:
+*** FEAT Use =.org.txt= files too when syncing
 
-In addition to files ending with ~.org~, files ending with ~.org.txt~
-are now used as Org files when syncing. 
+In addition to files ending with =.org=, files ending with =.org.txt=
+are now used as Org files when syncing.
 
-*** v1.0.0-beta.5
-**** Display complete notes in notebooks and search results (new option) :feat:
-**** Monospaced font for note body and notebook preface (new option) :feat:
-**** Getting Started with Orgzly notebook included :feat:
+** v1.0.0-beta.5 :preprod:
+*** FEAT Display complete notes in notebooks and search results (new option)
+*** FEAT Monospaced font for note body and notebook preface (new option)
+*** FEAT Getting Started with Orgzly notebook included
 
 Some *very* basic stuff for new users (in preparation for the production
 release).  Shipped with the app (not downloaded or such).  It's just a
 regular notebook -- you probably want to delete it if you don't want it
 synced.
 
-**** Restart Intros will immediately perform intros on click :feat:
+*** FEAT Restart Intros will immediately perform intros on click
 
 Summary updated to explain everything that happens.  Useful if you
 deleted Getting Started notebook and want the latest version
 re-imported.
 
-**** Set Link now displays a currently set link :fix:
-**** Various smaller changes :impr:
+*** FIX Set Link now displays a currently set link
+*** IMPR Various smaller improvements
 
 - Removed horizontal dividers between notes
 - Stronger bullet (to compensate for the above)
@@ -571,8 +621,8 @@ re-imported.
 - Deleting repo will remove any notebooks' links that used it
 - Dropbox button look changed a bit
 
-*** v1.0.0-beta.4
-**** Creating new notes above, under or below selected :feat:
+** v1.0.0-beta.4 :preprod:
+*** FEAT Creating new notes above, under or below selected
 
 The way this works now might be changed in the future:
 
@@ -585,35 +635,35 @@ In any case, any changes there won't happen before support for
 collapsing notes, as the work is similar (recognizing children and
 such).
 
-**** Keeping indentation in notebooks :feat:fix:
+*** FEAT Keeping indentation in notebooks
 
 Indentation is now detected while parsing and used when exporting the
 same notebook.  It might become configurable in the future, as it's
 closely related to ~org-indent-mode~ anyway.
 
-**** Character encoding detection changed :impr:fix:
+*** IMPR Character encoding detection changed
 
 Old method was failing to detect character encoding for some files.
 UTF-8 is used by default, resulting in mojibake (noticed first for
-worg/org-blog-articles.org).
+=worg/org-blog-articles.org=).
 
-**** Character encoding displayed for each notebook :feat:
+*** FEAT Character encoding displayed for each notebook
 
 Both used and detected.  Detected might not exist.
 
-**** Inserting previously deleted repo URL :fix:
+*** FIX Inserting previously deleted repo URL
 
 This was causing a crash.
 
-**** Repo and notebook URLs displayed for each notebook :feat:
+*** FEAT Repo and notebook URLs displayed for each notebook
 
 Separate icons are now used for links and synced-to notebooks.
 
-**** Displaying notebook's file name below title :feat:
+*** FEAT Displaying notebook's file name below title
 
 If #+TITLE is not set, only file name is displayed.
 
-**** Few design changes :impr:
+*** IMPR Few design changes
 
 - Notes
   - Bullet before title (might not be an improvement, but something
@@ -626,8 +676,8 @@ If #+TITLE is not set, only file name is displayed.
   - Timestamp buttons changed a bit
 - Color of action and status bar for Settings changed
 
-*** v1.0.0-beta.3
-**** Share to Orgzly :feat:
+** v1.0.0-beta.3 :preprod:
+*** FEAT Share to Orgzly
 
 You can now use the standard share button from other apps to share
 (text) to Orgzly.  This will create a new note and store text as a
@@ -637,7 +687,7 @@ There will be more things to be done here, like allowing to store text
 as a note content, picking a specific note to store it in, or creating
 a new note at specific position.
 
-**** Support for #+TITLE :feat:
+*** FEAT Support for =#+TITLE=
 
 Title is now read from "preface" (text before the first note) and used 
 wherever appropriate instead of the file name. 
@@ -646,51 +696,51 @@ Existing notebooks you have will not see it -- you have to either
 re-import the notebooks or just start editing the preface and hitting 
 the save icon. 
 
-**** Selecting default state for new notes :feat:
+*** FEAT Selecting default state for new notes
 
 In settings, TODO is not the only state you can use for new notes
 anymore.  You can now select one of states you have in your "TODO
 States" list.
 
-**** Marking notes with repeaters as done :fix:
+*** FIX Marking notes with repeaters as done
 
 This should be fixed now and act as expected (shifting times and
-keeping states).  "+", ".+" and "++" are all supported.  State change
+keeping states).  ~+~, ~.+~ and ~++~ are all supported.  State change
 is not yet recorded.
 
-**** Sort order in searches :impr:
+*** IMPR Sort order in searches
 
 - To Do :: notebook, priority, position 
 - Scheduled :: notebook, priority, scheduled time, position 
 
-Still not quite what org-mode does (taking repeaters into account 
-etc.) but getting there. 
+Still not quite what Org mode does (taking repeaters into account
+etc.) but getting there.
 
-**** Smaller fixes and improvements
+*** IMPR Smaller fixes and improvements
 
 - Dropbox button buttonified 
 - Repository create/edit dialog simplified 
 - "What's new" instead of "Version" in Settings (being clickable) 
 - Time in timestamp dialog kept when toggling it 
 - Time and date in timestamp dialog format change (depends on locale) 
-- Notebook's sync status removed (NO_CHANGE & friends). It was used
+- Notebook's sync status removed (=NO_CHANGE= & friends). It was used
   only for tests -- unique "info" (i) messages are now used instead.
 
-*** v1.0.0-beta.2
-**** Database-related fix for older devices :fix:
+** v1.0.0-beta.2 :preprod:
+*** FIX Database-related fix for older devices
 
 Old sqlite version and unimplemented feature used.
 
-**** Display repeater and delay in time stamps :impr:
-**** Removed repeater from timestamp dialog :impr:
+*** IMPR Display repeater and delay in time stamps
+*** IMPR Removed repeater from timestamp dialog
 
 Not implemented yet.
 
-**** Unused libraries removed :impr:
+*** IMPR Unused libraries removed
 
 Apk size down to 1.1 MB from previous 10 MB.
 
-**** Notebook renaming option removed :impr:
+*** IMPR Notebook renaming option removed
 
 Needs more testing and some cases covered, related to syncing.
 

@@ -1,6 +1,23 @@
 #+OPTIONS: html-postamble:nil num:nil html-style:nil tags:nil
 #+TODO: FEAT IMPR FIX | DONE
 
+* v1.4.7
+:PROPERTIES:
+:CUSTOM_ID: v147
+:END:
+** v1.4.7-beta.1 :preprod:
+*** FEAT Delete note from note editor
+*** IMPR All Toasts replaced with Snackbars
+*** IMPR Various bug fixes and improvements
+
+- Focus new property name
+- Allow properties with no value
+- Click dialog's positive button on keyboard action button press
+- Debugging code removed from Directory repo (fix for slow sync)
+- Fixed crash when pressing the back button in non-existent note
+  (thanks for the report!)
+- Target Android 7.1
+
 * v1.4.6
 :PROPERTIES:
 :CUSTOM_ID: v146

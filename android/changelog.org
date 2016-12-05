@@ -6,6 +6,9 @@
 :CUSTOM_ID: v147
 :END:
 ** v1.4.7-beta.1 :preprod:
+:PROPERTIES:
+:CUSTOM_ID: v147beta1
+:END:
 *** FEAT Delete note from note editor
 *** IMPR All Toasts replaced with Snackbars
 *** IMPR Various bug fixes and improvements
@@ -23,6 +26,9 @@
 :CUSTOM_ID: v146
 :END:
 ** v1.4.6-beta.1 :preprod:
+:PROPERTIES:
+:CUSTOM_ID: v146beta1
+:END:
 *** FEAT Search operators for sorting (~o~ and ~.o~)
 
 Sorting from https://gist.github.com/nevenz/7a8377eafb1d9ed8ffae.
@@ -66,6 +72,9 @@ properly.
 :CUSTOM_ID: v145
 :END:
 ** v1.4.5-beta.1 :preprod:
+:PROPERTIES:
+:CUSTOM_ID: v145beta1
+:END:
 *** FEAT Show Snackbar after creating note and action to create another
 *** IMPR Open note by clicking it from search results
 *** IMPR Allow note content text to be selected, even if not in Edit mode
@@ -82,6 +91,9 @@ properly.
 :CUSTOM_ID: v144
 :END:
 ** v1.4.4-beta.1 :preprod:
+:PROPERTIES:
+:CUSTOM_ID: v144beta1
+:END:
 *** FEAT Links (http and mailto) support in note editor
 
 =http=, =https= and =mailto= are currently supported.  Both standalone
@@ -121,6 +133,9 @@ Todoist for example etc.)
 :CUSTOM_ID: v143
 :END:
 ** Quick-fix :preprod:
+:PROPERTIES:
+:CUSTOM_ID: v143quickfix
+:END:
 *** FIX Encode links of notebooks synced by older versions
 
 * v1.4.2
@@ -128,6 +143,9 @@ Todoist for example etc.)
 :CUSTOM_ID: v142
 :END:
 ** v1.4.2-beta.1 :preprod:
+:PROPERTIES:
+:CUSTOM_ID: v142beta1
+:END:
 *** FEAT Renaming notebooks
 *** FEAT UI for =PROPERTIES=
 *** FEAT Chinese translation
@@ -146,6 +164,9 @@ clicking checkmark had no effect.
 :CUSTOM_ID: v141
 :END:
 ** v1.4.1-beta.1 :preprod:
+:PROPERTIES:
+:CUSTOM_ID: v141beta1
+:END:
 
 *** FEAT Sort notebooks by name (new option)
 *** FEAT Support ~.b.notebook~ search expression
@@ -161,6 +182,9 @@ clicking checkmark had no effect.
 :CUSTOM_ID: v140
 :END:
 ** v1.4-beta.4 :preprod:
+:PROPERTIES:
+:CUSTOM_ID: v140beta4
+:END:
 
 *** FEAT Add "Fold content" option
 
@@ -191,10 +215,16 @@ bullets are nice, but I'd prefer not to use icons and ⦿ looks even
 worse.  Might change (multiple times) in the future.
 
 ** v1.4-beta.3 :preprod:
+:PROPERTIES:
+:CUSTOM_ID: v140beta3
+:END:
 
 *** FIX Fix table for those that had 1.4-beta.1 installed
 
 ** v1.4-beta.2 :preprod:
+:PROPERTIES:
+:CUSTOM_ID: v140beta2
+:END:
 *** FIX Fix bullets text style
 *** FIX Fix inserting timestamps to DB
 
@@ -207,6 +237,9 @@ installed.  There will be another beta after which this will not be
 needed.
 
 ** v1.4-beta.1 :preprod:
+:PROPERTIES:
+:CUSTOM_ID: v140beta1
+:END:
 *** FEAT Folding notes
 
 DB upgrade can take some time if you have large files (due simple but
@@ -234,6 +267,9 @@ single line ("This is a long title which ...") etc.
 :CUSTOM_ID: v135
 :END:
 ** v1.3.5-beta.1 :preprod:
+:PROPERTIES:
+:CUSTOM_ID: v135beta1
+:END:
 *** FEAT Support ~d~ (deadline) search operator
 
 Similar to ~s~ (scheduled).
@@ -264,6 +300,9 @@ With dark theme sync error messages were difficult to read.
 :CUSTOM_ID: v134
 :END:
 ** v1.3.4-beta.1 :preprod:
+:PROPERTIES:
+:CUSTOM_ID: v134beta1
+:END:
 *** FEAT Support using Orgzly for "Note to self" voice action
 *** FIX Fixed quick-menu opening (issue on some devices)
 *** FIX Shift time at least once for =++= repeater
@@ -275,6 +314,9 @@ With dark theme sync error messages were difficult to read.
 :CUSTOM_ID: v133
 :END:
 ** v1.3.3-beta.1 :preprod:
+:PROPERTIES:
+:CUSTOM_ID: v133beta1
+:END:
 *** FIX Handle storage permission on Marshmallow
 
 From v1.3.2 Orgzly doesn't require any permissions to be installed on
@@ -301,6 +343,9 @@ Back to textMultiLine which seems to imply textAutoCorrect.
 :CUSTOM_ID: v132
 :END:
 ** v1.3.2-beta.1 :preprod:
+:PROPERTIES:
+:CUSTOM_ID: v132beta1
+:END:
 
 Mostly bug fixes.
 
@@ -327,6 +372,9 @@ doesn't look as it should -- do tell.
 :CUSTOM_ID: v131
 :END:
 ** v1.3.1-beta.1 :preprod:
+:PROPERTIES:
+:CUSTOM_ID: v131beta1
+:END:
 *** FEAT Dark color scheme
 *** IMPR Multiple ~.i~ expressions supported
 
@@ -335,6 +383,9 @@ doesn't look as it should -- do tell.
 :CUSTOM_ID: v130
 :END:
 ** v1.3-beta.1 :preprod:
+:PROPERTIES:
+:CUSTOM_ID: v130beta1
+:END:
 
 Minimum required Android version is now 4.0 "Ice Cream Sandwich".
 
@@ -372,6 +423,9 @@ especially when using a repeater, felt kinda random (with more states).
 :CUSTOM_ID: v122
 :END:
 ** v1.2.2-beta.1 :preprod:
+:PROPERTIES:
+:CUSTOM_ID: v122beta1
+:END:
 *** FEAT Large font size setting
 *** FEAT Search operator ~p.priority~ added
 
@@ -405,6 +459,9 @@ You should be able to use any character (except space and colon) now.
 :CUSTOM_ID: v121
 :END:
 ** Quick-fix :preprod:
+:PROPERTIES:
+:CUSTOM_ID: v121quickfix
+:END:
 *** FIX Pressing Back not closing Search/CAB
 
 Search and contextual action bar (displayed when notes are selected)
@@ -420,6 +477,9 @@ downgraded.
 :CUSTOM_ID: v120
 :END:
 ** v1.2-beta.2 :preprod:
+:PROPERTIES:
+:CUSTOM_ID: v120beta2
+:END:
 *** IMPR Open left-fling menu in Search
 
 It contains a single button now -- open note.  This directly opens a
@@ -445,6 +505,9 @@ For:
 This line is likely to be removed, once more buttons are added.
 
 ** v1.2-beta.1 :preprod:
+:PROPERTIES:
+:CUSTOM_ID: v120beta1
+:END:
 *** FEAT Swipe notes to open menus
 
 This should speed up the usage a lot.
@@ -506,6 +569,9 @@ This check is now removed.
 :CUSTOM_ID: v111
 :END:
 ** v1.1.1-beta.1 :preprod:
+:PROPERTIES:
+:CUSTOM_ID: v111beta1
+:END:
 *** FEAT Flagged unsynced notebooks
 
 If notebook has been modified after the last sync, a small sync icon
@@ -557,6 +623,9 @@ Together with changes under the hood, this will allow:
 :CUSTOM_ID: v110
 :END:
 ** v1.1.0-beta.1 :preprod:
+:PROPERTIES:
+:CUSTOM_ID: v110beta1
+:END:
 *** FEAT Sync with directories on your device
 
 Browser is implemented.  You can't create new directories yet and
@@ -591,6 +660,9 @@ be useful...
 :CUSTOM_ID: v100
 :END:
 ** v1.0.0-beta.7 :preprod:
+:PROPERTIES:
+:CUSTOM_ID: v100beta7
+:END:
 *** FIX Importing chosen notebooks when using some apps
 
 Fixes an issue when trying to import a notebook from Google Drive for
@@ -601,6 +673,9 @@ notebook name is now displayed after choosing a file.
 
 *** FEAT Target API 22 (Android 5.1)
 ** v1.0.0-beta.6 :preprod:
+:PROPERTIES:
+:CUSTOM_ID: v100beta6
+:END:
 *** FIX Timestamp parsing in some locales
 
 Fixed an issue causing a crash in some locales.
@@ -611,6 +686,9 @@ In addition to files ending with =.org=, files ending with =.org.txt=
 are now used as Org files when syncing.
 
 ** v1.0.0-beta.5 :preprod:
+:PROPERTIES:
+:CUSTOM_ID: v100beta5
+:END:
 *** FEAT Display complete notes in notebooks and search results (new option)
 *** FEAT Monospaced font for note body and notebook preface (new option)
 *** FEAT Getting Started with Orgzly notebook included
@@ -639,6 +717,9 @@ re-imported.
 - Dropbox button look changed a bit
 
 ** v1.0.0-beta.4 :preprod:
+:PROPERTIES:
+:CUSTOM_ID: v100beta4
+:END:
 *** FEAT Creating new notes above, under or below selected
 
 The way this works now might be changed in the future:
@@ -694,6 +775,9 @@ If #+TITLE is not set, only file name is displayed.
 - Color of action and status bar for Settings changed
 
 ** v1.0.0-beta.3 :preprod:
+:PROPERTIES:
+:CUSTOM_ID: v100beta3
+:END:
 *** FEAT Share to Orgzly
 
 You can now use the standard share button from other apps to share
@@ -744,6 +828,9 @@ etc.) but getting there.
   only for tests -- unique "info" (i) messages are now used instead.
 
 ** v1.0.0-beta.2 :preprod:
+:PROPERTIES:
+:CUSTOM_ID: v100beta2
+:END:
 *** FIX Database-related fix for older devices
 
 Old sqlite version and unimplemented feature used.

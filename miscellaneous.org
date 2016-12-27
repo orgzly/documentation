@@ -104,7 +104,19 @@ These actions are available in notebook's contextual menu:
 - Open the list of notebooks ("Notebooks")
 - Long-click on a notebook to open the menu
 
-There is currently no other way to resolve a conflict.
+There is currently no other way to resolve a conflict within Orgzly itself.
+
+**** Manually merging the two, conflicting files when using DropBox
+
+When the local and remove notebooks have been modified in a DropBox 
+repository you can rename the underlying .org file in DropBox to be
+something different then tell Orgzly to sync the files again, which 
+will cause Orgzly to create a new file (with the original file name).
+You can then use an external tool (such as a diff program) to determine
+what changes were made, and which ones you wish to keep.
+
+Be sure to remember that the new file (with the original file name)
+is where you want to put your final, merged version of the file.
 
 ** Notes for Org mode users
 

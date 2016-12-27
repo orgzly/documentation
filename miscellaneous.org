@@ -202,6 +202,10 @@ Following properties are supported:
 
 - =o.book o.pri o.s= -- Sort by notebook name then priority then scheduled time
 
+** Search Results
+
+Once you've run your search you'll be shown either a message telling you that your search did not match any notes, or else you'll be shown a list of the notes that did match your search. For each note you can tap on it to edit the note immediately.  For each note you can also swipe right to display a menu of options that allow you to assign a starting time, cycle through the =TODO= and =DONE= states, or to simply mark the note as =DONE=.  If you swipe left you'll be given a single option: displaying the note in the Notebook that contains it.  
+
 ** Future plans
 
 See [[https://github.com/orgzly/documentation/blob/master/searching-proposal.org][Search queries syntax (Proposal)]].

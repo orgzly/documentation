@@ -104,7 +104,24 @@ These actions are available in notebook's contextual menu:
 - Open the list of notebooks ("Notebooks")
 - Long-click on a notebook to open the menu
 
-There is currently no other way to resolve a conflict.
+There is currently no other way to resolve a conflict within Orgzly itself.
+ 
+ **** Manually merging the two, conflicting files when using Dropbox
+ 
+ When the local and remote notebooks have been modified in a Dropbox 
+ repository you can take advantage of the facts that Orgzly stores
+ information in text files (in the OrgMode file format) and that Orgzly
+ will create a new copy of the file if you remove it from Dropbox.
+ 
+ For example, you might move the original, underlying .org file in Dropbox to
+ a different directory, then tell Orgzly to sync the files again (which 
+ will cause Orgzly to create a new file (with the same file name)).
+ You can then use an external tool (such as a diff program) to compare
+ your original file and the file that Orgzly created.  You can then
+  determine what changes were made, and which ones you wish to keep.
+ 
+ Be sure to remember that the new file (the one created by Orgzly)
+ is where you want to put your final, merged version of the file.
 
 ** Notes for Org mode users
 

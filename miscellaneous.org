@@ -106,14 +106,14 @@ These actions are available in notebook's contextual menu:
 
 There is currently no other way to resolve a conflict within Orgzly itself.
  
- **** Manually merging the two, conflicting files when using DropBox
+ **** Manually merging the two, conflicting files when using Dropbox
  
- When the local and remove notebooks have been modified in a DropBox 
+ When the local and remote notebooks have been modified in a Dropbox 
  repository you can take advantage of the facts that Orgzly stores
  information in text files (in the OrgMode file format) and that Orgzly
- will create a new copy of the file if you remove it from DropBox.
+ will create a new copy of the file if you remove it from Dropbox.
  
- For example, you might move the original, underlying .org file in DropBox to
+ For example, you might move the original, underlying .org file in Dropbox to
  a different directory, then tell Orgzly to sync the files again (which 
  will cause Orgzly to create a new file (with the same file name)).
  You can then use an external tool (such as a diff program) to compare

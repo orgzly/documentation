@@ -152,8 +152,8 @@ If any of this is not working for you, please [[Contact][contact]] us.
 :CUSTOM_ID: Search
 :END:
 
-Search terms are separated with space.
-Default operator for joining search terms is /AND/.
+Search expressions are separated with space. They are joined by
+logical /AND/. /OR/ operator is not yet supported.
 
 Words are searched within notes' /title/, /content/ and /tags/.
 

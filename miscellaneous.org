@@ -43,13 +43,13 @@ Notebook is already synced. Nothing to do.
 
 *** Saved to /URL/
 
-Notbook has been successfully synced by being saved to the repository
+Notebook has been successfully synced by being saved to the repository
 represented by /URL/.
 
 *** Loaded from /URL/
 
-Notbook has been successfully synced by being loaded from the notebook
-represented by /URL/.
+Notebook has been successfully synced by being loaded from the
+notebook represented by /URL/.
 
 *** Notebook has no link and one or more remote notebooks with the same name exist
 

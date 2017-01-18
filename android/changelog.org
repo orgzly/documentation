@@ -1,6 +1,25 @@
 #+OPTIONS: html-postamble:nil num:nil html-style:nil tags:nil
 #+TODO: FEAT IMPR FIX | DONE
 
+* v1.4.8
+:PROPERTIES:
+:CUSTOM_ID: v148
+:END:
+** v1.4.8-beta.1 :preprod:
+:PROPERTIES:
+:CUSTOM_ID: v148beta1
+:END:
+*** FIX Fix possible crash when duplicate states are added to settings
+*** FIX Hide FAB when items are selected
+*** IMPR New dialog for configuring states in Settings
+*** IMPR Note editor minor design improvements
+
+- Larger font size when editing content
+- Toggle button instead of switch for content editing
+- Do not underline tags icon
+
+*** IMPR Make folding button bold if there are hidden notes
+
 * v1.4.7
 :PROPERTIES:
 :CUSTOM_ID: v147

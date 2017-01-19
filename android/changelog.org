@@ -12,7 +12,7 @@
 *** FIX Fix possible crash when duplicate states are added to settings
 *** FIX Hide FAB when items are selected
 *** IMPR New dialog for configuring states in Settings
-*** IMPR Note editor minor design improvements
+*** IMPR Minor design improvements in note editor
 
 - Larger font size when editing content
 - Toggle button instead of switch for content editing

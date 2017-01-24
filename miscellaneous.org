@@ -178,6 +178,9 @@ Words are searched within notes' /title/, /content/ and /tags/.
   - Ny -- N years from today (~1y~)
 
 *STATE* is a keyword like =TODO=, =DONE=, =NEW=, etc. Case is irrelevant.
+Only states listed in 'Settings -> Notes -> States' can be searched by. Any
+keywords not included in the settings are not treated as states, but just become
+part of the note title.
 
 *NOTEBOOK* is the name of notebook. It must be surrounded with double
 quotes if it contains spaces.

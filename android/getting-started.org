@@ -30,6 +30,14 @@ Both scheduled and deadline times can be used at the same time.
 ** DONE Task can be marked as completed by setting its state to DONE
 CLOSED: [2015-02-20 Fri 20:17]
 
+** Note content can include clickable links
+
+- With description: [[mailto:support@orgzly.com][support@orgzly.com]]
+- Plain: http://www.orgzly.com
+- In brackets: [[http://www.orgzly.com/help]]
+
+Open note and start editing its content to see the raw format used.
+
 * Searching
 ** You can search notes by clicking the search icon
 ** You can search for text occurring anywhere in the note

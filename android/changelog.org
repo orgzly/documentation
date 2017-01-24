@@ -1,6 +1,28 @@
 #+OPTIONS: html-postamble:nil num:nil html-style:nil tags:nil
 #+TODO: FEAT IMPR FIX | DONE
 
+* v1.4.9
+:PROPERTIES:
+:CUSTOM_ID: v149
+:END:
+** v1.4.9-beta.1 :preprod:
+:PROPERTIES:
+:CUSTOM_ID: v149beta1
+:END:
+
+*** FEAT Clickable external links in notes' list (both title and content)
+*** FEAT Additional font size (slightly larger then default)
+*** FEAT Configurable location of notebook name in search results
+
+- Hide
+- Before note
+- Under note (default)
+
+*** IMPR Few smaller notes' list design changes
+
+- Use + and - as note bullet if it has children
+- Do not bold folding buttons
+
 * v1.4.8
 :PROPERTIES:
 :CUSTOM_ID: v148

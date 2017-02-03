@@ -248,16 +248,7 @@ Orgzly is free.
 :CUSTOM_ID: Source
 :END:
 
-Currently, Orgzly is not an open source project.
-
-However, even though there were no plans to ever become one, it is now
-going in that direction. Since majority of Orgzly users are Org mode
-users or users of other free software, it is the most commonly asked
-question. Checking the code from this new perspective and evaluating
-potential monetization options are the two main reasons for simply not
-uploading the code right now.
-
-Any released code can be expected in [[https://github.com/orgzly][Github repositories]].
+Yes, it's available on [[https://github.com/orgzly/orgzly-android][GitHub]].
 
 ** Is there an iOS version?
 :PROPERTIES:

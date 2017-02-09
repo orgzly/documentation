@@ -1,6 +1,22 @@
 #+OPTIONS: html-postamble:nil num:nil html-style:nil tags:nil
 #+TODO: FEAT IMPR FIX | DONE
 
+* v1.4.10
+:PROPERTIES:
+:CUSTOM_ID: v1.4.10
+:END:
+** v1.4.10-beta.1 :preprod:
+:PROPERTIES:
+:CUSTOM_ID: v1.4.10-beta.1
+:END:
+
+*** FEAT Ongoing notification for creating note (new option)
+*** FEAT Layout direction (new option)
+*** FEAT Allow browsing secondary storage
+*** IMPR Do not display empty preface in the notebook
+*** IMPR Warn about modified note even on "X" press
+*** IMPR Minor design improvements
+
 * v1.4.9
 :PROPERTIES:
 :CUSTOM_ID: v1.4.9

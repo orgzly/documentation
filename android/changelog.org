@@ -5,7 +5,7 @@
 :PROPERTIES:
 :CUSTOM_ID: v1.4.10
 :END:
-** v1.4.10-beta.1 :preprod:
+** v1.4.10-beta.1 :ignore:
 :PROPERTIES:
 :CUSTOM_ID: v1.4.10-beta.1
 :END:
@@ -21,7 +21,7 @@
 :PROPERTIES:
 :CUSTOM_ID: v1.4.9
 :END:
-** v1.4.9-beta.1 :preprod:
+** v1.4.9-beta.1 :ignore:
 :PROPERTIES:
 :CUSTOM_ID: v1.4.9-beta.1
 :END:
@@ -43,7 +43,7 @@
 :PROPERTIES:
 :CUSTOM_ID: v1.4.8
 :END:
-** v1.4.8-beta.1 :preprod:
+** v1.4.8-beta.1 :ignore:
 :PROPERTIES:
 :CUSTOM_ID: v1.4.8-beta.1
 :END:
@@ -62,7 +62,7 @@
 :PROPERTIES:
 :CUSTOM_ID: v1.4.7
 :END:
-** v1.4.7-beta.1 :preprod:
+** v1.4.7-beta.1 :ignore:
 :PROPERTIES:
 :CUSTOM_ID: v1.4.7-beta.1
 :END:
@@ -82,7 +82,7 @@
 :PROPERTIES:
 :CUSTOM_ID: v1.4.6
 :END:
-** v1.4.6-beta.1 :preprod:
+** v1.4.6-beta.1 :ignore:
 :PROPERTIES:
 :CUSTOM_ID: v1.4.6-beta.1
 :END:
@@ -128,7 +128,7 @@ properly.
 :PROPERTIES:
 :CUSTOM_ID: v1.4.5
 :END:
-** v1.4.5-beta.1 :preprod:
+** v1.4.5-beta.1 :ignore:
 :PROPERTIES:
 :CUSTOM_ID: v1.4.5-beta.1
 :END:
@@ -147,7 +147,7 @@ properly.
 :PROPERTIES:
 :CUSTOM_ID: v1.4.4
 :END:
-** v1.4.4-beta.1 :preprod:
+** v1.4.4-beta.1 :ignore:
 :PROPERTIES:
 :CUSTOM_ID: v1.4.4-beta.1
 :END:
@@ -189,7 +189,7 @@ Todoist for example etc.)
 :PROPERTIES:
 :CUSTOM_ID: v1.4.3
 :END:
-** Quick-fix :preprod:
+** Quick-fix :ignore:
 :PROPERTIES:
 :CUSTOM_ID: v1.4.3-quickfix
 :END:
@@ -199,7 +199,7 @@ Todoist for example etc.)
 :PROPERTIES:
 :CUSTOM_ID: v1.4.2
 :END:
-** v1.4.2-beta.1 :preprod:
+** v1.4.2-beta.1 :ignore:
 :PROPERTIES:
 :CUSTOM_ID: v1.4.2-beta.1
 :END:
@@ -220,7 +220,7 @@ clicking checkmark had no effect.
 :PROPERTIES:
 :CUSTOM_ID: v1.4.1
 :END:
-** v1.4.1-beta.1 :preprod:
+** v1.4.1-beta.1 :ignore:
 :PROPERTIES:
 :CUSTOM_ID: v1.4.1-beta.1
 :END:
@@ -238,7 +238,7 @@ clicking checkmark had no effect.
 :PROPERTIES:
 :CUSTOM_ID: v1.4
 :END:
-** v1.4-beta.4 :preprod:
+** v1.4-beta.4 :ignore:
 :PROPERTIES:
 :CUSTOM_ID: v1.4-beta.4
 :END:
@@ -271,14 +271,14 @@ Probably *too* large, but that might not be a bad thing. WorkFlowy's
 bullets are nice, but I'd prefer not to use icons and ⦿ looks even
 worse.  Might change (multiple times) in the future.
 
-** v1.4-beta.3 :preprod:
+** v1.4-beta.3 :ignore:
 :PROPERTIES:
 :CUSTOM_ID: v1.4-beta.3
 :END:
 
 *** FIX Fix table for those that had 1.4-beta.1 installed
 
-** v1.4-beta.2 :preprod:
+** v1.4-beta.2 :ignore:
 :PROPERTIES:
 :CUSTOM_ID: v1.4-beta.2
 :END:
@@ -293,7 +293,7 @@ notice something wrong with times.  Only affects users who had beta.1
 installed.  There will be another beta after which this will not be
 needed.
 
-** v1.4-beta.1 :preprod:
+** v1.4-beta.1 :ignore:
 :PROPERTIES:
 :CUSTOM_ID: v1.4-beta.1
 :END:
@@ -323,7 +323,7 @@ single line ("This is a long title which ...") etc.
 :PROPERTIES:
 :CUSTOM_ID: v1.3.5
 :END:
-** v1.3.5-beta.1 :preprod:
+** v1.3.5-beta.1 :ignore:
 :PROPERTIES:
 :CUSTOM_ID: v1.3.5-beta.1
 :END:
@@ -356,7 +356,7 @@ With dark theme sync error messages were difficult to read.
 :PROPERTIES:
 :CUSTOM_ID: v1.3.4
 :END:
-** v1.3.4-beta.1 :preprod:
+** v1.3.4-beta.1 :ignore:
 :PROPERTIES:
 :CUSTOM_ID: v1.3.4-beta.1
 :END:
@@ -370,7 +370,7 @@ With dark theme sync error messages were difficult to read.
 :PROPERTIES:
 :CUSTOM_ID: v1.3.3
 :END:
-** v1.3.3-beta.1 :preprod:
+** v1.3.3-beta.1 :ignore:
 :PROPERTIES:
 :CUSTOM_ID: v1.3.3-beta.1
 :END:
@@ -399,7 +399,7 @@ Back to textMultiLine which seems to imply textAutoCorrect.
 :PROPERTIES:
 :CUSTOM_ID: v1.3.2
 :END:
-** v1.3.2-beta.1 :preprod:
+** v1.3.2-beta.1 :ignore:
 :PROPERTIES:
 :CUSTOM_ID: v1.3.2-beta.1
 :END:
@@ -428,7 +428,7 @@ doesn't look as it should -- do tell.
 :PROPERTIES:
 :CUSTOM_ID: v1.3.1
 :END:
-** v1.3.1-beta.1 :preprod:
+** v1.3.1-beta.1 :ignore:
 :PROPERTIES:
 :CUSTOM_ID: v1.3.1-beta.1
 :END:
@@ -439,7 +439,7 @@ doesn't look as it should -- do tell.
 :PROPERTIES:
 :CUSTOM_ID: v1.3
 :END:
-** v1.3-beta.1 :preprod:
+** v1.3-beta.1 :ignore:
 :PROPERTIES:
 :CUSTOM_ID: v1.3-beta.1
 :END:
@@ -479,7 +479,7 @@ especially when using a repeater, felt kinda random (with more states).
 :PROPERTIES:
 :CUSTOM_ID: v1.2.2
 :END:
-** v1.2.2-beta.1 :preprod:
+** v1.2.2-beta.1 :ignore:
 :PROPERTIES:
 :CUSTOM_ID: v1.2.2-beta.1
 :END:
@@ -515,7 +515,7 @@ You should be able to use any character (except space and colon) now.
 :PROPERTIES:
 :CUSTOM_ID: v1.2.1
 :END:
-** Quick-fix :preprod:
+** Quick-fix :ignore:
 :PROPERTIES:
 :CUSTOM_ID: v1.2.1-quickfix
 :END:
@@ -533,7 +533,7 @@ downgraded.
 :PROPERTIES:
 :CUSTOM_ID: v1.2
 :END:
-** v1.2-beta.2 :preprod:
+** v1.2-beta.2 :ignore:
 :PROPERTIES:
 :CUSTOM_ID: v1.2-beta.2
 :END:
@@ -561,7 +561,7 @@ For:
 
 This line is likely to be removed, once more buttons are added.
 
-** v1.2-beta.1 :preprod:
+** v1.2-beta.1 :ignore:
 :PROPERTIES:
 :CUSTOM_ID: v1.2-beta.1
 :END:
@@ -625,7 +625,7 @@ This check is now removed.
 :PROPERTIES:
 :CUSTOM_ID: v1.1.1
 :END:
-** v1.1.1-beta.1 :preprod:
+** v1.1.1-beta.1 :ignore:
 :PROPERTIES:
 :CUSTOM_ID: v1.1.1-beta.1
 :END:
@@ -679,7 +679,7 @@ Together with changes under the hood, this will allow:
 :PROPERTIES:
 :CUSTOM_ID: v1.1
 :END:
-** v1.1-beta.1 :preprod:
+** v1.1-beta.1 :ignore:
 :PROPERTIES:
 :CUSTOM_ID: v1.1-beta.1
 :END:
@@ -716,7 +716,7 @@ be useful...
 :PROPERTIES:
 :CUSTOM_ID: v1.0
 :END:
-** v1.0-beta.7 :preprod:
+** v1.0-beta.7 :ignore:
 :PROPERTIES:
 :CUSTOM_ID: v1.0-beta.7
 :END:
@@ -729,7 +729,7 @@ Since file name is not available in all cases, a dialog with a
 notebook name is now displayed after choosing a file.
 
 *** FEAT Target API 22 (Android 5.1)
-** v1.0-beta.6 :preprod:
+** v1.0-beta.6 :ignore:
 :PROPERTIES:
 :CUSTOM_ID: v1.0-beta.6
 :END:
@@ -742,7 +742,7 @@ Fixed an issue causing a crash in some locales.
 In addition to files ending with =.org=, files ending with =.org.txt=
 are now used as Org files when syncing.
 
-** v1.0-beta.5 :preprod:
+** v1.0-beta.5 :ignore:
 :PROPERTIES:
 :CUSTOM_ID: v1.0-beta.5
 :END:
@@ -773,7 +773,7 @@ re-imported.
 - Deleting repo will remove any notebooks' links that used it
 - Dropbox button look changed a bit
 
-** v1.0-beta.4 :preprod:
+** v1.0-beta.4 :ignore:
 :PROPERTIES:
 :CUSTOM_ID: v1.0-beta.4
 :END:
@@ -831,7 +831,7 @@ If #+TITLE is not set, only file name is displayed.
   - Timestamp buttons changed a bit
 - Color of action and status bar for Settings changed
 
-** v1.0-beta.3 :preprod:
+** v1.0-beta.3 :ignore:
 :PROPERTIES:
 :CUSTOM_ID: v1.0-beta.3
 :END:
@@ -884,7 +884,7 @@ etc.) but getting there.
 - Notebook's sync status removed (=NO_CHANGE= & friends). It was used
   only for tests -- unique "info" (i) messages are now used instead.
 
-** v1.0-beta.2 :preprod:
+** v1.0-beta.2 :ignore:
 :PROPERTIES:
 :CUSTOM_ID: v1.0-beta.2
 :END:

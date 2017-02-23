@@ -1,5 +1,5 @@
 #+OPTIONS: html-postamble:nil num:nil html-style:nil tags:nil
-#+TODO: FEAT IMPR FIX | DONE
+#+TODO: FEAT(f) IMPR(i) FIX(b) | DONE(d)
 
 #+BEGIN_SRC elisp :exports none
   (save-excursion
@@ -10,6 +10,40 @@
 #+END_SRC
 
 #+RESULTS:
+
+* v1.4.11
+:PROPERTIES:
+:CUSTOM_ID: v1.4.11
+:END:
+** v1.4.11-beta.1 :ignore:
+:PROPERTIES:
+:CUSTOM_ID: v1.4.11-beta.1
+:END:
+
+*** FEAT Black color scheme
+:PROPERTIES:
+:CUSTOM_ID: ee2da55
+:END:
+*** FEAT Hide preface (new option)
+:PROPERTIES:
+:CUSTOM_ID: 8a3c5c0
+:END:
+*** FEAT Support links for "tel", "sms", "geo" and more
+:PROPERTIES:
+:CUSTOM_ID: d7de364
+:END:
+*** IMPR Always display link's description instead of link
+:PROPERTIES:
+:CUSTOM_ID: 87d03e4
+:END:
+*** IMPR Ask for confirmation to delete notes everywhere
+:PROPERTIES:
+:CUSTOM_ID: 8e63850
+:END:
+*** IMPR Keep list of repos sorted
+:PROPERTIES:
+:CUSTOM_ID: 6d0f21a
+:END:
 
 * v1.4.10
 :PROPERTIES:

@@ -250,6 +250,10 @@ Orgzly is free.
 
 Yes, it's available on [[https://github.com/orgzly/orgzly-android][GitHub]].
 
+** I don't use Google Play, can I get the APK file?
+
+Yes, APK files can be downloaded from [[https://github.com/orgzly/orgzly-android/releases][GitHub releases]] page.
+
 ** Is there an iOS version?
 :PROPERTIES:
 :CUSTOM_ID: iOS

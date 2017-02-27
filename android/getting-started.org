@@ -15,7 +15,7 @@ Fling it left to open a different menu.
 **** Use this to better organize your notes
 
 ** Note can have tags :tag1:tag2:
-*** Sub-notes inherit the tags :tag3:
+*** Sub-note inherits the tags :tag3:
 
 If you search for notes tagged “tag1”, this note will be returned as well.
 

@@ -11,6 +11,30 @@
 
 #+RESULTS:
 
+* v1.4.12
+:PROPERTIES:
+:CUSTOM_ID: v1.4.12
+:END:
+** v1.4.12-beta.1 :ignore:
+:PROPERTIES:
+:CUSTOM_ID: v1.4.12-beta.1
+:END:
+
+*** IMPR Various bug fixes and improvements
+:PROPERTIES:
+:CUSTOM_ID: 7979acd
+:END:
+
+- Do not follow link when empty space next to it is pressed
+- Use English locale when formatting times for Org file
+- Fix lingering action mode when leaving filters view
+- Format displayed time depending on local settings
+- Remove (un)fold-all menu item if notebook is empty
+- Add some color and content text in ongoing notification
+- Hide preface by default
+- Sync status on Sync long-click (to be able to see long errors)
+- Improve sync state restoring after returning to the app
+
 * v1.4.11
 :PROPERTIES:
 :CUSTOM_ID: v1.4.11

@@ -248,11 +248,12 @@ Orgzly is free.
 :CUSTOM_ID: Source
 :END:
 
-Yes, it's available on [[https://github.com/orgzly/orgzly-android][GitHub]].
+Yes, source code is available on [[https://github.com/orgzly/orgzly-android][GitHub]].
 
-** I don't use Google Play, can I get the APK file?
+** I don't use Google Play, any alternatives?
 
-Yes, APK files can be downloaded from [[https://github.com/orgzly/orgzly-android/releases][GitHub releases]] page.
+Orgzly is also available on [[https://f-droid.org/app/com.orgzly][F-Droid]]. Or you can download APK files
+directly from [[https://github.com/orgzly/orgzly-android/releases][GitHub releases]] page.
 
 ** Is there an iOS version?
 :PROPERTIES:

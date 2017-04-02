@@ -167,7 +167,8 @@ Words are searched within notes' /title/, /content/ and /tags/.
 | ~i.STATE~    | With state                   | ~i.todo~ ~i.next~       |
 | ~.i.STATE~   | Without state                | ~.i.done~ ~.i.canceled~ |
 | ~b.NOTEBOOK~ | From notebook                | ~b.Work~ ~b.Home~       |
-| ~t.TAG~      | With tag                     | ~t.sport~ ~t.project~   |
+| ~t.TAG~      | With tag                     | ~t.@waiting~            |
+| ~.t.TAG~     | Without tag                  | ~.t.@sometime~          |
 | ~p.PRIORITY~ | Having priority              | ~p.a~ ~p.c~             |
 |--------------+------------------------------+-------------------------|
 

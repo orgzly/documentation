@@ -11,6 +11,60 @@
 
 #+RESULTS:
 
+* v1.4.13
+:PROPERTIES:
+:CUSTOM_ID: v1.4.13
+:END:
+** v1.4.13-beta.1 :ignore:
+:PROPERTIES:
+:CUSTOM_ID: v1.4.13-beta.1
+:END:
+
+*** FEAT Support for .t search operator
+:PROPERTIES:
+:CUSTOM_ID: df482fa
+:END:
+*** FEAT Display inherited tags in search results (new option)
+:PROPERTIES:
+:CUSTOM_ID: 775ba0e
+:END:
+*** FEAT Default notebook when sharing to Orgzly (new option)
+:PROPERTIES:
+:CUSTOM_ID: 48ffaae
+:END:
+*** FEAT Persian translation
+:PROPERTIES:
+:CUSTOM_ID: 06bc302
+:END:
+*** FEAT Turkish translation
+:PROPERTIES:
+:CUSTOM_ID: 5ad4884
+:END:
+*** IMPR Few syncing speed optimizations
+:PROPERTIES:
+:CUSTOM_ID: 687781d
+:END:
+*** IMPR Support for using root folder as a Dropbox repo
+:PROPERTIES:
+:CUSTOM_ID: a7365d8
+:END:
+*** IMPR Exported SyncService for starting it from outside the app
+:PROPERTIES:
+:CUSTOM_ID: 6b34405
+:END:
+*** FIX Fix “Fold/Unfold All” button sometimes not being displayed
+:PROPERTIES:
+:CUSTOM_ID: f98378b
+:END:
+*** FIX Fix searching for tags when inherited tags are used
+:PROPERTIES:
+:CUSTOM_ID: 35472af
+:END:
+*** FIX Fix corrupted properties in note on rotation
+:PROPERTIES:
+:CUSTOM_ID: 6a6d574
+:END:
+
 * v1.4.12
 :PROPERTIES:
 :CUSTOM_ID: v1.4.12

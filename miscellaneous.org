@@ -177,6 +177,7 @@ Words are searched within notes' /title/, /content/ and /tags/.
   - Nw -- N weeks from today (~2w~)
   - Nm -- N months from today (~3m~)
   - Ny -- N years from today (~1y~)
+  - no, none -- not scheduled / no deadline
 
 *STATE* is a keyword like =TODO=, =DONE=, =NEW=, etc. Case is irrelevant.
 Only states listed in 'Settings -> Notes -> States' can be searched by. Any

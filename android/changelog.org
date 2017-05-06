@@ -1,3 +1,5 @@
+#+TITLE: Change Log
+#+AUTHOR: Orgzly
 #+OPTIONS: html-postamble:nil num:nil html-style:nil tags:nil
 #+TODO: FEAT(f) IMPR(i) FIX(b) | DONE(d)
 
@@ -266,9 +268,6 @@
 :PROPERTIES:
 :CUSTOM_ID: 783e03e
 :END:
-
-Sorting from https://gist.github.com/nevenz/7a8377eafb1d9ed8ffae.
-Except for ~-o~ support -- use ~.o~ instead for now.
 
 *** FEAT Save note on keyboard's action button press
 :PROPERTIES:
@@ -596,8 +595,7 @@ worse.  Might change (multiple times) in the future.
 :CUSTOM_ID: ddf3ed2
 :END:
 
-Inserting times to DB was broken in some cases (due to
-https://code.google.com/p/android/issues/detail?id=13045).
+Inserting times to DB was broken in some cases (due to [[https://issuetracker.google.com/issues/36923483][this issue]]).
 
 You might need to "Clear database" and re-import your notebooks, if you
 notice something wrong with times.  Only affects users who had beta.1

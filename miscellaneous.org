@@ -1,4 +1,4 @@
-#+TITLE: A little bit of Everything
+#+TITLE: A bit of Everything
 #+AUTHOR: Orgzly
 #+OPTIONS: html-postamble:nil num:nil H:10
 

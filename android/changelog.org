@@ -11,7 +11,50 @@
         (org-set-property "CUSTOM_ID" (format "%07x" (random #x10000000))))))
 #+END_SRC
 
-#+RESULTS:
+* v1.5
+:PROPERTIES:
+:CUSTOM_ID: v1.5
+:END:
+** FEAT Reminders :alpha1:
+:PROPERTIES:
+:CUSTOM_ID: e7d565e
+:END:
+** FEAT Widget for saved searches :alpha1:
+:PROPERTIES:
+:CUSTOM_ID: fde8a00
+:END:
+** FEAT Widget for notebooks :alpha1:
+:PROPERTIES:
+:CUSTOM_ID: b6fe66d
+:END:
+** FEAT s.none and d.none search expressions :alpha1:
+:PROPERTIES:
+:CUSTOM_ID: 1bf4c2b
+:END:
+** FEAT Separate header and content with an empty line (new option) :alpha1:
+:PROPERTIES:
+:CUSTOM_ID: 003c2e1
+:END:
+** FEAT Sync after new note is created (new option) :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 9d48b71
+:END:
+** FEAT Sync button in ongoing notification :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 4b88528
+:END:
+** FEAT Sync status notifications :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 28c5681
+:END:
+** FIX Using Dropbox URL with trailing slash :beta1:
+:PROPERTIES:
+:CUSTOM_ID: f19d9f4
+:END:
+** FIX Shift times of notes without state when marked done :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 9ab5238
+:END:
 
 * v1.4.13
 :PROPERTIES:

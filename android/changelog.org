@@ -60,52 +60,47 @@
 :PROPERTIES:
 :CUSTOM_ID: v1.4.13
 :END:
-** v1.4.13-beta.1 :ignore:
-:PROPERTIES:
-:CUSTOM_ID: v1.4.13-beta.1
-:END:
-
-*** FEAT Support for .t search operator
+** FEAT Support for .t search operator :beta1:
 :PROPERTIES:
 :CUSTOM_ID: df482fa
 :END:
-*** FEAT Display inherited tags in search results (new option)
+** FEAT Display inherited tags in search results (new option) :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 775ba0e
 :END:
-*** FEAT Default notebook when sharing to Orgzly (new option)
+** FEAT Default notebook when sharing to Orgzly (new option) :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 48ffaae
 :END:
-*** FEAT Persian translation
+** FEAT Persian translation :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 06bc302
 :END:
-*** FEAT Turkish translation
+** FEAT Turkish translation :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 5ad4884
 :END:
-*** IMPR Few syncing speed optimizations
+** IMPR Few syncing speed optimizations :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 687781d
 :END:
-*** IMPR Support for using root folder as a Dropbox repo
+** IMPR Support for using root folder as a Dropbox repo :beta1:
 :PROPERTIES:
 :CUSTOM_ID: a7365d8
 :END:
-*** IMPR Exported SyncService for starting it from outside the app
+** IMPR Exported SyncService for starting it from outside the app :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 6b34405
 :END:
-*** FIX Fix “Fold/Unfold All” button sometimes not being displayed
+** FIX Fix “Fold/Unfold All” button sometimes not being displayed :beta1:
 :PROPERTIES:
 :CUSTOM_ID: f98378b
 :END:
-*** FIX Fix searching for tags when inherited tags are used
+** FIX Fix searching for tags when inherited tags are used :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 35472af
 :END:
-*** FIX Fix corrupted properties in note on rotation
+** FIX Fix corrupted properties in note on rotation :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 6a6d574
 :END:
@@ -114,12 +109,7 @@
 :PROPERTIES:
 :CUSTOM_ID: v1.4.12
 :END:
-** v1.4.12-beta.1 :ignore:
-:PROPERTIES:
-:CUSTOM_ID: v1.4.12-beta.1
-:END:
-
-*** IMPR Various bug fixes and improvements
+** IMPR Various bug fixes and improvements :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 7979acd
 :END:
@@ -138,32 +128,27 @@
 :PROPERTIES:
 :CUSTOM_ID: v1.4.11
 :END:
-** v1.4.11-beta.1 :ignore:
-:PROPERTIES:
-:CUSTOM_ID: v1.4.11-beta.1
-:END:
-
-*** FEAT Black color scheme
+** FEAT Black color scheme :beta1:
 :PROPERTIES:
 :CUSTOM_ID: ee2da55
 :END:
-*** FEAT Hide preface (new option)
+** FEAT Hide preface (new option) :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 8a3c5c0
 :END:
-*** FEAT Support links for "tel", "sms", "geo" and more
+** FEAT Support links for "tel", "sms", "geo" and more :beta1:
 :PROPERTIES:
 :CUSTOM_ID: d7de364
 :END:
-*** IMPR Always display link's description instead of link
+** IMPR Always display link's description instead of link :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 87d03e4
 :END:
-*** IMPR Ask for confirmation to delete notes everywhere
+** IMPR Ask for confirmation to delete notes everywhere :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 8e63850
 :END:
-*** IMPR Keep list of repos sorted
+** IMPR Keep list of repos sorted :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 6d0f21a
 :END:
@@ -172,32 +157,27 @@
 :PROPERTIES:
 :CUSTOM_ID: v1.4.10
 :END:
-** v1.4.10-beta.1 :ignore:
-:PROPERTIES:
-:CUSTOM_ID: v1.4.10-beta.1
-:END:
-
-*** FEAT Ongoing notification for creating note (new option)
+** FEAT Ongoing notification for creating note (new option) :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 9147ea4
 :END:
-*** FEAT Layout direction (new option)
+** FEAT Layout direction (new option) :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 7c19cbd
 :END:
-*** FEAT Allow browsing secondary storage
+** FEAT Allow browsing secondary storage :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 8f29257
 :END:
-*** IMPR Do not display empty preface in the notebook
+** IMPR Do not display empty preface in the notebook :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 0e43417
 :END:
-*** IMPR Warn about modified note even on "X" press
+** IMPR Warn about modified note even on "X" press :beta1:
 :PROPERTIES:
 :CUSTOM_ID: f2d880d
 :END:
-*** IMPR Minor design improvements
+** IMPR Minor design improvements :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 23fb178
 :END:
@@ -206,20 +186,15 @@
 :PROPERTIES:
 :CUSTOM_ID: v1.4.9
 :END:
-** v1.4.9-beta.1 :ignore:
-:PROPERTIES:
-:CUSTOM_ID: v1.4.9-beta.1
-:END:
-
-*** FEAT Clickable external links in notes' list (both title and content)
+** FEAT Clickable external links in notes' list (both title and content) :beta1:
 :PROPERTIES:
 :CUSTOM_ID: fc8e702
 :END:
-*** FEAT Additional font size (slightly larger then default)
+** FEAT Additional font size (slightly larger then default) :beta1:
 :PROPERTIES:
 :CUSTOM_ID: c675e24
 :END:
-*** FEAT Configurable location of notebook name in search results
+** FEAT Configurable location of notebook name in search results :beta1:
 :PROPERTIES:
 :CUSTOM_ID: b931e93
 :END:
@@ -228,7 +203,7 @@
 - Before note
 - Under note (default)
 
-*** IMPR Few smaller notes' list design changes
+** IMPR Few smaller notes' list design changes :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 82fadec
 :END:
@@ -240,23 +215,19 @@
 :PROPERTIES:
 :CUSTOM_ID: v1.4.8
 :END:
-** v1.4.8-beta.1 :ignore:
-:PROPERTIES:
-:CUSTOM_ID: v1.4.8-beta.1
-:END:
-*** FIX Fix possible crash when duplicate states are added to settings
+** FIX Fix possible crash when duplicate states are added to settings :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 561221c
 :END:
-*** FIX Hide FAB when items are selected
+** FIX Hide FAB when items are selected :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 1799120
 :END:
-*** IMPR New dialog for configuring states in Settings
+** IMPR New dialog for configuring states in Settings :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 9d6462d
 :END:
-*** IMPR Minor design improvements in note editor
+** IMPR Minor design improvements in note editor :beta1:
 :PROPERTIES:
 :CUSTOM_ID: edd760c
 :END:
@@ -265,7 +236,7 @@
 - Toggle button instead of switch for content editing
 - Do not underline tags icon
 
-*** IMPR Make folding button bold if there are hidden notes
+** IMPR Make folding button bold if there are hidden notes :beta1:
 :PROPERTIES:
 :CUSTOM_ID: c41f866
 :END:
@@ -274,19 +245,15 @@
 :PROPERTIES:
 :CUSTOM_ID: v1.4.7
 :END:
-** v1.4.7-beta.1 :ignore:
-:PROPERTIES:
-:CUSTOM_ID: v1.4.7-beta.1
-:END:
-*** FEAT Delete note from note editor
+** FEAT Delete note from note editor :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 8d35c9f
 :END:
-*** IMPR All Toasts replaced with Snackbars
+** IMPR All Toasts replaced with Snackbars :beta1:
 :PROPERTIES:
 :CUSTOM_ID: a6c5b24
 :END:
-*** IMPR Various bug fixes and improvements
+** IMPR Various bug fixes and improvements :beta1:
 :PROPERTIES:
 :CUSTOM_ID: be34d69
 :END:
@@ -303,16 +270,12 @@
 :PROPERTIES:
 :CUSTOM_ID: v1.4.6
 :END:
-** v1.4.6-beta.1 :ignore:
-:PROPERTIES:
-:CUSTOM_ID: v1.4.6-beta.1
-:END:
-*** FEAT Search operators for sorting (~o~ and ~.o~)
+** FEAT Search operators for sorting (~o~ and ~.o~) :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 783e03e
 :END:
 
-*** FEAT Save note on keyboard's action button press
+** FEAT Save note on keyboard's action button press :beta1:
 :PROPERTIES:
 :CUSTOM_ID: df19601
 :END:
@@ -320,7 +283,7 @@
 This allows much quicker note creation, as you don't need to move your
 finger all the way to the top to save the note.
 
-*** FEAT Separate notes with new-line or not (new option)
+** FEAT Separate notes with new-line or not (new option) :beta1:
 :PROPERTIES:
 :CUSTOM_ID: dee3d55
 :END:
@@ -331,12 +294,12 @@ New setting with 3 possible values:
 - Multi-line notes only
 - Never
 
-*** IMPR Dismiss Snackbar on any touch
+** IMPR Dismiss Snackbar on any touch :beta1:
 :PROPERTIES:
 :CUSTOM_ID: f930d90
 :END:
 
-*** IMPR Close drawer when Snackbar is displayed
+** IMPR Close drawer when Snackbar is displayed :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 5575dfb
 :END:
@@ -344,14 +307,14 @@ New setting with 3 possible values:
 After starting sync from the drawer, "No repos configured" Snackbar
 was being displayed below drawer.
 
-*** IMPR Syncing moved to new SyncService
+** IMPR Syncing moved to new SyncService :beta1:
 :PROPERTIES:
 :CUSTOM_ID: fe4d8d7
 :END:
 
 No user visible changes yet, but this is the first step for auto-sync.
 
-*** FIX Remove support for parsing =CLOCK= for now
+** FIX Remove support for parsing =CLOCK= for now :beta1:
 :PROPERTIES:
 :CUSTOM_ID: a11d8a7
 :END:
@@ -360,11 +323,11 @@ No special handling of =CLOCK= entries for now, they are treated as
 part of note's body for now.  Needs full =LOGBOOK= support to work
 properly.
 
-*** FIX Fix ~b~ search operator parsing (dot as a book name)
+** FIX Fix ~b~ search operator parsing (dot as a book name) :beta1:
 :PROPERTIES:
 :CUSTOM_ID: fca08f9
 :END:
-*** FIX Hide cycle-visibility menu item if book doesn't exist
+** FIX Hide cycle-visibility menu item if book doesn't exist :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 63c989c
 :END:
@@ -373,47 +336,43 @@ properly.
 :PROPERTIES:
 :CUSTOM_ID: v1.4.5
 :END:
-** v1.4.5-beta.1 :ignore:
-:PROPERTIES:
-:CUSTOM_ID: v1.4.5-beta.1
-:END:
-*** FEAT Show Snackbar after creating note and action to create another
+** FEAT Show Snackbar after creating note and action to create another :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 0791acc
 :END:
-*** IMPR Open note by clicking it from search results
+** IMPR Open note by clicking it from search results :beta1:
 :PROPERTIES:
 :CUSTOM_ID: c4ebeac
 :END:
-*** IMPR Allow note content text to be selected, even if not in Edit mode
+** IMPR Allow note content text to be selected, even if not in Edit mode :beta1:
 :PROPERTIES:
 :CUSTOM_ID: fcf5d73
 :END:
-*** IMPR Enter Edit mode for new notes and when clicking note content
+** IMPR Enter Edit mode for new notes and when clicking note content :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 9a3016c
 :END:
-*** IMPR Open keyboard when switching to Edit mode
+** IMPR Open keyboard when switching to Edit mode :beta1:
 :PROPERTIES:
 :CUSTOM_ID: df6d06a
 :END:
-*** IMPR Check for storage permission before creating directory repo
+** IMPR Check for storage permission before creating directory repo :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 75fcfcd
 :END:
-*** FIX Encode Dropbox and directory repo URLs
+** FIX Encode Dropbox and directory repo URLs :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 7e85f7e
 :END:
-*** FIX Fix possible crash when canceling sync
+** FIX Fix possible crash when canceling sync :beta1:
 :PROPERTIES:
 :CUSTOM_ID: eb937bf
 :END:
-*** FIX Fix possible duplicates when searching using t operator
+** FIX Fix possible duplicates when searching using t operator :beta1:
 :PROPERTIES:
 :CUSTOM_ID: ed2b509
 :END:
-*** FIX Stop displaying only one title line
+** FIX Stop displaying only one title line :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 5f1ae88
 :END:
@@ -422,11 +381,7 @@ properly.
 :PROPERTIES:
 :CUSTOM_ID: v1.4.4
 :END:
-** v1.4.4-beta.1 :ignore:
-:PROPERTIES:
-:CUSTOM_ID: v1.4.4-beta.1
-:END:
-*** FEAT Links (http and mailto) support in note editor
+** FEAT Links (http and mailto) support in note editor :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 82ed618
 :END:
@@ -445,21 +400,21 @@ should all work and be displayed as expected.
 
 You can switch between editing and viewing note's content now.
 
-*** FEAT Tags inheritance (~t~ operator)
+** FEAT Tags inheritance (~t~ operator) :beta1:
 :PROPERTIES:
 :CUSTOM_ID: ce26920
 :END:
 
 ~t.tag~ now searches for inherited tags as well.
 
-*** FEAT Search by note's tag only (new tn operator)
+** FEAT Search by note's tag only (new tn operator) :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 2e59f07
 :END:
 
 This is what ~t.tag~ used to do.
 
-*** FEAT Floating action button
+** FEAT Floating action button :beta1:
 :PROPERTIES:
 :CUSTOM_ID: f77f746
 :END:
@@ -476,11 +431,7 @@ Todoist for example etc.)
 :PROPERTIES:
 :CUSTOM_ID: v1.4.3
 :END:
-** Quick-fix :ignore:
-:PROPERTIES:
-:CUSTOM_ID: v1.4.3-quickfix
-:END:
-*** FIX Encode links of notebooks synced by older versions
+** FIX Encode links of notebooks synced by older versions :quickfix:
 :PROPERTIES:
 :CUSTOM_ID: 382c4b8
 :END:
@@ -489,26 +440,22 @@ Todoist for example etc.)
 :PROPERTIES:
 :CUSTOM_ID: v1.4.2
 :END:
-** v1.4.2-beta.1 :ignore:
-:PROPERTIES:
-:CUSTOM_ID: v1.4.2-beta.1
-:END:
-*** FEAT Renaming notebooks
+** FEAT Renaming notebooks :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 4961442
 :END:
-*** FEAT UI for =PROPERTIES=
+** FEAT UI for =PROPERTIES= :beta1:
 :PROPERTIES:
 :CUSTOM_ID: c874b20
 :END:
-*** FEAT Chinese translation
+** FEAT Chinese translation :beta1:
 :PROPERTIES:
 :CUSTOM_ID: ecb3ef0
 :END:
 
 Thanks to Dongbin Shi for reverse engineering the APK. :)
 
-*** FIX Use first configured keyword when marking note as done
+** FIX Use first configured keyword when marking note as done :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 10ae301
 :END:
@@ -516,7 +463,7 @@ Thanks to Dongbin Shi for reverse engineering the APK. :)
 =DONE= was hardcoded, so if it wasn't in the list of done keywords,
 clicking checkmark had no effect.
 
-*** FIX Notebooks encoding fix when using directory repo type
+** FIX Notebooks encoding fix when using directory repo type :beta1:
 :PROPERTIES:
 :CUSTOM_ID: fee5f3a
 :END:
@@ -525,40 +472,35 @@ clicking checkmark had no effect.
 :PROPERTIES:
 :CUSTOM_ID: v1.4.1
 :END:
-** v1.4.1-beta.1 :ignore:
-:PROPERTIES:
-:CUSTOM_ID: v1.4.1-beta.1
-:END:
-
-*** FEAT Sort notebooks by name (new option)
+** FEAT Sort notebooks by name (new option) :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 22e4ac7
 :END:
-*** FEAT Support ~.b.notebook~ search expression
+** FEAT Support ~.b.notebook~ search expression :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 6755b59
 :END:
-*** FEAT Prompt to save or discard changes on back press
+** FEAT Prompt to save or discard changes on back press :beta1:
 :PROPERTIES:
 :CUSTOM_ID: a9087bc
 :END:
-*** FEAT Show snackbar on sync errors
+** FEAT Show snackbar on sync errors :beta1:
 :PROPERTIES:
 :CUSTOM_ID: f3d9586
 :END:
-*** IMPR Skip files starting with =.#= when syncing
+** IMPR Skip files starting with =.#= when syncing :beta1:
 :PROPERTIES:
 :CUSTOM_ID: e4028f4
 :END:
-*** IMPR Display new repo buttons instead of empty repository list
+** IMPR Display new repo buttons instead of empty repository list :beta1:
 :PROPERTIES:
 :CUSTOM_ID: fc3d475
 :END:
-*** IMPR Display titles of notebooks in a list when sharing to Orgzly
+** IMPR Display titles of notebooks in a list when sharing to Orgzly :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 07dce4c
 :END:
-*** IMPR Use Dropbox API v2
+** IMPR Use Dropbox API v2 :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 6337cd2
 :END:
@@ -567,12 +509,7 @@ clicking checkmark had no effect.
 :PROPERTIES:
 :CUSTOM_ID: v1.4
 :END:
-** v1.4-beta.4 :ignore:
-:PROPERTIES:
-:CUSTOM_ID: v1.4-beta.4
-:END:
-
-*** FEAT Add "Fold content" option
+** FEAT Add "Fold content" option :beta4:
 :PROPERTIES:
 :CUSTOM_ID: 95c3d29
 :END:
@@ -581,7 +518,7 @@ Mentioned in another thread and requested elsewhere as well.  Folding
 button will now be displayed even for notes without children and
 content will be hidden if note is folded.
 
-*** FEAT Add "Display content in search" option
+** FEAT Add "Display content in search" option :beta4:
 :PROPERTIES:
 :CUSTOM_ID: 4b0ca7b
 :END:
@@ -592,12 +529,12 @@ same flag as folding content, this option is added instead.
 You can't hide/show content per note in search results, but you can
 quickly open the note itself, so it should be OK.
 
-*** IMPR Rearrange Settings
+** IMPR Rearrange Settings :beta4:
 :PROPERTIES:
 :CUSTOM_ID: cd90ff5
 :END:
 
-*** FEAT Update "What's New" dialog's button when DB upgrade is in progress
+** FEAT Update "What's New" dialog's button when DB upgrade is in progress :beta4:
 :PROPERTIES:
 :CUSTOM_ID: d33e588
 :END:
@@ -606,7 +543,7 @@ This is instead of displaying the toast when DB upgrade might take a
 long time.  You won't notice anything unless you're upgrading from
 previously released version.
 
-*** IMPR Use large bullet for folded notes with children
+** IMPR Use large bullet for folded notes with children :beta4:
 :PROPERTIES:
 :CUSTOM_ID: cf0a43f
 :END:
@@ -615,25 +552,16 @@ Probably *too* large, but that might not be a bad thing. WorkFlowy's
 bullets are nice, but I'd prefer not to use icons and ⦿ looks even
 worse.  Might change (multiple times) in the future.
 
-** v1.4-beta.3 :ignore:
-:PROPERTIES:
-:CUSTOM_ID: v1.4-beta.3
-:END:
-
-*** FIX Fix table for those that had 1.4-beta.1 installed
+** FIX Fix table for those that had 1.4-beta.1 installed :beta3:
 :PROPERTIES:
 :CUSTOM_ID: 62fc99b
 :END:
 
-** v1.4-beta.2 :ignore:
-:PROPERTIES:
-:CUSTOM_ID: v1.4-beta.2
-:END:
-*** FIX Fix bullets text style
+** FIX Fix bullets text style :beta2:
 :PROPERTIES:
 :CUSTOM_ID: 8c4cb3c
 :END:
-*** FIX Fix inserting timestamps to DB
+** FIX Fix inserting timestamps to DB :beta2:
 :PROPERTIES:
 :CUSTOM_ID: ddf3ed2
 :END:
@@ -645,11 +573,7 @@ notice something wrong with times.  Only affects users who had beta.1
 installed.  There will be another beta after which this will not be
 needed.
 
-** v1.4-beta.1 :ignore:
-:PROPERTIES:
-:CUSTOM_ID: v1.4-beta.1
-:END:
-*** FEAT Folding notes
+** FEAT Folding notes :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 201ab7b
 :END:
@@ -661,7 +585,7 @@ Also, there's room for optimizations to speed up
 moving/promoting/demoting/pasting which could be slow currently in some
 cases.
 
-*** FEAT List density: Comfortable, Cozy, Compact
+** FEAT List density: Comfortable, Cozy, Compact :beta1:
 :PROPERTIES:
 :CUSTOM_ID: f44c1df
 :END:
@@ -681,40 +605,36 @@ single line ("This is a long title which ...") etc.
 :PROPERTIES:
 :CUSTOM_ID: v1.3.5
 :END:
-** v1.3.5-beta.1 :ignore:
-:PROPERTIES:
-:CUSTOM_ID: v1.3.5-beta.1
-:END:
-*** FEAT Support ~d~ (deadline) search operator
+** FEAT Support ~d~ (deadline) search operator :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 9dc7939
 :END:
 
 Similar to ~s~ (scheduled).
 
-*** FEAT Setting for selecting displayed notebook details
+** FEAT Setting for selecting displayed notebook details :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 3f67207
 :END:
 
 To avoid messy notebooks list. Default contains only few lines now.
 
-*** FIX Allow years with more then 4 digits
+** FIX Allow years with more then 4 digits :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 3efae60
 :END:
 
 Thanks to the immortal who used ~++100y~ and reported the crash.
 
-*** IMPR Add confirmation of Dropbox unlinking
+** IMPR Add confirmation of Dropbox unlinking :beta1:
 :PROPERTIES:
 :CUSTOM_ID: ade2c5e
 :END:
-*** IMPR Trim notebook name
+** IMPR Trim notebook name :beta1:
 :PROPERTIES:
 :CUSTOM_ID: e8803aa
 :END:
-*** IMPR Hide import notebooks icon
+** IMPR Hide import notebooks icon :beta1:
 :PROPERTIES:
 :CUSTOM_ID: c1873be
 :END:
@@ -722,14 +642,14 @@ Thanks to the immortal who used ~++100y~ and reported the crash.
 Suggested by user to keep the same order of actions on both notebooks
 and notebook views.
 
-*** IMPR Lighter notebook sync error messages
+** IMPR Lighter notebook sync error messages :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 01d8b39
 :END:
 
 With dark theme sync error messages were difficult to read.
 
-*** IMPR Use compact notes list by default
+** IMPR Use compact notes list by default :beta1:
 :PROPERTIES:
 :CUSTOM_ID: de764db
 :END:
@@ -738,27 +658,23 @@ With dark theme sync error messages were difficult to read.
 :PROPERTIES:
 :CUSTOM_ID: v1.3.4
 :END:
-** v1.3.4-beta.1 :ignore:
-:PROPERTIES:
-:CUSTOM_ID: v1.3.4-beta.1
-:END:
-*** FEAT Support using Orgzly for "Note to self" voice action
+** FEAT Support using Orgzly for "Note to self" voice action :beta1:
 :PROPERTIES:
 :CUSTOM_ID: f7338ea
 :END:
-*** FIX Fixed quick-menu opening (issue on some devices)
+** FIX Fixed quick-menu opening (issue on some devices) :beta1:
 :PROPERTIES:
 :CUSTOM_ID: c586f18
 :END:
-*** FIX Shift time at least once for =++= repeater
+** FIX Shift time at least once for =++= repeater :beta1:
 :PROPERTIES:
 :CUSTOM_ID: b66ae59
 :END:
-*** FIX Scroll to last note when opening quick-menu
+** FIX Scroll to last note when opening quick-menu :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 8c1bd9f
 :END:
-*** IMPR "What's New" layout cleanup
+** IMPR "What's New" layout cleanup :beta1:
 :PROPERTIES:
 :CUSTOM_ID: ea83e81
 :END:
@@ -767,11 +683,7 @@ With dark theme sync error messages were difficult to read.
 :PROPERTIES:
 :CUSTOM_ID: v1.3.3
 :END:
-** v1.3.3-beta.1 :ignore:
-:PROPERTIES:
-:CUSTOM_ID: v1.3.3-beta.1
-:END:
-*** FIX Handle storage permission on Marshmallow
+** FIX Handle storage permission on Marshmallow :beta1:
 :PROPERTIES:
 :CUSTOM_ID: fc56fc9
 :END:
@@ -781,14 +693,14 @@ Marshmallow.  But if you want to export a notebook or use a Local
 Directory repository type, you will be now asked to grant Storage
 permission from within the app.
 
-*** FIX Fixed title's auto-correction
+** FIX Fixed title's auto-correction :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 5e4212d
 :END:
 
 Back to textMultiLine which seems to imply textAutoCorrect.
 
-*** IMPR Smaller improvements
+** IMPR Smaller improvements :beta1:
 :PROPERTIES:
 :CUSTOM_ID: d5c7797
 :END:
@@ -805,20 +717,7 @@ Back to textMultiLine which seems to imply textAutoCorrect.
 :PROPERTIES:
 :CUSTOM_ID: v1.3.2
 :END:
-** v1.3.2-beta.1 :ignore:
-:PROPERTIES:
-:CUSTOM_ID: v1.3.2-beta.1
-:END:
-
-Mostly bug fixes.
-
-API level has been updated to latest 23 (Marshmallow), as well as
-support libraries' versions.
-
-There is also some more under-the-hood work done for supporting
-collapsing notes.
-
-*** FEAT Support for right-to-left layouts
+** FEAT Support for right-to-left layouts :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 95f9031
 :END:
@@ -826,7 +725,7 @@ collapsing notes.
 This probably has some design issues -- if you notice anything that
 doesn't look as it should -- do tell.
 
-*** IMPR Various bug fixes and improvements
+** IMPR Various bug fixes and improvements :beta1:
 :PROPERTIES:
 :CUSTOM_ID: af9f55a
 :END:
@@ -840,15 +739,11 @@ doesn't look as it should -- do tell.
 :PROPERTIES:
 :CUSTOM_ID: v1.3.1
 :END:
-** v1.3.1-beta.1 :ignore:
-:PROPERTIES:
-:CUSTOM_ID: v1.3.1-beta.1
-:END:
-*** FEAT Dark color scheme
+** FEAT Dark color scheme :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 69cd208
 :END:
-*** IMPR Multiple ~.i~ expressions supported
+** IMPR Multiple ~.i~ expressions supported :beta1:
 :PROPERTIES:
 :CUSTOM_ID: c77bb03
 :END:
@@ -857,19 +752,7 @@ doesn't look as it should -- do tell.
 :PROPERTIES:
 :CUSTOM_ID: v1.3
 :END:
-** v1.3-beta.1 :ignore:
-:PROPERTIES:
-:CUSTOM_ID: v1.3-beta.1
-:END:
-
-Minimum required Android version is now 4.0 "Ice Cream Sandwich".
-
-Apologies to 1.47 % of users out there (per Google Play).  But dropping
-support for older versions will allow quite a lot of code cleanup,
-faster development and using some of the new features.  For example,
-nice quick pickers for repeater editing.
-
-*** FEAT Recurring tasks (repeater editing)
+** FEAT Recurring tasks (repeater editing) :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 26d7155
 :END:
@@ -881,7 +764,7 @@ available as you cycle through different types and it includes terms
 used in Org mode code as well (cumulate, catch-up, restart) which might
 help a little.  Or confuse them more.
 
-*** FEAT Saved searches editing
+** FEAT Saved searches editing :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 725e000
 :END:
@@ -891,7 +774,7 @@ You can now create, edit, delete and re-position saved searches.
 I will be posting a proposal for improving search queries soon, which
 will make this feature quite powerful.
 
-*** FEAT Done button in note's quick-menu
+** FEAT Done button in note's quick-menu :beta1:
 :PROPERTIES:
 :CUSTOM_ID: ca2d391
 :END:
@@ -899,11 +782,11 @@ will make this feature quite powerful.
 Quickly set note's state to DONE.  Added as cycling through states,
 especially when using a repeater, felt kinda random (with more states).
 
-*** FEAT Settings button in drawer
+** FEAT Settings button in drawer :beta1:
 :PROPERTIES:
 :CUSTOM_ID: ade003d
 :END:
-*** IMPR Larger font for note body and notebook description
+** IMPR Larger font for note body and notebook description :beta1:
 :PROPERTIES:
 :CUSTOM_ID: f579712
 :END:
@@ -912,22 +795,18 @@ especially when using a repeater, felt kinda random (with more states).
 :PROPERTIES:
 :CUSTOM_ID: v1.2.2
 :END:
-** v1.2.2-beta.1 :ignore:
-:PROPERTIES:
-:CUSTOM_ID: v1.2.2-beta.1
-:END:
-*** FEAT Large font size setting
+** FEAT Large font size setting :beta1:
 :PROPERTIES:
 :CUSTOM_ID: afc989c
 :END:
-*** FEAT Search operator ~p.priority~ added
+** FEAT Search operator ~p.priority~ added :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 726fc61
 :END:
 
 Search by priority. See http://www.orgzly.com/help#Search.
 
-*** FEAT Search operator ~s.day~ upgraded
+** FEAT Search operator ~s.day~ upgraded :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 78150b1
 :END:
@@ -935,7 +814,7 @@ Search by priority. See http://www.orgzly.com/help#Search.
 Search by scheduled time -- ~s.2d~ will find those scheduled for the
 day after tomorrow or earlier.  See http://www.orgzly.com/help#Search.
 
-*** FIX Tags parsing
+** FIX Tags parsing :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 821f4f0
 :END:
@@ -944,11 +823,11 @@ Previously, only =0-9a-zA-Z_@= were allowed when parsing tags.
 
 You should be able to use any character (except space and colon) now.
 
-*** FEAT Delete-note added to quick-menu
+** FEAT Delete-note added to quick-menu :beta1:
 :PROPERTIES:
 :CUSTOM_ID: def34fb
 :END:
-*** IMPR Various smaller improvements
+** IMPR Various smaller improvements :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 61538b9
 :END:
@@ -966,11 +845,7 @@ You should be able to use any character (except space and colon) now.
 :PROPERTIES:
 :CUSTOM_ID: v1.2.1
 :END:
-** Quick-fix :ignore:
-:PROPERTIES:
-:CUSTOM_ID: v1.2.1-quickfix
-:END:
-*** FIX Pressing Back not closing Search/CAB
+** FIX Pressing Back not closing Search/CAB :quickfix:
 :PROPERTIES:
 :CUSTOM_ID: ca05c8d
 :END:
@@ -987,11 +862,7 @@ downgraded.
 :PROPERTIES:
 :CUSTOM_ID: v1.2
 :END:
-** v1.2-beta.2 :ignore:
-:PROPERTIES:
-:CUSTOM_ID: v1.2-beta.2
-:END:
-*** IMPR Open left-fling menu in Search
+** IMPR Open left-fling menu in Search :beta2:
 :PROPERTIES:
 :CUSTOM_ID: 2c1ac9b
 :END:
@@ -1007,7 +878,7 @@ since newly created note might not even appear in the current view
 As mentioned, menus will become configurable, so perhaps it's best to
 wait until then -- user will be able to add those buttons if he wants.
 
-*** IMPR Icons changes
+** IMPR Icons changes :beta2:
 :PROPERTIES:
 :CUSTOM_ID: f185b90
 :END:
@@ -1017,18 +888,14 @@ For:
 - Next and previous state
 - New note above/under/below
 
-*** IMPR Thicker horizontal line above menu buttons
+** IMPR Thicker horizontal line above menu buttons :beta2:
 :PROPERTIES:
 :CUSTOM_ID: b164fe5
 :END:
 
 This line is likely to be removed, once more buttons are added.
 
-** v1.2-beta.1 :ignore:
-:PROPERTIES:
-:CUSTOM_ID: v1.2-beta.1
-:END:
-*** FEAT Swipe notes to open menus
+** FEAT Swipe notes to open menus :beta1:
 :PROPERTIES:
 :CUSTOM_ID: c73a922
 :END:
@@ -1060,14 +927,14 @@ The original idea was to cycle through states by swiping, but:
   probably not a good idea to allow it -- it's too easy to swipe by
   mistake
 
-*** FEAT Current location in app marked in drawer
+** FEAT Current location in app marked in drawer :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 23ac475
 :END:
 
 Known searches are marked too, even if you enter them manually.
 
-*** IMPR Use web page title when sharing to Orgzly
+** IMPR Use web page title when sharing to Orgzly :beta1:
 :PROPERTIES:
 :CUSTOM_ID: f32f059
 :END:
@@ -1075,7 +942,7 @@ Known searches are marked too, even if you enter them manually.
 Web page's title ends up as note's title and URL is appended to note's
 body.
 
-*** FIX States' letters-only requirement removed
+** FIX States' letters-only requirement removed :beta1:
 :PROPERTIES:
 :CUSTOM_ID: fae340f
 :END:
@@ -1085,7 +952,7 @@ obvious when you add a new keyword and re-parse notes).
 
 This check is now removed.
 
-*** IMPR Various smaller improvements
+** IMPR Various smaller improvements :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 75f8fb7
 :END:
@@ -1103,11 +970,7 @@ This check is now removed.
 :PROPERTIES:
 :CUSTOM_ID: v1.1.1
 :END:
-** v1.1.1-beta.1 :ignore:
-:PROPERTIES:
-:CUSTOM_ID: v1.1.1-beta.1
-:END:
-*** FEAT Flagged unsynced notebooks
+** FEAT Flagged unsynced notebooks :beta1:
 :PROPERTIES:
 :CUSTOM_ID: d5d98da
 :END:
@@ -1115,7 +978,7 @@ This check is now removed.
 If notebook has been modified after the last sync, a small sync icon
 is displayed (both in Notebooks and drawer).
 
-*** FEAT Create directories from file browser
+** FEAT Create directories from file browser :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 41bbdf5
 :END:
@@ -1123,7 +986,7 @@ is displayed (both in Notebooks and drawer).
 It is now possible to create new directories from "Device Storage"
 sync method's browser.
 
-*** FEAT Set creation time for notes (new option)
+** FEAT Set creation time for notes (new option) :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 6668e13
 :END:
@@ -1131,7 +994,7 @@ sync method's browser.
 CREATED property is added.  Name of the property can be changed.
 Timestamp includes time and it's inactive.
 
-*** FEAT Delete remote notebooks (check-box)
+** FEAT Delete remote notebooks (check-box) :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 7c7b7ed
 :END:
@@ -1142,7 +1005,7 @@ deleted too.
 
 This is currently done immediately, not on the next sync.
 
-*** IMPR Drawer improvements
+** IMPR Drawer improvements :beta1:
 :PROPERTIES:
 :CUSTOM_ID: b057b79
 :END:
@@ -1158,7 +1021,7 @@ Together with changes under the hood, this will allow:
 - Clicking Searches to add, edit and delete searches
 - Marking currently opened view in the drawer
 
-*** IMPR Bug fixes and smaller improvements
+** IMPR Bug fixes and smaller improvements :beta1:
 :PROPERTIES:
 :CUSTOM_ID: ba7d701
 :END:
@@ -1175,11 +1038,7 @@ Together with changes under the hood, this will allow:
 :PROPERTIES:
 :CUSTOM_ID: v1.1
 :END:
-** v1.1-beta.1 :ignore:
-:PROPERTIES:
-:CUSTOM_ID: v1.1-beta.1
-:END:
-*** FEAT Sync with directories on your device
+** FEAT Sync with directories on your device :beta1:
 :PROPERTIES:
 :CUSTOM_ID: c6a2c68
 :END:
@@ -1190,7 +1049,7 @@ syncing of the deletion of notebooks is not yet possible.
 Dropbox link/unlink button is moved from the main view of
 repositories.
 
-*** FEAT Options for more compact note list
+** FEAT Options for more compact note list :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 7529630
 :END:
@@ -1206,7 +1065,7 @@ It's one additional option for more flexibility.
 Maybe another one for truncating a heading (instead of wrapping) would
 be useful...
 
-*** IMPR Minor changes here and there
+** IMPR Minor changes here and there :beta1:
 :PROPERTIES:
 :CUSTOM_ID: eb813e3
 :END:
@@ -1221,11 +1080,7 @@ be useful...
 :PROPERTIES:
 :CUSTOM_ID: v1.0
 :END:
-** v1.0-beta.7 :ignore:
-:PROPERTIES:
-:CUSTOM_ID: v1.0-beta.7
-:END:
-*** FIX Importing chosen notebooks when using some apps
+** FIX Importing chosen notebooks when using some apps :beta7:
 :PROPERTIES:
 :CUSTOM_ID: 80b24fc
 :END:
@@ -1236,22 +1091,18 @@ example.
 Since file name is not available in all cases, a dialog with a
 notebook name is now displayed after choosing a file.
 
-*** FEAT Target API 22 (Android 5.1)
+** FEAT Target API 22 (Android 5.1) :beta7:
 :PROPERTIES:
 :CUSTOM_ID: 45f312d
 :END:
-** v1.0-beta.6 :ignore:
-:PROPERTIES:
-:CUSTOM_ID: v1.0-beta.6
-:END:
-*** FIX Timestamp parsing in some locales
+** FIX Timestamp parsing in some locales :beta6:
 :PROPERTIES:
 :CUSTOM_ID: f9a73a3
 :END:
 
 Fixed an issue causing a crash in some locales.
 
-*** FEAT Use =.org.txt= files too when syncing
+** FEAT Use =.org.txt= files too when syncing :beta6:
 :PROPERTIES:
 :CUSTOM_ID: 694fb14
 :END:
@@ -1259,19 +1110,15 @@ Fixed an issue causing a crash in some locales.
 In addition to files ending with =.org=, files ending with =.org.txt=
 are now used as Org files when syncing.
 
-** v1.0-beta.5 :ignore:
-:PROPERTIES:
-:CUSTOM_ID: v1.0-beta.5
-:END:
-*** FEAT Display complete notes in notebooks and search results (new option)
+** FEAT Display complete notes in notebooks and search results (new option) :beta5:
 :PROPERTIES:
 :CUSTOM_ID: 6f0478b
 :END:
-*** FEAT Monospaced font for note body and notebook preface (new option)
+** FEAT Monospaced font for note body and notebook preface (new option) :beta5:
 :PROPERTIES:
 :CUSTOM_ID: 7664e96
 :END:
-*** FEAT Getting Started with Orgzly notebook included
+** FEAT Getting Started with Orgzly notebook included :beta5:
 :PROPERTIES:
 :CUSTOM_ID: 0b95984
 :END:
@@ -1281,7 +1128,7 @@ release).  Shipped with the app (not downloaded or such).  It's just a
 regular notebook -- you probably want to delete it if you don't want it
 synced.
 
-*** FEAT Restart Intros will immediately perform intros on click
+** FEAT Restart Intros will immediately perform intros on click :beta5:
 :PROPERTIES:
 :CUSTOM_ID: f912142
 :END:
@@ -1290,11 +1137,11 @@ Summary updated to explain everything that happens.  Useful if you
 deleted Getting Started notebook and want the latest version
 re-imported.
 
-*** FIX Set Link now displays a currently set link
+** FIX Set Link now displays a currently set link :beta5:
 :PROPERTIES:
 :CUSTOM_ID: 1b7b561
 :END:
-*** IMPR Various smaller improvements
+** IMPR Various smaller improvements :beta5:
 :PROPERTIES:
 :CUSTOM_ID: 78bef8b
 :END:
@@ -1308,11 +1155,7 @@ re-imported.
 - Deleting repo will remove any notebooks' links that used it
 - Dropbox button look changed a bit
 
-** v1.0-beta.4 :ignore:
-:PROPERTIES:
-:CUSTOM_ID: v1.0-beta.4
-:END:
-*** FEAT Creating new notes above, under or below selected
+** FEAT Creating new notes above, under or below selected :beta4:
 :PROPERTIES:
 :CUSTOM_ID: fba06df
 :END:
@@ -1328,7 +1171,7 @@ In any case, any changes there won't happen before support for
 collapsing notes, as the work is similar (recognizing children and
 such).
 
-*** FEAT Keeping indentation in notebooks
+** FEAT Keeping indentation in notebooks :beta4:
 :PROPERTIES:
 :CUSTOM_ID: dce2f03
 :END:
@@ -1337,7 +1180,7 @@ Indentation is now detected while parsing and used when exporting the
 same notebook.  It might become configurable in the future, as it's
 closely related to ~org-indent-mode~ anyway.
 
-*** IMPR Character encoding detection changed
+** IMPR Character encoding detection changed :beta4:
 :PROPERTIES:
 :CUSTOM_ID: 6ee191f
 :END:
@@ -1346,35 +1189,35 @@ Old method was failing to detect character encoding for some files.
 UTF-8 is used by default, resulting in mojibake (noticed first for
 =worg/org-blog-articles.org=).
 
-*** FEAT Character encoding displayed for each notebook
+** FEAT Character encoding displayed for each notebook :beta4:
 :PROPERTIES:
 :CUSTOM_ID: 5c1879e
 :END:
 
 Both used and detected.  Detected might not exist.
 
-*** FIX Inserting previously deleted repo URL
+** FIX Inserting previously deleted repo URL :beta4:
 :PROPERTIES:
 :CUSTOM_ID: 582ccf5
 :END:
 
 This was causing a crash.
 
-*** FEAT Repo and notebook URLs displayed for each notebook
+** FEAT Repo and notebook URLs displayed for each notebook :beta4:
 :PROPERTIES:
 :CUSTOM_ID: a94dcff
 :END:
 
 Separate icons are now used for links and synced-to notebooks.
 
-*** FEAT Displaying notebook's file name below title
+** FEAT Displaying notebook's file name below title :beta4:
 :PROPERTIES:
 :CUSTOM_ID: 315a8fb
 :END:
 
 If #+TITLE is not set, only file name is displayed.
 
-*** IMPR Few design changes
+** IMPR Few design changes :beta4:
 :PROPERTIES:
 :CUSTOM_ID: 5fb415f
 :END:
@@ -1390,11 +1233,7 @@ If #+TITLE is not set, only file name is displayed.
   - Timestamp buttons changed a bit
 - Color of action and status bar for Settings changed
 
-** v1.0-beta.3 :ignore:
-:PROPERTIES:
-:CUSTOM_ID: v1.0-beta.3
-:END:
-*** FEAT Share to Orgzly
+** FEAT Share to Orgzly :beta3:
 :PROPERTIES:
 :CUSTOM_ID: 87043a4
 :END:
@@ -1407,7 +1246,7 @@ There will be more things to be done here, like allowing to store text
 as a note content, picking a specific note to store it in, or creating
 a new note at specific position.
 
-*** FEAT Support for =#+TITLE=
+** FEAT Support for =#+TITLE= :beta3:
 :PROPERTIES:
 :CUSTOM_ID: 1bdfe79
 :END:
@@ -1419,7 +1258,7 @@ Existing notebooks you have will not see it -- you have to either
 re-import the notebooks or just start editing the preface and hitting 
 the save icon. 
 
-*** FEAT Selecting default state for new notes
+** FEAT Selecting default state for new notes :beta3:
 :PROPERTIES:
 :CUSTOM_ID: 29ad596
 :END:
@@ -1428,7 +1267,7 @@ In settings, TODO is not the only state you can use for new notes
 anymore.  You can now select one of states you have in your "TODO
 States" list.
 
-*** FIX Marking notes with repeaters as done
+** FIX Marking notes with repeaters as done :beta3:
 :PROPERTIES:
 :CUSTOM_ID: cd6cc2f
 :END:
@@ -1437,7 +1276,7 @@ This should be fixed now and act as expected (shifting times and
 keeping states).  ~+~, ~.+~ and ~++~ are all supported.  State change
 is not yet recorded.
 
-*** IMPR Sort order in searches
+** IMPR Sort order in searches :beta3:
 :PROPERTIES:
 :CUSTOM_ID: 12405dd
 :END:
@@ -1448,7 +1287,7 @@ is not yet recorded.
 Still not quite what Org mode does (taking repeaters into account
 etc.) but getting there.
 
-*** IMPR Smaller fixes and improvements
+** IMPR Smaller fixes and improvements :beta3:
 :PROPERTIES:
 :CUSTOM_ID: 66c1e74
 :END:
@@ -1461,36 +1300,32 @@ etc.) but getting there.
 - Notebook's sync status removed (=NO_CHANGE= & friends). It was used
   only for tests -- unique "info" (i) messages are now used instead.
 
-** v1.0-beta.2 :ignore:
-:PROPERTIES:
-:CUSTOM_ID: v1.0-beta.2
-:END:
-*** FIX Database-related fix for older devices
+** FIX Database-related fix for older devices :beta2:
 :PROPERTIES:
 :CUSTOM_ID: 5b7f7e5
 :END:
 
 Old sqlite version and unimplemented feature used.
 
-*** IMPR Display repeater and delay in time stamps
+** IMPR Display repeater and delay in time stamps :beta2:
 :PROPERTIES:
 :CUSTOM_ID: 80dd175
 :END:
-*** IMPR Removed repeater from timestamp dialog
+** IMPR Removed repeater from timestamp dialog :beta2:
 :PROPERTIES:
 :CUSTOM_ID: 78b1f7d
 :END:
 
 Not implemented yet.
 
-*** IMPR Unused libraries removed
+** IMPR Unused libraries removed :beta2:
 :PROPERTIES:
 :CUSTOM_ID: 790c4cb
 :END:
 
 Apk size down to 1.1 MB from previous 10 MB.
 
-*** IMPR Notebook renaming option removed
+** IMPR Notebook renaming option removed :beta2:
 :PROPERTIES:
 :CUSTOM_ID: 97c917f
 :END:

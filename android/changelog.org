@@ -3,13 +3,26 @@
 #+OPTIONS: html-postamble:nil num:nil html-style:nil tags:nil
 #+TODO: FEAT(f) IMPR(i) FIX(b) | DONE(d)
 
-#+BEGIN_SRC elisp :exports none
+#+BEGIN_SRC elisp :exports none :results output silent
   (save-excursion
     (goto-char (point-max))
     (while (outline-previous-heading)
       (unless (org-entry-get (point) "CUSTOM_ID")
         (org-set-property "CUSTOM_ID" (format "%07x" (random #x10000000))))))
 #+END_SRC
+
+* v1.5.1
+:PROPERTIES:
+:CUSTOM_ID: v1.5.1
+:END:
+** IMPR Various bug fixes and improvements :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 2e5fb19
+:END:
+- Fix sorting of times for reminders
+- Open app from widgets by restarting task
+- Use 1h from now as default time in timestamp dialog
+- Display Cut and Paste icons in action bar if there is enough space
 
 * v1.5
 :PROPERTIES:

@@ -3,13 +3,52 @@
 #+OPTIONS: html-postamble:nil num:nil html-style:nil tags:nil
 #+TODO: FEAT(f) IMPR(i) FIX(b) | DONE(d)
 
-#+BEGIN_SRC elisp :exports none :results output silent
+#+BEGIN_SRC elisp :exports none :results silent
   (save-excursion
     (goto-char (point-max))
     (while (outline-previous-heading)
       (unless (org-entry-get (point) "CUSTOM_ID")
         (org-set-property "CUSTOM_ID" (format "%07x" (random #x10000000))))))
 #+END_SRC
+
+* v1.5.2
+:PROPERTIES:
+:CUSTOM_ID: v1.5.2
+:END:
+
+** FEAT Support emphasis and monospace :beta1:
+:PROPERTIES:
+:CUSTOM_ID: db966f2
+:END:
+
+** FEAT Display notes count in the list of notebooks :beta1:
+:PROPERTIES:
+:CREATED:  [2017-09-09 Sat 21:45]
+:CUSTOM_ID: cce2ad6
+:END:
+
+** FEAT Hide number of content lines (new option) :beta1:
+:PROPERTIES:
+:CREATED:  [2017-09-09 Sat 21:44]
+:CUSTOM_ID: b00a0dd
+:END:
+
+** IMPR Display cut, paste and move buttons in action bar (moved from overflow) :beta1:
+:PROPERTIES:
+:CREATED:  [2017-09-09 Sat 21:45]
+:CUSTOM_ID: 6a396f1
+:END:
+
+** IMPR Display book's last action error in subtitle :beta1:
+:PROPERTIES:
+:CREATED:  [2017-09-09 Sat 21:47]
+:CUSTOM_ID: 4a39a73
+:END:
+
+** FIX Brief appearance of white window on app start when using dark color scheme :beta1:
+:PROPERTIES:
+:CUSTOM_ID: d51b67b
+:END:
 
 * v1.5.1
 :PROPERTIES:

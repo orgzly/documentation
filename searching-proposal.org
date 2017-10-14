@@ -29,7 +29,7 @@ Following properties are supported:
 | =d=        | deadline time             |
 | =c=        | closed time               |
 | =i=        | specific state (is state) |
-| =ic=       | state class               |
+| =it=       | state type                |
 | =tn=       | note's tag                |
 | =t=        | note's and inherited tag  |
 | =p=        | priority                  |
@@ -81,12 +81,11 @@ as:
 For searching by state (=i=) any string defined as either =TODO= or
 =DONE= state can be used as a value.
 
-When searching by state class (=ic=), there are three possible types
-of values:
+When searching by state type (=it=), there are three possible values:
 
-| =done=       | notes with one of the =DONE= states |
-| =todo=       | notes with one of the =TODO= states |
-| =none=  =no= | notes with no state set             |
+| =done= | notes with one of the =DONE= states |
+| =todo= | notes with one of the =TODO= states |
+| =none= | notes with no state set             |
 
 When searching by tags (=t= or =tn=) a word containing any character
 except for =space= and =:= can be used.
@@ -127,13 +126,12 @@ If conditions are separated by space, logical =and= is assumed.
 
 *** Examples
 
-- =-ic.done -ic.none=           :: Notes with a state set which are not done
-- =ic.todo -i.wait=             :: Notes with a todo type of state, except =WAIT=
+- =it.todo -i.wait=             :: Notes with a todo type of state, except =WAIT=
 - =i.todo or i.next or i.wait=  :: Notes with either =TODO=, =NEXT= or =WAIT= state set
 - =i.next t.errand=             :: =NEXT= notes tagged with =errand=
 - =b.Home t.buy=                :: Notes from =Home= notebook tagged with =buy=
 - =i.wait=                      :: Notes with =WAIT= state
-- =-ic.done votes.gt.5=         :: Tasks not done with =votes= property larger then =5=
+- =-it.done votes.gt.5=         :: Tasks not done with =votes= property larger then =5=
 
 /More useful examples?/
 

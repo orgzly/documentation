@@ -11,6 +11,39 @@
         (org-set-property "CUSTOM_ID" (format "%07x" (random #x10000000))))))
 #+END_SRC
 
+* v1.6
+:PROPERTIES:
+:CUSTOM_ID: v1.6
+:END:
+** FEAT Agenda view :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 629b387
+:END:
+** FEAT Auto-sync for local repositories (experimental) :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 2ae0baf
+:END:
+** FEAT Snooze for reminders :beta1:
+:PROPERTIES:
+:CUSTOM_ID: a2b983b
+:END:
+** FEAT Support ~or~ in search queries :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 97764c3
+:END:
+** FEAT Support ~it~ (type of state) search operator :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 6b6bdad
+:END:
+** FEAT Preference for indenting tags (Org file format) :beta1:
+:PROPERTIES:
+:CUSTOM_ID: d16fb62
+:END:
+** FIX Various bug fixes :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 065cd15
+:END:
+
 * v1.5.3
 :PROPERTIES:
 :CUSTOM_ID: v1.5.3
@@ -42,22 +75,18 @@
 :END:
 ** FEAT Display notes count in the list of notebooks :beta1:
 :PROPERTIES:
-:CREATED:  [2017-09-09 Sat 21:45]
 :CUSTOM_ID: cce2ad6
 :END:
 ** FEAT Hide number of content lines (new option) :beta1:
 :PROPERTIES:
-:CREATED:  [2017-09-09 Sat 21:44]
 :CUSTOM_ID: b00a0dd
 :END:
 ** IMPR Display cut, paste and move buttons in action bar (moved from overflow) :beta1:
 :PROPERTIES:
-:CREATED:  [2017-09-09 Sat 21:45]
 :CUSTOM_ID: 6a396f1
 :END:
 ** IMPR Display book's last action error in subtitle :beta1:
 :PROPERTIES:
-:CREATED:  [2017-09-09 Sat 21:47]
 :CUSTOM_ID: 4a39a73
 :END:
 ** FIX Brief appearance of white window on app start when using dark color scheme :beta1:
@@ -94,7 +123,7 @@
 :PROPERTIES:
 :CUSTOM_ID: b6fe66d
 :END:
-** FEAT s.none and d.none search expressions :alpha1:
+** FEAT ~s.none~ and ~d.none~ search expressions :alpha1:
 :PROPERTIES:
 :CUSTOM_ID: 1bf4c2b
 :END:
@@ -127,7 +156,7 @@
 :PROPERTIES:
 :CUSTOM_ID: v1.4.13
 :END:
-** FEAT Support for .t search operator :beta1:
+** FEAT Support for ~.t~ search operator :beta1:
 :PROPERTIES:
 :CUSTOM_ID: df482fa
 :END:

@@ -181,12 +181,12 @@ Following search operators are supported.
 | ~i.STATE~        | With state                          | ~i.todo~ ~i.next~            |
 | ~.i.STATE~       | Without state                       | ~.i.done~ ~.i.canceled~      |
 | ~it.STATE-TYPE~  | With state type                     | ~it.todo~                    |
-| ~.it.STATE-TYPE~ | Without state type                  | ~it.done~                    |
+| ~.it.STATE-TYPE~ | Without state type                  | ~.it.done~                   |
 | ~b.NOTEBOOK~     | From notebook                       | ~b.Work~ ~b.Home~            |
 | ~.b.NOTEBOOK~    | Not from notebook                   | ~.b.Work~                    |
 | ~t.TAG~          | With tag                            | ~t.@waiting~                 |
 | ~.t.TAG~         | Without tag                         | ~.t.@sometime~               |
-| ~tn.TAG~         | With own (note) tag                 | ~tn.toRead~                  |
+| ~tn.TAG~         | With its own (note) tag             | ~tn.toRead~                  |
 | ~p.PRIORITY~     | Having priority                     | ~p.a~ ~p.c~                  |
 |------------------+-------------------------------------+------------------------------|
 

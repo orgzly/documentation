@@ -164,19 +164,21 @@ Words are searched within notes' /title/, /content/ and /tags/.
 
 ** Search operators
 
-|--------------+-------------------------------------+------------------------------|
-| Operator     | Finds notes                         | Examples                     |
-|--------------+-------------------------------------+------------------------------|
-| ~s.DAY~      | Scheduled for day or earlier        | ~s.today~ ~s.1w~             |
-| ~d.DAY~      | Deadline on day or earlier          | ~d.tmrw~                     |
-| ~i.STATE~    | With state                          | ~i.todo~ ~i.next~            |
-| ~.i.STATE~   | Without state                       | ~.i.done~ ~.i.canceled~      |
-| ~b.NOTEBOOK~ | From notebook                       | ~b.Work~ ~b.Home~            |
-| ~t.TAG~      | With tag                            | ~t.@waiting~                 |
-| ~.t.TAG~     | Without tag                         | ~.t.@sometime~               |
-| ~p.PRIORITY~ | Having priority                     | ~p.a~ ~p.c~                  |
-| ~or~         | Matching a query /or/ another query | ~tn.tag1 b.book1 or tn.tag2~ |
-|--------------+-------------------------------------+------------------------------|
+|---------------+-------------------------------------+------------------------------|
+| Operator      | Finds notes                         | Examples                     |
+|---------------+-------------------------------------+------------------------------|
+| ~s.DAY~       | Scheduled for day or earlier        | ~s.today~ ~s.1w~             |
+| ~d.DAY~       | Deadline on day or earlier          | ~d.tmrw~                     |
+| ~i.STATE~     | With state                          | ~i.todo~ ~i.next~            |
+| ~.i.STATE~    | Without state                       | ~.i.done~ ~.i.canceled~      |
+| ~b.NOTEBOOK~  | From notebook                       | ~b.Work~ ~b.Home~            |
+| ~.b.NOTEBOOK~ | Not from notebook                   | ~.b.Work~                    |
+| ~t.TAG~       | With tag                            | ~t.@waiting~                 |
+| ~.t.TAG~      | Without tag                         | ~.t.@sometime~               |
+| ~tn.TAG~      | With own (note) tag                 | ~tn.toRead~                  |
+| ~p.PRIORITY~  | Having priority                     | ~p.a~ ~p.c~                  |
+| ~or~          | Matching a query /or/ another query | ~tn.tag1 b.book1 or tn.tag2~ |
+|---------------+-------------------------------------+------------------------------|
 
 *DAY* can be ~today~, ~tod~, ~tomorrow~, ~tmrw~, ~tom~ or denoted by:
   - Nd -- N days from today (~1d~, ~5d~, ...)
@@ -204,6 +206,9 @@ and containing the string "OR", just as before the ~or~ operator was
 implemented.
 
 ** Sorting
+:PROPERTIES:
+:CUSTOM_ID: Sorting
+:END:
 
 Notes are sorted by notebook name then priority. If =s= or =d= are
 used in the query, they are also sorted by scheduled or deadline

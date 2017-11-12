@@ -157,25 +157,26 @@ If any of this is not working for you, please [[Contact][contact]] us.
 :CUSTOM_ID: Search
 :END:
 
-Search expressions are separated with space. They are joined by
-logical /AND/. /OR/ operator is not yet supported.
+Search expressions are separated with space. Search terms are implicitly joined
+by logical /AND/. The ~or~ operator is supported too.
 
 Words are searched within notes' /title/, /content/ and /tags/.
 
 ** Search operators
 
-|--------------+------------------------------+-------------------------|
-| Operator     | Finds notes                  | Examples                |
-|--------------+------------------------------+-------------------------|
-| ~s.DAY~      | Scheduled for day or earlier | ~s.today~ ~s.1w~        |
-| ~d.DAY~      | Deadline on day or earlier   | ~d.tmrw~                |
-| ~i.STATE~    | With state                   | ~i.todo~ ~i.next~       |
-| ~.i.STATE~   | Without state                | ~.i.done~ ~.i.canceled~ |
-| ~b.NOTEBOOK~ | From notebook                | ~b.Work~ ~b.Home~       |
-| ~t.TAG~      | With tag                     | ~t.@waiting~            |
-| ~.t.TAG~     | Without tag                  | ~.t.@sometime~          |
-| ~p.PRIORITY~ | Having priority              | ~p.a~ ~p.c~             |
-|--------------+------------------------------+-------------------------|
+|--------------+-------------------------------------+------------------------------|
+| Operator     | Finds notes                         | Examples                     |
+|--------------+-------------------------------------+------------------------------|
+| ~s.DAY~      | Scheduled for day or earlier        | ~s.today~ ~s.1w~             |
+| ~d.DAY~      | Deadline on day or earlier          | ~d.tmrw~                     |
+| ~i.STATE~    | With state                          | ~i.todo~ ~i.next~            |
+| ~.i.STATE~   | Without state                       | ~.i.done~ ~.i.canceled~      |
+| ~b.NOTEBOOK~ | From notebook                       | ~b.Work~ ~b.Home~            |
+| ~t.TAG~      | With tag                            | ~t.@waiting~                 |
+| ~.t.TAG~     | Without tag                         | ~.t.@sometime~               |
+| ~p.PRIORITY~ | Having priority                     | ~p.a~ ~p.c~                  |
+| ~or~         | Matching a query /or/ another query | ~tn.tag1 b.book1 or tn.tag2~ |
+|--------------+-------------------------------------+------------------------------|
 
 *DAY* can be ~today~, ~tod~, ~tomorrow~, ~tmrw~, ~tom~ or denoted by:
   - Nd -- N days from today (~1d~, ~5d~, ...)
@@ -196,6 +197,11 @@ quotes if it contains spaces.
 which are tagged with =beeblebrox=.
 
 *PRIORITY* is a priority starting from ~A~.
+
+*or* is case-sensitive. ~t.tag1 or t.tag2~ searches for notes tagged with either
+tag1 or tag2. ~t.tag1 OR t.tag2~ searches for notes tagged with tag1 AND tag2,
+and containing the string "OR", just as before the ~or~ operator was
+implemented.
 
 ** Sorting
 

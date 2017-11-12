@@ -157,28 +157,38 @@ If any of this is not working for you, please [[Contact][contact]] us.
 :CUSTOM_ID: Search
 :END:
 
-Search expressions are separated with space. Search terms are implicitly joined
-by logical /AND/. The ~or~ operator is supported too.
+Search expressions are separated with space.
+
+Search terms are implicitly joined by logical /AND/.
+
+The ~or~ operator is supported too. ~or~ is case-sensitive. ~t.tag1 or
+t.tag2~ searches for notes tagged with either =tag1= or =tag2=.
 
 Words are searched within notes' /title/, /content/ and /tags/.
 
 ** Search operators
+:PROPERTIES:
+:CUSTOM_ID: Search operators
+:END:
 
-|---------------+-------------------------------------+------------------------------|
-| Operator      | Finds notes                         | Examples                     |
-|---------------+-------------------------------------+------------------------------|
-| ~s.DAY~       | Scheduled for day or earlier        | ~s.today~ ~s.1w~             |
-| ~d.DAY~       | Deadline on day or earlier          | ~d.tmrw~                     |
-| ~i.STATE~     | With state                          | ~i.todo~ ~i.next~            |
-| ~.i.STATE~    | Without state                       | ~.i.done~ ~.i.canceled~      |
-| ~b.NOTEBOOK~  | From notebook                       | ~b.Work~ ~b.Home~            |
-| ~.b.NOTEBOOK~ | Not from notebook                   | ~.b.Work~                    |
-| ~t.TAG~       | With tag                            | ~t.@waiting~                 |
-| ~.t.TAG~      | Without tag                         | ~.t.@sometime~               |
-| ~tn.TAG~      | With own (note) tag                 | ~tn.toRead~                  |
-| ~p.PRIORITY~  | Having priority                     | ~p.a~ ~p.c~                  |
-| ~or~          | Matching a query /or/ another query | ~tn.tag1 b.book1 or tn.tag2~ |
-|---------------+-------------------------------------+------------------------------|
+Following search operators are supported.
+
+|------------------+-------------------------------------+------------------------------|
+| Operator         | Finds notes                         | Example                      |
+|------------------+-------------------------------------+------------------------------|
+| ~s.DAY~          | Scheduled for day or earlier        | ~s.today~ ~s.1w~             |
+| ~d.DAY~          | Deadline on day or earlier          | ~d.tmrw~                     |
+| ~i.STATE~        | With state                          | ~i.todo~ ~i.next~            |
+| ~.i.STATE~       | Without state                       | ~.i.done~ ~.i.canceled~      |
+| ~it.STATE-TYPE~  | With state type                     | ~it.todo~                    |
+| ~.it.STATE-TYPE~ | Without state type                  | ~it.done~                    |
+| ~b.NOTEBOOK~     | From notebook                       | ~b.Work~ ~b.Home~            |
+| ~.b.NOTEBOOK~    | Not from notebook                   | ~.b.Work~                    |
+| ~t.TAG~          | With tag                            | ~t.@waiting~                 |
+| ~.t.TAG~         | Without tag                         | ~.t.@sometime~               |
+| ~tn.TAG~         | With own (note) tag                 | ~tn.toRead~                  |
+| ~p.PRIORITY~     | Having priority                     | ~p.a~ ~p.c~                  |
+|------------------+-------------------------------------+------------------------------|
 
 *DAY* can be ~today~, ~tod~, ~tomorrow~, ~tmrw~, ~tom~ or denoted by:
   - Nd -- N days from today (~1d~, ~5d~, ...)
@@ -192,6 +202,8 @@ Only states listed in 'Settings -> Notes -> States' can be searched by. Any
 keywords not included in the settings are not treated as states, but just become
 part of the note title.
 
+*STATE-TYPE* can be ~todo~, ~done~ or ~none~.
+
 *NOTEBOOK* is the name of notebook. It must be surrounded with double
 quotes if it contains spaces.
 
@@ -199,11 +211,6 @@ quotes if it contains spaces.
 which are tagged with =beeblebrox=.
 
 *PRIORITY* is a priority starting from ~A~.
-
-*or* is case-sensitive. ~t.tag1 or t.tag2~ searches for notes tagged with either
-tag1 or tag2. ~t.tag1 OR t.tag2~ searches for notes tagged with tag1 AND tag2,
-and containing the string "OR", just as before the ~or~ operator was
-implemented.
 
 ** Sorting
 :PROPERTIES:
@@ -216,34 +223,37 @@ time. They are always sorted by position in the notebook last.
 
 You can change this behavior by using =o= operator.
 
-| =o.PROPERTY=  | sort by property                 |
-| =.o.PROPERTY= | sort by property (reverse order) |
+Using =o.PROPERTY= will sort notes by property. =.o.PROPERTY= is also
+supported which sorts notes by property in reverse order.
 
 Following properties are supported:
 
-| =b=  =book=  =notebook=        | notebook name  |
-| =s=  =sched=  =scheduled=      | scheduled time |
-| =d=  =dead=  =deadline=        | deadline time  |
-| =p=  =pri=  =prio=  =priority= | priority       |
+|-----------------------------+----------------|
+| Property                    | Description    |
+|-----------------------------+----------------|
+| =b= =book= =notebook=       | Notebook name  |
+| =s= =sched= =scheduled=     | Scheduled time |
+| =d= =dead= =deadline=       | Deadline time  |
+| =p= =pri= =prio= =priority= | Priority       |
+|-----------------------------+----------------|
 
 ** Examples
 
-- ~i.todo t.john~ -- Search for =TODO= notes which are tagged with =john=
-
-- ~b.Work .i.done~ -- Search in notebook =Work= for notes that are not =DONE=
-
-- ~b.Home buy~ -- Search in notebook =Home= for notes which contain the
-  string =buy= in their title, content or any of the tags
-
-- ~s.1d p.a~ -- Search for priority ~A~ notes scheduled for tomorrow or earlier (same as ~p.a s.tom~)
-
-- =s.1d o.book o.pri= -- Search for notes scheduled for tomorrow sorting them by notebook name then priority
-
-- =o.book o.pri o.s= -- Sort by notebook name then priority then scheduled time
+- ~i.todo t.john~ :: Search for =TODO= notes which are tagged with =john=
+- ~b.Work .i.done~ :: Search in notebook =Work= for notes that are not =DONE=
+- ~b.Home buy~ :: Search in notebook =Home= for notes which contain the string =buy= in their title, content or any of the tags
+- ~s.1d p.a~ :: Search for priority ~A~ notes scheduled for tomorrow or earlier (same as ~p.a s.tom~)
+- =s.1d o.book o.pri= :: Search for notes scheduled for tomorrow sorting them by notebook name then priority
+- =o.book o.pri o.s= :: Sort by notebook name then priority then scheduled time
 
 ** Search Results
 
-Once you've run your search you'll be shown either a message telling you that your search did not match any notes, or else you'll be shown a list of the notes that did match your search. For each note you can tap on it to edit the note immediately.  For each note you can also swipe right to display a menu of options that allow you to assign a starting time, cycle through the =TODO= and =DONE= states, or to simply mark the note as =DONE=.  If you swipe left you'll be given a single option: displaying the note in the Notebook that contains it.  
+For each note you can tap on it to edit the note immediately.  For
+each note you can also swipe right to display a menu of options that
+allow you to assign a starting time, cycle through the =TODO= and
+=DONE= states, or to simply mark the note as =DONE=.  If you swipe
+left you'll be given a single option: displaying the note in the
+notebook that contains it.
 
 ** Future plans
 

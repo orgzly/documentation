@@ -11,6 +11,69 @@
         (org-set-property "CUSTOM_ID" (format "%07x" (random #x10000000))))))
 #+END_SRC
 
+* v1.6.1
+:PROPERTIES:
+:CUSTOM_ID: v1.6.1
+:END:
+** FEAT Follow internal links (using =CUSTOM_ID= and =ID= properties) :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 5e5cc21
+:END:
+
+=[[#Grocery list]]= will open a note that has =CUSTOM_ID= property set to
+"Grocery list".
+
+=[[id:BDCE923B-C3CD-41ED-B58E-8BDF8BABA54F]]= will open a note that has
+=ID= property set to "BDCE923B-C3CD-41ED-B58E-8BDF8BABA54F" (UUID).
+
+** FEAT Blink LED on reminder's notification :beta1:
+:PROPERTIES:
+:CUSTOM_ID: acd199e
+:END:
+
+** FEAT Support ~.p~ search operator :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 8e0aff2
+:END:
+
+** FEAT Support ~ps~ and ~.ps~ search operators :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 3bb6c96
+:END:
+
+Searching for ~ps.b~ will return notes that have priority set to =B=,
+even if =B= is a default priority. ~p.b~ would return both notes with
+priority =B= set and notes without priority (default being =B=).
+
+** FEAT New preference to force UTF-8 when loading and saving notebooks :beta1:
+:PROPERTIES:
+:CUSTOM_ID: d0d7085
+:END:
+
+** IMPR Fold/unfold notes and content by clicking on bullets :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 2379d19
+:END:
+
+** FIX Opening different note when clicking reminder's notification :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 6ee0fcf
+:END:
+
+** IMPR Various bug fixes and improvements :beta1:
+:PROPERTIES:
+:CUSTOM_ID: be60f7b
+:END:
+
+- Handle repeater with zero value
+- Display content in search results if note was folded
+- Fix few possible crashes
+
+- Remove dividers from drawer
+- Add icons for time and repeater to timestamp dialog
+- New Settings activity
+- Use switch instead of check-box in Settings
+
 * v1.6
 :PROPERTIES:
 :CUSTOM_ID: v1.6

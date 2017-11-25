@@ -10,7 +10,7 @@ on your device.
 Notebooks are written as plain-text files in [[http://orgmode.org][Org mode]] file format.
 
 Synchronization is currently manual -- you have to initiate it
-yourself by clicking the /Sync/ button. Button is located in the
+yourself by clicking the ~Sync~ button. Button is located in the
 navigation drawer.
 
 ** Repository Types
@@ -18,19 +18,19 @@ navigation drawer.
 
  You have to specify a directory for storing your notebooks in.
 
- - Go to /Settings/
- - Click on /Repositories/
- - Click the plus icon and choose /Dropbox/
+ - Go to ~Settings~
+ - Click on ~Repositories~
+ - Click the plus icon and choose ~Dropbox~
  - Enter the directory inside Dropbox (without "Dropbox" part)
 
 *** Device (local storage)
 
  Notebooks can be synced with one or more directories on your device.
 
- - Go to /Settings/
- - Click on /Repositories/
- - Click the plus icon and choose /Device Storage/
- - Click /Browse/ and select (or create new) directory
+ - Go to ~Settings~
+ - Click on ~Repositories~
+ - Click the plus icon and choose ~Device Storage~
+ - Click ~Browse~ and select (or create new) directory
 
 ** Status Messages
 
@@ -41,15 +41,15 @@ message updated.
 
 Notebook is already synced. Nothing to do.
 
-*** Saved to /URL/
+*** Saved to URL
 
 Notebook has been successfully synced by being saved to the repository
-represented by /URL/.
+represented by URL.
 
-*** Loaded from /URL/
+*** Loaded from URL
 
 Notebook has been successfully synced by being loaded from the
-notebook represented by /URL/.
+notebook represented by URL.
 
 *** Notebook has no link and one or more remote notebooks with the same name exist
 
@@ -74,9 +74,9 @@ Link can be set manually:
 
 - Open the list of notebooks ("Notebooks")
 - Long-click on a notebook
-- Click on /Set Link/
+- Click on ~Set Link~
 - Choose a repository
-- Click /Set/
+- Click ~Set~
 
 Link is set if you can see the URL next to the small link icon in
 notebook's details.
@@ -96,8 +96,8 @@ will leave the notebook in a conflicted state.
 
 When notebook is not synced due to conflict, you have two options:
 
-- /Force Load/ to import remote notebook and overwrite the local version
-- /Force Save/ to export local notebook and overwrite the remote version
+- ~Force Load~ to import remote notebook and overwrite the local version
+- ~Force Save~ to export local notebook and overwrite the remote version
 
 These actions are available in notebook's contextual menu:
 
@@ -159,12 +159,12 @@ If any of this is not working for you, please [[Contact][contact]] us.
 
 Search expressions are separated with space.
 
-Search terms are implicitly joined by logical /AND/.
+Search terms are implicitly joined by logical ~AND~.
 
 The ~or~ operator is supported too. ~or~ is case-sensitive. ~t.tag1 or
 t.tag2~ searches for notes tagged with either =tag1= or =tag2=.
 
-Words are searched within notes' /title/, /content/ and /tags/.
+Words are searched within notes' title, content and tags.
 
 ** Search operators
 :PROPERTIES:

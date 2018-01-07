@@ -188,6 +188,9 @@ Following search operators are supported.
 | ~.t.TAG~         | Without tag                         | ~.t.@sometime~               |
 | ~tn.TAG~         | With its own (note) tag             | ~tn.toRead~                  |
 | ~p.PRIORITY~     | Having priority                     | ~p.a~ ~p.c~                  |
+| ~.p.PRIORITY~    | Not having priority                 | ~.p.c~                       |
+| ~ps.PRIORITY~    | Having set priority                 | ~ps.b~                       |
+| ~.ps.PRIORITY~   | Not having set priority             | ~.ps.c~                      |
 |------------------+-------------------------------------+------------------------------|
 
 *DAY* can be ~today~, ~tod~, ~tomorrow~, ~tmrw~, ~tom~ or denoted by:
@@ -245,6 +248,8 @@ Following properties are supported:
 - ~s.1d p.a~ :: Search for priority ~A~ notes scheduled for tomorrow or earlier (same as ~p.a s.tom~)
 - =s.1d o.book o.pri= :: Search for notes scheduled for tomorrow sorting them by notebook name then priority
 - =o.book o.pri o.s= :: Sort by notebook name then priority then scheduled time
+- =p.b= :: Search for notes with priority ~B~ (includes notes with no priority if default priority is ~B~)
+- =ps.b= :: Search for notes with priority set to ~B~
 
 ** Search Results
 

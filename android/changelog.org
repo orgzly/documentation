@@ -11,6 +11,56 @@
         (org-set-property "CUSTOM_ID" (format "%07x" (random #x10000000))))))
 #+END_SRC
 
+* v1.6.2
+:PROPERTIES:
+:CUSTOM_ID: v1.6.2
+:END:
+
+** FEAT Remove Agenda and support ~ad.days~ in any query :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 8221983
+:END:
+** FEAT Support grouping using parentheses in queries :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 28016b0
+:END:
+** FEAT Support ~o.state~ :beta1:
+:PROPERTIES:
+:CUSTOM_ID: b68954d
+:END:
+** FEAT Support ~c.closed-time~ and ~o.closed~ :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 18d3401
+:END:
+** FEAT Support ~eq~, ~ne~, ~lt~, ~le~, ~gt~ and ~ge~ in ~s~ and ~d~ operators :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 2378f07
+:END:
+** FEAT Support using past times in queries (e.g. ~s.gt.-2d~) :beta1:
+:PROPERTIES:
+:CUSTOM_ID: f99e733
+:END:
+** FEAT Import and export saved searches :beta1:
+:PROPERTIES:
+:CUSTOM_ID: b8035a4
+:END:
+** FEAT Add app shortcuts for syncing and creating new notes :beta1:
+:PROPERTIES:
+:CUSTOM_ID: f55ba7e
+:END:
+** FEAT Allow toggling =DONE= state with the check mark button from quick-menu :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 4e9351b
+:END:
+** IMPR Use system's file browser for selecting directories :beta1:
+:PROPERTIES:
+:CUSTOM_ID: eb6dd16
+:END:
+** IMPR New translations from Orgzly's [[https://crowdin.com/project/orgzly][localization project]] :beta1:
+:PROPERTIES:
+:CUSTOM_ID: ce917a7
+:END:
+
 * v1.6.1
 :PROPERTIES:
 :CUSTOM_ID: v1.6.1
@@ -251,7 +301,7 @@ priority =B= set and notes without priority (default being =B=).
 :PROPERTIES:
 :CUSTOM_ID: 6b34405
 :END:
-** FIX Fix “Fold/Unfold All” button sometimes not being displayed :beta1:
+** FIX Fix folded state cycling button sometimes not being displayed :beta1:
 :PROPERTIES:
 :CUSTOM_ID: f98378b
 :END:
@@ -295,7 +345,7 @@ priority =B= set and notes without priority (default being =B=).
 :PROPERTIES:
 :CUSTOM_ID: 8a3c5c0
 :END:
-** FEAT Support links for "tel", "sms", "geo" and more :beta1:
+** FEAT Support links for =tel=, =sms=, =geo= and more :beta1:
 :PROPERTIES:
 :CUSTOM_ID: d7de364
 :END:
@@ -332,7 +382,7 @@ priority =B= set and notes without priority (default being =B=).
 :PROPERTIES:
 :CUSTOM_ID: 0e43417
 :END:
-** IMPR Warn about modified note even on "X" press :beta1:
+** IMPR Warn about modified note even on =X= press :beta1:
 :PROPERTIES:
 :CUSTOM_ID: f2d880d
 :END:

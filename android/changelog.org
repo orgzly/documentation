@@ -32,7 +32,7 @@
 :PROPERTIES:
 :CUSTOM_ID: 18d3401
 :END:
-** FEAT Support ~eq~, ~ne~, ~lt~, ~le~, ~gt~ and ~ge~ in ~s~ and ~d~ operators :beta1:
+** FEAT Support ~eq~, ~ne~, ~lt~, ~le~, ~gt~ and ~ge~ in ~s~, ~d~ and ~c~ operators :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 2378f07
 :END:

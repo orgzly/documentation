@@ -159,97 +159,139 @@ If any of this is not working for you, please [[Contact][contact]] us.
 
 Search expressions are separated with space.
 
-Search terms are implicitly joined by logical ~AND~.
+They are implicitly joined by logical =AND=. =OR= operator is also
+supported. Both operators are case insensitive. =AND= has higher
+precedence then =OR=.
 
-The ~or~ operator is supported too. ~or~ is case-sensitive. ~t.tag1 or
-t.tag2~ searches for notes tagged with either =tag1= or =tag2=.
-
-Words are searched within notes' title, content and tags.
-
-** Search operators
+** Search expressions
 :PROPERTIES:
-:CUSTOM_ID: Search operators
+:CUSTOM_ID: Search expressions
 :END:
 
-Following search operators are supported.
+Following search expressions are supported.
 
-|------------------+-------------------------------------+------------------------------|
-| Operator         | Finds notes                         | Example                      |
-|------------------+-------------------------------------+------------------------------|
-| ~s.DAY~          | Scheduled for day or earlier        | ~s.today~ ~s.1w~             |
-| ~d.DAY~          | Deadline on day or earlier          | ~d.tmrw~                     |
-| ~i.STATE~        | With state                          | ~i.todo~ ~i.next~            |
-| ~.i.STATE~       | Without state                       | ~.i.done~ ~.i.canceled~      |
-| ~it.STATE-TYPE~  | With state type                     | ~it.todo~                    |
-| ~.it.STATE-TYPE~ | Without state type                  | ~.it.done~                   |
-| ~b.NOTEBOOK~     | From notebook                       | ~b.Work~ ~b.Home~            |
-| ~.b.NOTEBOOK~    | Not from notebook                   | ~.b.Work~                    |
-| ~t.TAG~          | With tag                            | ~t.@waiting~                 |
-| ~.t.TAG~         | Without tag                         | ~.t.@sometime~               |
-| ~tn.TAG~         | With its own (note) tag             | ~tn.toRead~                  |
-| ~p.PRIORITY~     | Having priority                     | ~p.a~ ~p.c~                  |
-| ~.p.PRIORITY~    | Not having priority                 | ~.p.c~                       |
-| ~ps.PRIORITY~    | Having set priority                 | ~ps.b~                       |
-| ~.ps.PRIORITY~   | Not having set priority             | ~.ps.c~                      |
-|------------------+-------------------------------------+------------------------------|
+Most of them support ~.~ (NOT) operator (see the last column).
 
-*DAY* can be ~today~, ~tod~, ~tomorrow~, ~tmrw~, ~tom~ or denoted by:
-  - Nd -- N days from today (~1d~, ~5d~, ...)
-  - Nw -- N weeks from today (~2w~)
-  - Nm -- N months from today (~3m~)
-  - Ny -- N years from today (~1y~)
-  - no, none -- not scheduled / no deadline
+|-----------------+--------------------------+---------------+---|
+| Expression      | Finds notes              | Example       | . |
+|-----------------+--------------------------+---------------+---|
+| =s.PERIOD=      | Scheduled within period  | ~s.today~     | N |
+| =d.PERIOD=      | Deadline within period   | ~d.le.2d~     | N |
+| =c.PERIOD=      | Closed within period     | ~c.yesterday~ | N |
+|-----------------+--------------------------+---------------+---|
+| =i.STATE=       | With state               | ~i.todo~      | Y |
+| =it.STATE-TYPE= | With state type          | ~.it.done~    | Y |
+| =b.NOTEBOOK=    | From notebook            | ~.b.Work~     | Y |
+| =t.TAG=         | With tag (inherited too) | ~t.errand~    | Y |
+| =tn.TAG=        | With tag (note's only)   | ~tn.toRead~   | N |
+| =p.PRIORITY=    | Having priority          | ~.p.c~        | Y |
+| =ps.PRIORITY=   | Having set priority      | ~ps.b~        | Y |
+|-----------------+--------------------------+---------------+---|
 
-*STATE* is a keyword like =TODO=, =DONE=, =NEW=, etc. Case is irrelevant.
-Only states listed in 'Settings -> Notes -> States' can be searched by. Any
-keywords not included in the settings are not treated as states, but just become
-part of the note title.
+=PERIOD= is in the format of =OP.TIME=
 
-*STATE-TYPE* can be ~todo~, ~done~ or ~none~.
+=OP= can be:
+- =eq= -- equal to =TIME=
+- =ne= -- not equal to =TIME=
+- =lt= -- less than =TIME=
+- =le= -- less than or equal to =TIME=
+- =gt= -- greater than =TIME=
+- =ge= -- greater than or equal to =TIME=
 
-*NOTEBOOK* is the name of notebook. It must be surrounded with double
+If =OP= is not specified:
+- Default value for =s= and =d= is =le=
+- Default value for =c= is =eq=
+
+=TIME= can be:
+- =Nh= -- =N= hours from now
+- =Nd= -- =N= days from now
+- =Nw= -- =N= weeks from now
+- =Nm= -- =N= months from now
+- =Ny= -- =N= years from now
+
+=N= can be negative.
+
+For example:
+- =-2h= -- two hours ago
+- =5d= -- five days from today
+- =-2w= -- two weeks ago
+- =3m= -- three months from today
+- =1y= -- one year from today
+
+Few aliases for =TIME= are available:
+- =tomorrow=, =tmrw= or =tom=
+- =today= or =tod=
+- =now=
+- =yesterday=
+
+=PERIOD= can be =none= or =no= which matches notes without the property.
+
+=STATE= is a keyword like =TODO=, =DONE=, =NEW=, etc. Keywords are
+case insensitive. Only states specified in Settings can be searched
+by. Any keywords not included in the settings are not treated as
+states - they become part of note's title.
+
+=STATE-TYPE= can be =todo=, =done= or =none=.
+
+=NOTEBOOK= is the name of notebook. It must be surrounded with double
 quotes if it contains spaces.
 
-*TAG* is searched as a substring. For example ~t.bee~ will find notes
+=TAG= is searched as a substring. For example ~t.bee~ will find notes
 which are tagged with =beeblebrox=.
 
-*PRIORITY* is a priority starting from ~A~.
+=PRIORITY= is a priority starting from =A=.
 
 ** Sorting
 :PROPERTIES:
 :CUSTOM_ID: Sorting
 :END:
 
-Notes are sorted by notebook name then priority. If =s= or =d= are
-used in the query, they are also sorted by scheduled or deadline
-time. They are always sorted by position in the notebook last.
+Default ordering of notes is by notebook name then priority. If =s= or
+=d= are used in the query, they are also sorted by scheduled or
+deadline time. They are always sorted by position in the notebook
+last.
 
 You can change this behavior by using =o= operator.
 
 Using =o.PROPERTY= will sort notes by property. =.o.PROPERTY= is also
-supported which sorts notes by property in reverse order.
+supported which sorts notes by property in reverse order. You can
+specify multiple operators and they will be used in order.
 
 Following properties are supported:
 
-|-----------------------------+----------------|
-| Property                    | Description    |
-|-----------------------------+----------------|
-| =b= =book= =notebook=       | Notebook name  |
-| =s= =sched= =scheduled=     | Scheduled time |
-| =d= =dead= =deadline=       | Deadline time  |
-| =p= =pri= =prio= =priority= | Priority       |
-|-----------------------------+----------------|
+|-----------------------------+-------------------------------|
+| Property                    | Order by                      |
+|-----------------------------+-------------------------------|
+| =b= =book= =notebook=       | Notebook name                 |
+| =s= =sched= =scheduled=     | Scheduled time                |
+| =c= =close= =closed=        | Closed time                   |
+| =d= =dead= =deadline=       | Deadline time                 |
+| =p= =pri= =prio= =priority= | Priority                      |
+| =st= =state=                | States as defined in Settings |
+|-----------------------------+-------------------------------|
+
+** Agenda
+:PROPERTIES:
+:CUSTOM_ID: Agenda
+:END:
+
+You can add =ad.DAYS= to any query to display search results grouped by day.
+
+=DAYS= is a number of days you want to display.
+
+For example, ~(t.gym or t.class) ad.3~ will display notes tagged with
+=gym= or =class= with any type of time set within next 3 days.
 
 ** Examples
 
-- ~i.todo t.john~ :: Search for =TODO= notes which are tagged with =john=
-- ~b.Work .i.done~ :: Search in notebook =Work= for notes that are not =DONE=
-- ~b.Home buy~ :: Search in notebook =Home= for notes which contain the string =buy= in their title, content or any of the tags
-- ~s.1d p.a~ :: Search for priority ~A~ notes scheduled for tomorrow or earlier (same as ~p.a s.tom~)
-- =s.1d o.book o.pri= :: Search for notes scheduled for tomorrow sorting them by notebook name then priority
-- =o.book o.pri o.s= :: Sort by notebook name then priority then scheduled time
-- =p.b= :: Search for notes with priority ~B~ (includes notes with no priority if default priority is ~B~)
-- =ps.b= :: Search for notes with priority set to ~B~
+- ~i.todo t.john~ - Search for =TODO= notes which are tagged with =john=
+- ~b.Work .i.done~ - Search in notebook =Work= for notes without =DONE= state
+- ~(b.Home or b.Work) phone~ - Search in notebooks =Home= and =Work= for notes which contain the string =phone= in their title, content or any of the tags
+- ~s.1d p.a~ - Search for priority =A= notes scheduled for tomorrow or earlier (same as ~p.a s.tom~)
+- ~s.ge.today o.book o.pri~ - Search for notes scheduled for today or later, sorting them by notebook name then priority
+- ~o.book o.pri o.s~ - Sort by notebook name then priority then scheduled time
+- ~p.b~ - Search for notes with priority =B= (includes notes with no priority if default priority is =B=)
+- ~ps.b~ - Search for notes with priority set to =B=
 
 ** Search Results
 
@@ -262,7 +304,7 @@ notebook that contains it.
 
 ** Future plans
 
-See [[https://github.com/orgzly/documentation/blob/master/searching-proposal.org][Search queries syntax (Proposal)]].
+See [[https://github.com/orgzly/documentation/blob/master/searching-proposal.org][Search queries syntax (Proposal)]] (mostly implemented).
 
 * FAQ
 :PROPERTIES:
@@ -315,3 +357,5 @@ credentials are not visible to Orgzly.
 Email us at [[mailto:support@orgzly.com][support@orgzly.com]] and visit [[http://www.orgzly.com][Orgzly.com]].
 
 Follow us on [[https://twitter.com/Orgzly][Twitter]], [[https://plus.google.com/+Orgzly][Google+ Page]], [[https://plus.google.com/communities/104387367636243222968][Google+ Community]] and [[https://www.facebook.com/Orgzly][Facebook]].
+
+Help us localize Orgzly by joining our [[https://crowdin.com/project/orgzly][Crowdin project]].

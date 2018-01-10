@@ -36,7 +36,7 @@
 :PROPERTIES:
 :CUSTOM_ID: 2378f07
 :END:
-** FEAT Support using past times in queries (e.g. ~s.gt.-2d~) :beta1:
+** FEAT Support using ~now~ and past times in queries (e.g. ~s.gt.-2d~) :beta1:
 :PROPERTIES:
 :CUSTOM_ID: f99e733
 :END:

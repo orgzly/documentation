@@ -28,7 +28,7 @@ Following properties are supported:
 | =s=        | scheduled time            |
 | =d=        | deadline time             |
 | =c=        | closed time               |
-| =i=        | specific state (is state) |
+| =i=        | specific state (is state)  |
 | =it=       | state type                |
 | =tn=       | note's tag                |
 | =t=        | note's and inherited tag  |
@@ -149,14 +149,18 @@ You can change this behavior by using =o= operator.
 Following properties are supported:
 
 | =b=  =book=  =notebook=        | notebook name  |
+| =i=  =state=  =todostate=      | state[fn:i]    |
 | =s=  =sched=  =scheduled=      | scheduled time |
 | =d=  =dead=  =deadline=        | deadline time  |
 | =p=  =pri=  =prio=  =priority= | priority       |
+
+[fn:i] In the same order as defined in settings.
 
 *** Examples
 
 - =o.book o.pri=     :: Sort by notebook name then priority
 - =o.book o.pri o.s= :: Sort by notebook name then priority then scheduled time
+- =o.book o.i o.pri= :: Sort by notebook name then state then priority
 
 ** Agenda & Grouping
 

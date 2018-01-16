@@ -44,7 +44,7 @@ Dial a phone number (tel:555-2368) or [[sms:555-2368][send SMS]]. Send email to 
 
 ** Basic typographical emphasis is supported
 
-You can make words *bold*, /italic/, _underlined_, =verbatim= , ~code~ and +strike-through+.
+You can make words *bold*, /italic/, _underlined_, =verbatim=, ~code~ and +strike-through+.
 
 * Searching
 ** You can search notes by clicking the search icon

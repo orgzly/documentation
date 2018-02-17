@@ -1,71 +1,175 @@
 Welcome to Orgzly!
 
 * Notes
-** Click on the note to open it
-** Click and hold the note to select it
 
-You can select multiple notes.
+** Everything in orgzly is a note. 
 
-** Fling note right to open its quick-menu
+** Tap a note to edit its properties. 
 
-Fling it left to open a different menu.
+** Each note may have subnotes. 
 
-** Fold a note which contains sub-notes by clicking the icon next to it
-*** There is no limit in number of levels you can have
-**** Use this to better organize your notes
+You can show/hide a note's children using the plus sign on the right. 
 
-** Note can have tags :tag1:tag2:
-*** Sub-note inherits the tags :tag3:
+***  Each subnote can have a subnote of its own
 
-If you search for notes with tag “tag1”, this note will be returned as well.
+**** Which can also have a subnote. 
 
-** TODO Note can have a state
+***** There are no restrictions
 
-You can configure any number of states to use: TODO, NEXT, DONE, etc.
+***** You can nest as many as you want
 
-*** There are two /types/ of states: to-do and done
+***** However you want. 
 
-*** DONE This is a note with /done/ type of state
-CLOSED: [2018-01-24 Wed 17:00]
+** Long-press a note to enter selection mode 
 
-** Note can have a scheduled time
-SCHEDULED: <2015-02-20 Fri 15:15>
+Select additional notes by tapping, move using cursor keys up top. 
 
-*** Times can have a repeater
-SCHEDULED: <2015-02-16 Mon .+1d>
 
-** You can also set a deadline time
-DEADLINE: <2015-02-20 Fri>
+** Flick left to open the quick-note menu
 
-** Note can use links
+here you can quickly 
 
-Dial a phone number (tel:555-2368) or [[sms:555-2368][send SMS]].
+*** Add a note above
 
-Send email to [[mailto:support@orgzly.com][support@orgzly.com]], visit http://www.orgzly.com or read [[http://www.orgzly.com/help][documentation]].
+*** Delete a note
 
-** Basic typographical emphasis is supported
+**** Add a child note. 
 
-You can make words *bold*, /italic/, _underlined_, =verbatim=, ~code~ and +strike-through+.
+*** Add a note below
+
+
+** Notes can be :tagged:
+
+*** searched, by that tag
+
+**** And best of all,
+ Child notes inherit the tags of the parent. Just search and see. 
+
+*** and turned into
+
+**** TODO items.
+
+   Notes can also be accompanied by comments, such as this one. 
+
+
+** A TODO item is a special kind of note:
+
+*** DONE ?, make sure to check-off the TODO item
+
+**** Just flick right and tap the tick mark. 
+
+*** A task can have a deadline; 
+    DEADLINE: <2018-02-17 Sat 21:45>
+
+The app will notify you when you're have tasks due. 
+
+*** And it can be scheduled: 
+    SCHEDULED: <2018-02-17 Sat 19:45>
+
+*** Schedules and deadlines can both be repeated
+
+**** Daily
+SCHEDULED: <2018-02-17 Sat .+1d>
+ There's no need to go over tasks you're not going to do yet. 
+
+**** Weekly
+SCHEDULED: <2018-02-17 Sat .+7d>
+
+**** Fortnightly
+SCHEDULED: <2015-02-16 Mon .+14d>
+
+**** And Hourly
+SCHEDULED: <2015-02-16 Mon .+1h>
+
+
+*** TODO items can have more than two states
+
+Sometimes things aren't completely done or untouched. 
+**** NEXT might be useful when you're waiting to be able to start your work. 
+
+**** You can add more in settings. 
+
+** Notes can link you to many things
+
+*** Phone numbers
+
+ Dial a phone number (tel:555-2368) or [[sms:555-2368][send SMS]], just by tapping the links. 
+
+*** emails and websites. 
+
+ Send emails too: [[mailto:support@orgzly.com][support@orgzly.com]], pay us a visit http://www.orgzly.com or read our [[http://www.orgzly.com/help][documentation]].
+
+** Sometimes just text isn't enough:
+
+*** You'd want to make somthings
+
+ *bold*, /italic/, or _underlined_, 
+
+*** Or maybe add a bit of flair using 
+
+=verbatim=, ~code~ and +strike-through+.
 
 * Search
-** There are many search operators supported
+** This app can do many sorts of search as well
 
-You can search notes by state, tag, scheduled or deadline time etc.
+You can search by state, tag, schedule... 
+*** See http://www.orgzly.com/help#search to learn more
 
-See http://www.orgzly.com/help#search to learn more.
 
 ** Search queries can be saved for quick access
 
-Try sample searches from navigation drawer and note the queries they use.
+Try sample searches from navigation drawer and note the queries used.
 
-You can create your own saved searches by clicking on “Searches” in the navigation drawer.
+You can create your own saved searches by clicking “Searches” in the navigation drawer.
 
 * Syncing
 
-** Notebooks can be saved as plain-text files
+* Format
 
-Files are in the format used by “Org mode”.
+** Notebooks are saved in /org/ format
 
-** Location (repository) type
+*** It's known to take over the lives of many programmers:
 
-You can keep notebooks synced with a directory on your mobile device, SD card or Dropbox.
+**** It's quick,
+
+**** It's versatile
+
+**** It's /Free/ and /OpenSource/
+
+**** It puts the org bakck into organisation.
+
+*** It's supported by most popular text editors, including:
+
+**** Emacs
+
+**** Vim
+
+**** Atom
+
+**** Visual Studio code 
+
+**** Sublime text 
+
+**** and more
+
+*** Who needs a companion app? you can work and plan in the same place. 
+
+* Sync
+
+** You can quickly sync up your jots to a PC:
+
+*** Via dropbox: 
+
+**** Just go into settings and pick a folder. 
+
+**** You can work on the file from a laptop upload the changes and see them in action.
+
+*** Via GitHub (Coming soon)
+
+**** Just create a repository and have an interactive, recoverable history of your notes. 
+
+*** Via your device's memory. 
+
+**** If you don't like either dropbox or gihtub, just sync the folder using whatever cloud you like
+
+**** If you're extra privacy minded, keep it all on an sd card, it works just well. 

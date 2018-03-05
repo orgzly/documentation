@@ -389,6 +389,14 @@ Yes, source code is available on [[https://github.com/orgzly/orgzly-android][Git
 Orgzly is also available on [[https://f-droid.org/app/com.orgzly][F-Droid]]. Or you can download APK files
 directly from [[https://github.com/orgzly/orgzly-android/releases][GitHub releases]] page.
 
+** Dropbox sync option is missing
+:PROPERTIES:
+:CUSTOM_ID: f695589
+:END:
+
+Are you using F-Droid version? Dropbox is only available in Google
+Play's version of the app.
+
 ** Is there an iOS version?
 :PROPERTIES:
 :CUSTOM_ID: ios

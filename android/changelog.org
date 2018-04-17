@@ -11,6 +11,56 @@
         (org-set-property "CUSTOM_ID" (format "%07x" (random #x10000000))))))
 #+END_SRC
 
+* v1.6.3
+:PROPERTIES:
+:CUSTOM_ID: v1.6.3
+:END:
+
+** FEAT Search and order by created-at time (~cr~)
+:PROPERTIES:
+:CUSTOM_ID: 2e796e5
+:END:
+** FEAT Option to hide metadata in note fragment
+:PROPERTIES:
+:CUSTOM_ID: 570173a
+:END:
+** FEAT New quick-menu button for changing state
+:PROPERTIES:
+:CUSTOM_ID: 59f90c3
+:END:
+** FEAT Ignore system locale and use US (new option)
+:PROPERTIES:
+:CUSTOM_ID: ec8a9e3
+:END:
+** FEAT Preset notebook on new note from widget
+:PROPERTIES:
+:CUSTOM_ID: 601c77d
+:END:
+** FIX Make file immediately visible when using MTP
+:PROPERTIES:
+:CUSTOM_ID: c481bc8
+:END:
+** IMPR Target Oreo
+:PROPERTIES:
+:CUSTOM_ID: 16f7ba4
+:END:
+** IMPR Use new app logo
+:PROPERTIES:
+:CUSTOM_ID: 34dccb2
+:END:
+** IMPR Drawer, note view and bullets redesign
+:PROPERTIES:
+:CUSTOM_ID: 2bc2c2e
+:END:
+** IMPR Several performance improvements
+:PROPERTIES:
+:CUSTOM_ID: aa3e702
+:END:
+** IMPR New and updated translations
+:PROPERTIES:
+:CUSTOM_ID: cea3235
+:END:
+
 * v1.6.2
 :PROPERTIES:
 :CUSTOM_ID: v1.6.2

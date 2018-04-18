@@ -11,6 +11,18 @@
         (org-set-property "CUSTOM_ID" (format "%07x" (random #x10000000))))))
 #+END_SRC
 
+* v1.6.4
+:PROPERTIES:
+:CUSTOM_ID: v1.6.4
+:END:
+
+** FIX Bug fixes
+:PROPERTIES:
+:CUSTOM_ID: 00ea85b
+:END:
+
+Fixes possible crash when setting reminders on Oreo.
+
 * v1.6.3
 :PROPERTIES:
 :CUSTOM_ID: v1.6.3
@@ -1078,7 +1090,6 @@ keywords.
   - Next and previous state icons
   - New note above/under/below icons
 
-
 * v1.1.1
 :PROPERTIES:
 :CUSTOM_ID: v1.1.1
@@ -1351,6 +1362,7 @@ Old sqlite version and unimplemented feature used.
 ** IMPR Remove unused libraries :beta2:
 :PROPERTIES:
 :CUSTOM_ID: 790c4cb
+:ID:       B04669D8-5E62-43A1-9ECB-5EE8820D368C
 :END:
 
 ** IMPR Remove notebook renaming option :beta2:

@@ -219,21 +219,22 @@ Following search expressions are supported.
 
 Most of them support ~.~ (NOT) operator (see the last column).
 
-|-----------------+--------------------------+---------------+---|
-| Expression      | Finds notes              | Example       | . |
-|-----------------+--------------------------+---------------+---|
-| =s.PERIOD=      | Scheduled within period  | ~s.today~     | N |
-| =d.PERIOD=      | Deadline within period   | ~d.le.2d~     | N |
-| =c.PERIOD=      | Closed within period     | ~c.yesterday~ | N |
-|-----------------+--------------------------+---------------+---|
-| =i.STATE=       | With state               | ~i.todo~      | Y |
-| =it.STATE-TYPE= | With state type          | ~.it.done~    | Y |
-| =b.NOTEBOOK=    | From notebook            | ~.b.Work~     | Y |
-| =t.TAG=         | With tag (inherited too) | ~t.errand~    | Y |
-| =tn.TAG=        | With tag (note's only)   | ~tn.toRead~   | N |
-| =p.PRIORITY=    | Having priority          | ~.p.c~        | Y |
-| =ps.PRIORITY=   | Having set priority      | ~ps.b~        | Y |
-|-----------------+--------------------------+---------------+---|
+|-----------------+--------------------------+-------------------+---|
+| Expression      | Finds notes              | Example           | . |
+|-----------------+--------------------------+-------------------+---|
+| =s.PERIOD=      | Scheduled within period  | ~s.today~         | N |
+| =d.PERIOD=      | Deadline within period   | ~d.le.2d~         | N |
+| =c.PERIOD=      | Closed within period     | ~c.yesterday~     | N |
+| =cr.PERIOD=     | Created within period    | ~cr.ge.yesterday~ | N |
+|-----------------+--------------------------+-------------------+---|
+| =i.STATE=       | With state               | ~i.todo~          | Y |
+| =it.STATE-TYPE= | With state type          | ~.it.done~        | Y |
+| =b.NOTEBOOK=    | From notebook            | ~.b.Work~         | Y |
+| =t.TAG=         | With tag (inherited too) | ~t.errand~        | Y |
+| =tn.TAG=        | With tag (note's only)   | ~tn.toRead~       | N |
+| =p.PRIORITY=    | Having priority          | ~.p.c~            | Y |
+| =ps.PRIORITY=   | Having set priority      | ~ps.b~            | Y |
+|-----------------+--------------------------+-------------------+---|
 
 =PERIOD= is in the format of =OP.TIME=
 
@@ -246,7 +247,7 @@ Most of them support ~.~ (NOT) operator (see the last column).
 - =ge= -- greater than or equal to =TIME=
 
 If =OP= is not specified:
-- Default value for =s= and =d= is =le=
+- Default value for =s=, =d= and =cr= is =le=
 - Default value for =c= is =eq=
 
 =TIME= can be:
@@ -313,6 +314,7 @@ Following properties are supported:
 | =s= =sched= =scheduled=     | Scheduled time                |
 | =c= =close= =closed=        | Closed time                   |
 | =d= =dead= =deadline=       | Deadline time                 |
+| =cr= =created=              | Created-at time               |
 | =p= =pri= =prio= =priority= | Priority                      |
 | =st= =state=                | States as defined in Settings |
 |-----------------------------+-------------------------------|

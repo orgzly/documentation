@@ -11,12 +11,48 @@
         (org-set-property "CUSTOM_ID" (format "%07x" (random #x10000000))))))
 #+END_SRC
 
+* v1.6.5
+:PROPERTIES:
+:CUSTOM_ID: v1.6.5
+:END:
+
+** FEAT Fold drawers, unfold on click temporarily :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 2b90115
+:END:
+** FEAT Log time shifting to =LOGBOOK= drawer :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 9cb179f
+:END:
+** FEAT Update =LAST_REPEAT= property after shifting time :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 94a3a01
+:END:
+** FIX Keep habit deadline on time shift :beta1:
+:PROPERTIES:
+:CUSTOM_ID: a63fd11
+:END:
+** FIX Handle content lines formatted as org headings :beta1:
+:PROPERTIES:
+:CUSTOM_ID: e073964
+:END:
+** IMPR Various smaller improvements :beta1:
+:PROPERTIES:
+:CUSTOM_ID: eedbd09
+:END:
+
+- Remove agenda days limit (was 30 days)
+- If note has no content, start in content-edit mode
+- Use dialog with single-choice list for setting notebook link
+- Add "Open" action to the ongoing notification
+- Ask for confirmation on notebook force saving and loading
+
 * v1.6.4
 :PROPERTIES:
 :CUSTOM_ID: v1.6.4
 :END:
 
-** FIX Bug fixes
+** FIX Bug fixes :quickfix:
 :PROPERTIES:
 :CUSTOM_ID: 00ea85b
 :END:
@@ -28,47 +64,47 @@ Fixes possible crash when setting reminders on Oreo.
 :CUSTOM_ID: v1.6.3
 :END:
 
-** FEAT Search and order by created-at time (~cr~)
+** FEAT Search and order by created-at time (~cr~) :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 2e796e5
 :END:
-** FEAT Option to hide metadata in note fragment
+** FEAT Option to hide metadata in note fragment :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 570173a
 :END:
-** FEAT New quick-menu button for changing state
+** FEAT New quick-menu button for changing state :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 59f90c3
 :END:
-** FEAT Ignore system locale and use US (new option)
+** FEAT Ignore system locale and use US (new option) :beta1:
 :PROPERTIES:
 :CUSTOM_ID: ec8a9e3
 :END:
-** FEAT Preset notebook on new note from widget
+** FEAT Preset notebook on new note from widget :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 601c77d
 :END:
-** FIX Make file immediately visible when using MTP
+** FIX Make file immediately visible when using MTP :beta1:
 :PROPERTIES:
 :CUSTOM_ID: c481bc8
 :END:
-** IMPR Target Oreo
+** IMPR Target Oreo :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 16f7ba4
 :END:
-** IMPR Use new app logo
+** IMPR Use new app logo :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 34dccb2
 :END:
-** IMPR Drawer, note view and bullets redesign
+** IMPR Drawer, note view and bullets redesign :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 2bc2c2e
 :END:
-** IMPR Several performance improvements
+** IMPR Several performance improvements :beta1:
 :PROPERTIES:
 :CUSTOM_ID: aa3e702
 :END:
-** IMPR New and updated translations
+** IMPR New and updated translations :beta1:
 :PROPERTIES:
 :CUSTOM_ID: cea3235
 :END:

@@ -11,6 +11,32 @@
         (org-set-property "CUSTOM_ID" (format "%07x" (random #x10000000))))))
 #+END_SRC
 
+* v1.6.6
+:PROPERTIES:
+:CUSTOM_ID: v1.6.6
+:END:
+
+** FEAT Configure widgets' color scheme and transparency :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 118bdb7
+:END:
+** FEAT Configure widgets' update frequency :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 690e772
+:END:
+** FEAT New action for moving note to the end of selected notebook :beta1:
+:PROPERTIES:
+:CUSTOM_ID: c088e09
+:END:
+** IMPR Various bug fixes and improvements :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 6cef71b
+:END:
+
+- Fix delay/warning (=-1d=) removal when time is changed in dialog
+- Support applying multiple text styles (bold, italic, etc.)
+- Fix query to prevent root node to appear when OR-ing notebooks
+
 * v1.6.5
 :PROPERTIES:
 :CUSTOM_ID: v1.6.5

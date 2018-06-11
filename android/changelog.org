@@ -11,6 +11,28 @@
         (org-set-property "CUSTOM_ID" (format "%07x" (random #x10000000))))))
 #+END_SRC
 
+* v1.6.7
+:PROPERTIES:
+:CUSTOM_ID: v1.6.7
+:END:
+
+** FEAT Support larger font size for widget :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 534ecba
+:END:
+** IMPR Add buttons for setting deadline time :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 886d725
+:END:
+** FIX Display inherited tags in widget :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 843ef92
+:END:
+** FIX Handle large values for tags indentation :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 8f32c77
+:END:
+
 * v1.6.6
 :PROPERTIES:
 :CUSTOM_ID: v1.6.6

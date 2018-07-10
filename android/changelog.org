@@ -11,6 +11,28 @@
         (org-set-property "CUSTOM_ID" (format "%07x" (random #x10000000))))))
 #+END_SRC
 
+* v1.6.8
+:PROPERTIES:
+:CUSTOM_ID: v1.6.8
+:END:
+
+** FEAT Toggling checkboxes :beta1:
+:PROPERTIES:
+:CUSTOM_ID: e584e3c
+:END:
+** FEAT Sorting notes by position in notebook (~o.pos~) :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 6c5043f
+:END:
+** FEAT Preference to display notebook name in widget :beta1:
+:PROPERTIES:
+:CUSTOM_ID: dcc84ab
+:END:
+** FEAT Preference to disable =LAST_REPEAT= property :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 4352186
+:END:
+
 * v1.6.7
 :PROPERTIES:
 :CUSTOM_ID: v1.6.7
@@ -241,7 +263,7 @@ Searching for ~ps.b~ will return notes that have priority set to =B=,
 even if =B= is a default priority. ~p.b~ would return both notes with
 priority =B= set and notes without priority (default being =B=).
 
-** FEAT New preference to force UTF-8 when loading and saving notebooks :beta1:
+** FEAT Preference to force UTF-8 when loading and saving notebooks :beta1:
 :PROPERTIES:
 :CUSTOM_ID: d0d7085
 :END:
@@ -905,7 +927,7 @@ Inserting times to DB was broken in some cases (due to [[https://issuetracker.go
 
 Similar to ~s~ (scheduled).
 
-** FEAT Setting for selecting displayed notebook details :beta1:
+** FEAT Preference for selecting displayed notebook details :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 3f67207
 :END:

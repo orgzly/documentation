@@ -25,6 +25,7 @@ Following properties are supported:
 
 | =title=    | note's title              |
 | =body=     | note's body               |
+| =b=        | notebook's name           |
 | =s=        | scheduled time            |
 | =d=        | deadline time             |
 | =c=        | closed time               |

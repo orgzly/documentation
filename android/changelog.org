@@ -11,6 +11,36 @@
         (org-set-property "CUSTOM_ID" (format "%07x" (random #x10000000))))))
 #+END_SRC
 
+* v1.6.9
+:PROPERTIES:
+:CUSTOM_ID: v1.6.9
+:END:
+
+** FEAT Quick note from ongoing notification :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 8e9ce74
+:END:
+** FEAT Display only set or selected metadata in note view :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 2a0a6df
+:END:
+** FEAT Support checkboxes in notebook's preface :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 6dfe3f6
+:END:
+** IMPR Allow installing app on the external storage :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 2f7114a
+:END:
+** FIX Fix checkbox-on-enter to work with soft keyboard :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 797a27f
+:END:
+** FIX Don't parse checkboxes in title :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 3c7bb35
+:END:
+
 * v1.6.8
 :PROPERTIES:
 :CUSTOM_ID: v1.6.8
@@ -138,7 +168,7 @@ Fixes possible crash when setting reminders on Oreo.
 :PROPERTIES:
 :CUSTOM_ID: 2e796e5
 :END:
-** FEAT Option to hide metadata in note fragment :beta1:
+** FEAT Option to hide metadata in note view :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 570173a
 :END:
@@ -366,7 +396,7 @@ priority =B= set and notes without priority (default being =B=).
 :PROPERTIES:
 :CUSTOM_ID: 6a396f1
 :END:
-** IMPR Display book's last action error in subtitle :beta1:
+** IMPR Display notebook's last action error in subtitle :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 4a39a73
 :END:
@@ -604,7 +634,7 @@ priority =B= set and notes without priority (default being =B=).
 :PROPERTIES:
 :CUSTOM_ID: 9d6462d
 :END:
-** IMPR Minor design improvements in note editor :beta1:
+** IMPR Minor design improvements in note view :beta1:
 :PROPERTIES:
 :CUSTOM_ID: edd760c
 :END:
@@ -688,12 +718,12 @@ was being displayed below drawer.
 :CUSTOM_ID: a11d8a7
 :END:
 
-** FIX Fix ~b~ search operator parsing (dot as a book name) :beta1:
+** FIX Fix ~b~ search operator parsing (dot as a notebook name) :beta1:
 :PROPERTIES:
 :CUSTOM_ID: fca08f9
 :END:
 
-** FIX Hide cycle-visibility menu item if book doesn't exist :beta1:
+** FIX Hide cycle-visibility menu item if notebook doesn't exist :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 63c989c
 :END:
@@ -747,7 +777,7 @@ was being displayed below drawer.
 :PROPERTIES:
 :CUSTOM_ID: v1.4.4
 :END:
-** FEAT Support links (~http~ and ~mailto~) in note editor :beta1:
+** FEAT Support links (~http~ and ~mailto~) in note view :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 82ed618
 :END:
@@ -1037,7 +1067,7 @@ permission from within the app.
 
 - Issue with moving notes after using cut & paste
 - Lingering CAB when creating note from quick-menu
-- New-line replacing for title in note editor
+- New-line replacing for title in note view
 - State color changes -- lighter for dark theme, darker for light
 
 * v1.3.1

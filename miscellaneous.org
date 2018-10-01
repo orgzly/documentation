@@ -10,9 +10,9 @@
         (org-set-property "CUSTOM_ID" (format "%07x" (random #x10000000))))))
 #+END_SRC
 
-* Notebooks Sync
+* Syncing Notebooks
 :PROPERTIES:
-:CUSTOM_ID: b145d21
+:CUSTOM_ID: synchronization
 :END:
 
 You can store your notebooks on Dropbox or sync them with a directory
@@ -36,6 +36,7 @@ navigation drawer.
  You have to specify a directory for storing your notebooks in.
 
  - Go to ~Settings~
+ - Click on ~Sync~
  - Click on ~Repositories~
  - Click the plus icon and choose ~Dropbox~
  - Enter the directory inside Dropbox (without "Dropbox" part)
@@ -48,6 +49,7 @@ navigation drawer.
  Notebooks can be synced with one or more directories on your device.
 
  - Go to ~Settings~
+ - Click on ~Sync~
  - Click on ~Repositories~
  - Click the plus icon and choose ~Device Storage~
  - Click ~Browse~ and select (or create new) directory

@@ -11,6 +11,41 @@
         (org-set-property "CUSTOM_ID" (format "%07x" (random #x10000000))))))
 #+END_SRC
 
+* v1.6.10
+:PROPERTIES:
+:CUSTOM_ID: v1.6.10
+:END:
+
+** FEAT Follow links to files in storage directory :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 156814b
+:END:
+** FEAT Follow links to other notebooks within the app :beta1:
+:PROPERTIES:
+:CUSTOM_ID: ca8a58c
+:END:
+** FIX Remove scheduled time after marking repeated deadline as done :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 4af304a
+:END:
+** FIX Unresponsive UI after returning from Settings :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 994ed25
+:END:
+** IMPR Various bug fixes and improvements :beta1:
+:PROPERTIES:
+:CUSTOM_ID: f655312
+:END:
+
+- Set different icon for failed notebook sync
+- Update Settings title for every sub-screen
+- Use darker snackbar background color in dark scheme
+- Fix missing auto-sync check after new note from notification
+- Improve notes' icon sizes in list
+- Handle orphaned notes' structure changes
+- Set book's modification time to remote's after sync
+- Align checkmark in widget
+
 * v1.6.9
 :PROPERTIES:
 :CUSTOM_ID: v1.6.9
@@ -413,6 +448,7 @@ priority =B= set and notes without priority (default being =B=).
 :PROPERTIES:
 :CUSTOM_ID: 2e5fb19
 :END:
+
 - Fix sorting of times for reminders
 - Open app from widgets by restarting task
 - Use 1h from now as default time in timestamp dialog
@@ -1498,7 +1534,6 @@ Old sqlite version and unimplemented feature used.
 ** IMPR Remove unused libraries :beta2:
 :PROPERTIES:
 :CUSTOM_ID: 790c4cb
-:ID:       B04669D8-5E62-43A1-9ECB-5EE8820D368C
 :END:
 
 ** IMPR Remove notebook renaming option :beta2:

@@ -41,6 +41,10 @@ DEADLINE: <2015-02-20 Fri>
 
 They are disabled by default and need to be enabled in Settings.
 
+** [#A] Note can have a priority
+
+You can change the number of priorities in Settings. You can also change default priority - assumed priority for notes without one set.
+
 ** Note can use links
 
 Dial a phone number (tel:555-2368) or [[sms:555-2368][send SMS]].

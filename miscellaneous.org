@@ -18,7 +18,7 @@
 You can store your notebooks on Dropbox or sync them with a directory
 on your device.
 
-Notebooks are written as plain-text files in [[http://orgmode.org][Org mode]] file format.
+Notebooks are written as plain text files in [[https://orgmode.org][Org mode]] file format.
 
 Synchronization is currently manual -- you have to initiate it
 yourself by clicking the ~Sync~ button. Button is located in the
@@ -33,7 +33,7 @@ navigation drawer.
 :CUSTOM_ID: 515ac68
 :END:
 
- You have to specify a directory for storing your notebooks in.
+ You have to specify a directory for storing your notebooks.
 
  - Go to ~Settings~
  - Click on ~Sync~
@@ -96,7 +96,7 @@ Each notebook must have a link to a remote notebook. Link is
 usually set automatically after the first sync. However, there are
 cases when this is not possible, or when the link is removed.
 
-Link can not be created after the first sync if:
+Link cannot be created after the first sync if:
 
 - Notebook was created in Orgzly, but there is already a remote
   notebook with the same name in one of the repositories
@@ -172,7 +172,7 @@ where you want to put your final, merged version of the file.
 :CUSTOM_ID: org-mode
 :END:
 
-Notebooks are encoded in [[http://orgmode.org][Org mode]] file format.
+Notebooks are encoded in [[https://orgmode.org][Org mode]] file format.
 
 *** Generated Org files
 :PROPERTIES:
@@ -210,7 +210,7 @@ Search expressions are separated with space.
 
 They are implicitly joined by logical =AND=. =OR= operator is also
 supported. Both operators are case insensitive. =AND= has higher
-precedence then =OR=.
+precedence than =OR=.
 
 ** Search expressions
 :PROPERTIES:

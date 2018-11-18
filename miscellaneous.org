@@ -201,6 +201,101 @@ difference would be considered a serious bug.
 
 If any of this is not working for you, please [[Contact][contact]] us.
 
+* Links
+:PROPERTIES:
+:CUSTOM_ID: links
+:END:
+
+Links can be used in note's title or content. Links can be enclosed in
+brackets (e.g. =[[link]]=). You can specify a name which will be displayed
+instead of the link (e.g. =[[link][name]]=).
+
+** Web page
+:PROPERTIES:
+:CUSTOM_ID: 6874100
+:END:
+
+=http://www.orgzly.com=
+
+** Email
+:PROPERTIES:
+:CUSTOM_ID: 21a1d14
+:END:
+
+=mailto:support@orgzly.com=
+
+** Telephone number
+:PROPERTIES:
+:CUSTOM_ID: 0630ac2
+:END:
+
+You can dial a phone number, compose SMS or MMS.
+
+- =tel:1-800-555-0199=
+- =voicemail:1-800-555-0199=
+- =sms:1-800-555-0199=
+- =smsto:1-800-555-0199=
+- =mms:1-800-555-0199=
+- =mmsto:1-800-555-0199=
+
+** Location
+:PROPERTIES:
+:CUSTOM_ID: 93214ea
+:END:
+
+To open a map you can specify the exact location or a search query.
+
+- =geo:40.7128,-74.0060=
+- =geo:0,0?q=new+york+city=
+- =geo:40.7128,-74.0060?z=11=
+
+** File
+:PROPERTIES:
+:CUSTOM_ID: a7a9f79
+:END:
+
+Links to external files are supported.
+
+Files are *relative to the main storage directory* (e.g. =/sdcard=).
+
+- =file:Download/document.txt=
+- =file:Music/song.mp3=
+
+** Note
+:PROPERTIES:
+:CUSTOM_ID: 33542dd
+:END:
+
+Linking to notes is done using properties. Two properties are supported -- =ID= and
+=CUSTOM_ID=.
+
+If you set note's property =ID= to
+=123e4567-e89b-12d3-a456-426655440000= you can link to the note using:
+
+=id:123e4567-e89b-12d3-a456-426655440000=
+
+Value can be anything, but [[https://en.wikipedia.org/wiki/Universally_unique_identifier][UUID]] is recommended.
+
+If you prefer a more user-friendly value, use =CUSTOM_ID=
+property. This type of link starts with =#= character, followed by the
+property value. It must be enclosed in brackets. If you set
+=CUSTOM_ID= to =Meeting checklist=, linking to that note is done
+using:
+
+=[[#Meeting checklist]]=
+
+** Notebook
+:PROPERTIES:
+:CUSTOM_ID: 9d5f3b9
+:END:
+
+Link to a notebook within the app looks like a link to an external file:
+
+=file:gtd.org=
+
+Only the name matters and it has to be the same as the notebook you
+are linking to.
+
 * Search
 :PROPERTIES:
 :CUSTOM_ID: search
@@ -228,7 +323,6 @@ Most of them support ~.~ (NOT) operator (see the last column).
 | =d.PERIOD=      | Deadline within period   | ~d.le.2d~         | N |
 | =c.PERIOD=      | Closed within period     | ~c.yesterday~     | N |
 | =cr.PERIOD=     | Created within period    | ~cr.ge.yesterday~ | N |
-|-----------------+--------------------------+-------------------+---|
 | =i.STATE=       | With state               | ~i.todo~          | Y |
 | =it.STATE-TYPE= | With state type          | ~.it.done~        | Y |
 | =b.NOTEBOOK=    | From notebook            | ~.b.Work~         | Y |

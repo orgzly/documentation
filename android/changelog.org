@@ -11,6 +11,32 @@
         (org-set-property "CUSTOM_ID" (format "%07x" (random #x10000000))))))
 #+END_SRC
 
+* v1.6.11
+:PROPERTIES:
+:CUSTOM_ID: v1.6.11
+:END:
+
+** FEAT Display linked images :beta1:
+:PROPERTIES:
+:CUSTOM_ID: d155e4a
+:END:
+** FEAT Option to keep the screen turned on and bright :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 72bdd25
+:END:
+** FEAT Support sharing to specific notebook directly :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 544e1fa
+:END:
+** FIX Handle links to files outside storage directory :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 3d5f4cb
+:END:
+** FIX Aligning tags when fullwidth characters are used :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 5e31d60
+:END:
+
 * v1.6.10
 :PROPERTIES:
 :CUSTOM_ID: v1.6.10

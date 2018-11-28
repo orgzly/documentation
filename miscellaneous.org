@@ -332,7 +332,10 @@ Most of them support ~.~ (NOT) operator (see the last column).
 | =ps.PRIORITY=   | Having set priority      | ~ps.b~            | Y |
 |-----------------+--------------------------+-------------------+---|
 
-=PERIOD= is in the format of =OP.TIME=
+=PERIOD= can be:
+
+- =OP.TIME= -- matches time
+- =none= (or =no=) -- matches notes without the property
 
 =OP= can be:
 - =eq= -- equal to =TIME=
@@ -367,8 +370,6 @@ Few aliases for =TIME= are available:
 - =today= or =tod=
 - =now=
 - =yesterday=
-
-=PERIOD= can be =none= or =no= which matches notes without the property.
 
 =STATE= is a keyword like =TODO=, =DONE=, =NEW=, etc. Keywords are
 case insensitive. Only states specified in Settings can be searched

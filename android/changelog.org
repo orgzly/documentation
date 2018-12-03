@@ -11,6 +11,20 @@
         (org-set-property "CUSTOM_ID" (format "%07x" (random #x10000000))))))
 #+END_SRC
 
+* v1.6.12
+:PROPERTIES:
+:CUSTOM_ID: v1.6.12
+:END:
+
+** FEAT Support multi-line search queries
+:PROPERTIES:
+:CUSTOM_ID: 5b26363
+:END:
+** FIX Recognition of images in base directory
+:PROPERTIES:
+:CUSTOM_ID: a676ea5
+:END:
+
 * v1.6.11
 :PROPERTIES:
 :CUSTOM_ID: v1.6.11

@@ -11,6 +11,45 @@
         (org-set-property "CUSTOM_ID" (format "%07x" (random #x10000000))))))
 #+END_SRC
 
+* v1.7
+:PROPERTIES:
+:CUSTOM_ID: v1.7
+:END:
+
+** FEAT Support quick folding of note's metadata :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 1bdb8d5
+:END:
+** FEAT Replace swipe menus with bottom action bar :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 3b8c468
+:END:
+** FEAT Swipe left to open or focus on the note :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 35aa007
+:END:
+** IMPR Force upper case state keywords in Settings :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 45fa4b0
+:END:
+** IMPR Use larger font size for content in note view :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 73d0ee0
+:END:
+** IMPR Start using Android Architecture Components :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 78572ac
+:END:
+** FIX Issue when using week in search queries :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 1e6e065
+:END:
+** FIX Potential issues after time zone change :beta1:
+:PROPERTIES:
+:ID:       80415BC7-6DBE-4689-A72B-8D9E4EAB94F4
+:CUSTOM_ID: 4749c4c
+:END:
+
 * v1.6.12
 :PROPERTIES:
 :CUSTOM_ID: v1.6.12

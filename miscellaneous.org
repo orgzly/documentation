@@ -521,6 +521,6 @@ credentials are not visible to Orgzly.
 
 Email us at [[mailto:support@orgzly.com][support@orgzly.com]] and visit [[http://www.orgzly.com][Orgzly.com]].
 
-Follow us on [[https://twitter.com/Orgzly][Twitter]], [[https://plus.google.com/+Orgzly][Google+ Page]], [[https://plus.google.com/communities/104387367636243222968][Google+ Community]] and [[https://www.facebook.com/Orgzly][Facebook]].
+Follow us on [[https://twitter.com/Orgzly][Twitter]] and [[https://www.facebook.com/Orgzly][Facebook]].
 
 Help us localize Orgzly by joining our [[https://crowdin.com/project/orgzly][Crowdin project]].

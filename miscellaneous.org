@@ -234,6 +234,7 @@ You can dial a phone number, compose SMS or MMS.
 - =tel:1-800-555-0199=
 - =voicemail:1-800-555-0199=
 - =sms:1-800-555-0199=
+- =sms:1-800-555-0199?body=omw%20brt=
 - =smsto:1-800-555-0199=
 - =mms:1-800-555-0199=
 - =mmsto:1-800-555-0199=

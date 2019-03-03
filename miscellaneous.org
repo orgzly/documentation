@@ -33,13 +33,17 @@ navigation drawer.
 :CUSTOM_ID: 515ac68
 :END:
 
- You have to specify a directory for storing your notebooks.
+ The Dropbox app is not required for syncing, instead you will
+ allow Orgzly to contact Dropbox on your behalf.   
+ However, you have to specify a directory for storing your notebooks or 
+ syncing will fail:
 
  - Go to ~Settings~
  - Click on ~Sync~
  - Click on ~Repositories~
  - Click the plus icon and choose ~Dropbox~
- - Enter the directory inside Dropbox (without "Dropbox" part)
+ - Enter the directory inside Dropbox (without "Dropbox" part, but starting
+   with ~/~)
 
 *** Device (local storage)
 :PROPERTIES:

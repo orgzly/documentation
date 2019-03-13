@@ -11,6 +11,33 @@
         (org-set-property "CUSTOM_ID" (format "%07x" (random #x10000000))))))
 #+END_SRC
 
+
+* v1.7.1
+:PROPERTIES:
+:CUSTOM_ID: v1.7.1
+:END:
+
+** FEAT Events (plain timestamps) support (~e~ search operator, agenda and reminders) :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 30fee16
+:END:
+** FEAT Swipe menus added back :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 8ab9e78
+:END:
+** FEAT Preference for click/long-click action added back :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 9cf8845
+:END:
+** IMPR Smaller improvements :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 949a9db
+:END:
+
+- Start note view in edit mode
+- Use full-width edit button in note view
+- Support properties with an empty value
+
 * v1.7
 :PROPERTIES:
 :CUSTOM_ID: v1.7

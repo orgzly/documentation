@@ -319,13 +319,14 @@ precedence than =OR=.
 
 Following search expressions are supported.
 
-Most of them support ~.~ (NOT) operator (see the last column).
+Some of them support ~.~ (NOT) operator (see the last column).
 
 |-----------------+--------------------------+-------------------+---|
 | Expression      | Finds notes              | Example           | . |
 |-----------------+--------------------------+-------------------+---|
 | =s.PERIOD=      | Scheduled within period  | ~s.today~         | N |
 | =d.PERIOD=      | Deadline within period   | ~d.le.2d~         | N |
+| =e.PERIOD=      | Event within period      | ~e.ge.now~        | N |
 | =c.PERIOD=      | Closed within period     | ~c.yesterday~     | N |
 | =cr.PERIOD=     | Created within period    | ~cr.ge.yesterday~ | N |
 | =i.STATE=       | With state               | ~i.todo~          | Y |
@@ -414,8 +415,8 @@ Following properties are supported:
 |-----------------------------+-------------------------------|
 | =b= =book= =notebook=       | Notebook name                 |
 | =s= =sched= =scheduled=     | Scheduled time                |
-| =c= =close= =closed=        | Closed time                   |
 | =d= =dead= =deadline=       | Deadline time                 |
+| =c= =close= =closed=        | Closed time                   |
 | =cr= =created=              | Created-at time               |
 | =p= =pri= =prio= =priority= | Priority                      |
 | =st= =state=                | States as defined in Settings |

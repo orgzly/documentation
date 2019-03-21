@@ -416,11 +416,16 @@ Following properties are supported:
 | =b= =book= =notebook=       | Notebook name                 |
 | =s= =sched= =scheduled=     | Scheduled time                |
 | =d= =dead= =deadline=       | Deadline time                 |
+| =e= =event=                 | Event time                    |
 | =c= =close= =closed=        | Closed time                   |
 | =cr= =created=              | Created-at time               |
 | =p= =pri= =prio= =priority= | Priority                      |
 | =st= =state=                | States as defined in Settings |
 |-----------------------------+-------------------------------|
+
+When a note contains multiple events, only one of those events is
+considered when sorting. With =o.event= the oldest event is used. With
+=.o.event= most recent event is used.
 
 ** Agenda
 :PROPERTIES:

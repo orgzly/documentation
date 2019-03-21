@@ -21,6 +21,7 @@
 :PROPERTIES:
 :CUSTOM_ID: 30fee16
 :END:
+
 ** FEAT Swipe menus added back :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 8ab9e78
@@ -73,7 +74,6 @@
 :END:
 ** FIX Potential issues after time zone change :beta1:
 :PROPERTIES:
-:ID:       80415BC7-6DBE-4689-A72B-8D9E4EAB94F4
 :CUSTOM_ID: 4749c4c
 :END:
 

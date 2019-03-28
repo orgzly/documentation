@@ -11,6 +11,39 @@
         (org-set-property "CUSTOM_ID" (format "%07x" (random #x10000000))))))
 #+END_SRC
 
+* v1.7.2
+:PROPERTIES:
+:CUSTOM_ID: v1.7.2
+:END:
+
+** FEAT Sort search results by event time (o.e) :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 1d79cfc
+:END:
+** FEAT Copy selected notes :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 91fe961
+:END:
+** FEAT Cut, Copy, Move and Refile multiple notes at once :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 98bb387
+:END:
+** FIX Shift recurring note's events on state change :beta1:
+:PROPERTIES:
+:CUSTOM_ID: a45ce1c
+:END:
+** FIX Fix search when multiple events per note are used :beta1:
+:PROPERTIES:
+:CUSTOM_ID: d31165c
+:END:
+** IMPR Display used event time in search results :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 41d0317
+:END:
+** IMPR Unfold note itself when focused on from search results :beta1:
+:PROPERTIES:
+:CUSTOM_ID: f555973
+:END:
 
 * v1.7.1
 :PROPERTIES:

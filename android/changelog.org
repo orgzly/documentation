@@ -11,6 +11,20 @@
         (org-set-property "CUSTOM_ID" (format "%07x" (random #x10000000))))))
 #+END_SRC
 
+* v1.7.3
+:PROPERTIES:
+:CUSTOM_ID: v1.7.3
+:END:
+
+** FIX Searching by closed time :beta1:
+:PROPERTIES:
+:CUSTOM_ID: de9fdc7
+:END:
+** FIX Demoting multiple notes under folded one :beta1:
+:PROPERTIES:
+:CUSTOM_ID: 0dcdf78
+:END:
+
 * v1.7.2
 :PROPERTIES:
 :CUSTOM_ID: v1.7.2

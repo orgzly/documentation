@@ -11,6 +11,50 @@
         (org-set-property "CUSTOM_ID" (format "%07x" (random #x10000000))))))
 #+END_SRC
 
+* v1.7.4
+:PROPERTIES:
+:CUSTOM_ID: v1.7.4
+:END:
+
+** FEAT Refile dialog for choosing the note to refile under
+:PROPERTIES:
+:CUSTOM_ID: 01ca8c3
+:END:
+** FEAT Widget for creating new note in specific notebook
+:PROPERTIES:
+:CUSTOM_ID: d9a152d
+:END:
+** FEAT Highlight note focused on from search results
+:PROPERTIES:
+:CREATED:  [2019-05-15 Wed 13:30]
+:CUSTOM_ID: f2b1ea1
+:END:
+** FIX Displaying image when absolute path is used
+:PROPERTIES:
+:CUSTOM_ID: d40b950
+:END:
+** IMPR Support properties with the same name (for appending to value)
+:PROPERTIES:
+:CUSTOM_ID: 4e104a3
+:END:
+** IMPR Display event time in widgets
+:PROPERTIES:
+:CREATED:  [2019-05-15 Wed 13:26]
+:CUSTOM_ID: ceebd6b
+:END:
+** IMPR Sort auto-completed tags in note view
+:PROPERTIES:
+:CUSTOM_ID: ce6b352
+:END:
+** IMPR Allow linking to a file anywhere on the device
+:PROPERTIES:
+:CREATED:  [2019-05-15 Wed 13:29]
+:CUSTOM_ID: 5e44ff6
+:END:
+** IMPR Display check mark for notes in widgets
+:PROPERTIES:
+:CUSTOM_ID: 202b0cc
+:END:
 * v1.7.3
 :PROPERTIES:
 :CUSTOM_ID: v1.7.3

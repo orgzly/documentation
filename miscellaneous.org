@@ -24,6 +24,10 @@ Synchronization is currently manual -- you have to initiate it
 yourself by clicking the ~Sync~ button. Button is located in the
 navigation drawer.
 
+Note that Orgzly doesn't yet detect deletion of remote notebooks. If
+you delete a notebook in the repository it will be restored after sync
+(unless you deleted it in the app as well).
+
 ** Repository Types
 :PROPERTIES:
 :CUSTOM_ID: 72c5baa

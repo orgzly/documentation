@@ -11,6 +11,16 @@
         (org-set-property "CUSTOM_ID" (format "%07x" (random #x10000000))))))
 #+END_SRC
 
+* v1.7.6
+:PROPERTIES:
+:CUSTOM_ID: v1.7.6
+:END:
+
+** FIX Fix an issue causing crash on some older Android versions
+:PROPERTIES:
+:CUSTOM_ID: dd6aca6
+:END:
+
 * v1.7.5
 :PROPERTIES:
 :CUSTOM_ID: v1.7.5

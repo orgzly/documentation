@@ -11,6 +11,52 @@
         (org-set-property "CUSTOM_ID" (format "%07x" (random #x10000000))))))
 #+END_SRC
 
+* v1.7.7
+:PROPERTIES:
+:CUSTOM_ID: v1.7.7
+:END:
+
+** FEAT Clickable notebook and ancestors in note view
+:PROPERTIES:
+:CUSTOM_ID: 67d2a80
+:END:
+** FEAT Preference for link and breadcrumbs target (notebook or note view)
+:PROPERTIES:
+:CUSTOM_ID: dcd682e
+:END:
+** FEAT Preference for initial folding state of notebooks
+:PROPERTIES:
+:CUSTOM_ID: 08999c5
+:END:
+** FEAT Preference for ongoing notification's priority
+:PROPERTIES:
+:CUSTOM_ID: 92b3704
+:END:
+** FIX Remove previous =LAST_REPEAT= when marking note as done from note view
+:PROPERTIES:
+:CUSTOM_ID: 6a65c1c
+:END:
+** FIX Check for existence of external cache directory (fixing possible crash)
+:PROPERTIES:
+:CUSTOM_ID: 60d4a71
+:END:
+** FIX Fix dialog title of notebook chooser
+:PROPERTIES:
+:CUSTOM_ID: 06d081c
+:END:
+** IMPR Unfold note under which notes are moved
+:PROPERTIES:
+:CUSTOM_ID: 5727058
+:END:
+** IMPR Remove number of lines limit for title in note view
+:PROPERTIES:
+:CUSTOM_ID: 607057e
+:END:
+** IMPR Display the number of notes being refiled
+:PROPERTIES:
+:CUSTOM_ID: 3a86b8e
+:END:
+
 * v1.7.6
 :PROPERTIES:
 :CUSTOM_ID: v1.7.6
@@ -75,6 +121,7 @@
 :PROPERTIES:
 :CUSTOM_ID: 202b0cc
 :END:
+
 * v1.7.3
 :PROPERTIES:
 :CUSTOM_ID: v1.7.3

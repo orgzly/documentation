@@ -11,6 +11,16 @@
         (org-set-property "CUSTOM_ID" (format "%07x" (random #x10000000))))))
 #+END_SRC
 
+* v1.7.8
+:PROPERTIES:
+:CUSTOM_ID: v1.7.8
+:END:
+
+** FIX Fix a possible crash when marking recurring note as done from note view
+:PROPERTIES:
+:CUSTOM_ID: 6afde6b
+:END:
+
 * v1.7.7
 :PROPERTIES:
 :CUSTOM_ID: v1.7.7

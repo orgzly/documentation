@@ -11,6 +11,40 @@
         (org-set-property "CUSTOM_ID" (format "%07x" (random #x10000000))))))
 #+END_SRC
 
+* v1.7.9
+:PROPERTIES:
+:CUSTOM_ID: v1.7.9
+:END:
+
+** FEAT Unfold entire subtree on folding button long-click
+:PROPERTIES:
+:CUSTOM_ID: 07fc8f0
+:END:
+** FEAT Preference for default note view mode (view, edit or last used)
+:PROPERTIES:
+:CUSTOM_ID: 18e41b8
+:END:
+** FEAT Preference for displaying checkmarks in widgets
+:PROPERTIES:
+:CUSTOM_ID: f3d07c6
+:END:
+** FEAT Fast scroller in notebook and search results
+:PROPERTIES:
+:CUSTOM_ID: f38e71e
+:END:
+** FEAT Share a link to locally stored image with Orgzly (not always available)
+:PROPERTIES:
+:CUSTOM_ID: 8a97777
+:END:
+** IMPR Prompt to save or discard changes on breadcrumbs follow
+:PROPERTIES:
+:CUSTOM_ID: 43df905
+:END:
+** IMPR Honor current level when creating new checklist item on the next line
+:PROPERTIES:
+:CUSTOM_ID: 00c130b
+:END:
+
 * v1.7.8
 :PROPERTIES:
 :CUSTOM_ID: v1.7.8

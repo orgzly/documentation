@@ -415,6 +415,7 @@ Following properties are supported:
 | Property                    | Order by                      |
 |-----------------------------+-------------------------------|
 | =b= =book= =notebook=       | Notebook name                 |
+| =t= =title=                 | Title                         |
 | =s= =sched= =scheduled=     | Scheduled time                |
 | =d= =dead= =deadline=       | Deadline time                 |
 | =e= =event=                 | Event time                    |

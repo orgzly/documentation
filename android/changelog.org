@@ -11,6 +11,49 @@
         (org-set-property "CUSTOM_ID" (format "%07x" (random #x10000000))))))
 #+END_SRC
 
+
+* v1.8
+:PROPERTIES:
+:CUSTOM_ID: v1.8
+:END:
+
+** FEAT WebDAV repository support
+:PROPERTIES:
+:CUSTOM_ID: 03eeb8b
+:END:
+** FEAT Swipe down to sync (notebooks and notebook views)
+:PROPERTIES:
+:CUSTOM_ID: 14cfb5b
+:END:
+** FEAT Sort by title (~o.title~)
+:PROPERTIES:
+:CUSTOM_ID: 227aebc
+:END:
+** FEAT Set Dropbox token by long-clicking the link button
+:PROPERTIES:
+:CUSTOM_ID: 480f273
+:END:
+** FIX Scroll to top when editing title (to keep breadcrumbs visible)
+:PROPERTIES:
+:CUSTOM_ID: 62bce16
+:END:
+** FIX Display of remote notebook's modification time in notebook details
+:PROPERTIES:
+:CUSTOM_ID: 33653dd
+:END:
+** FIX Do not display confirmation dialog when new note is not modified
+:PROPERTIES:
+:CUSTOM_ID: 97b3b68
+:END:
+** FIX Metadata visibility issue on initial note loading
+:PROPERTIES:
+:CUSTOM_ID: 92a700e
+:END:
+** FIX Display all note's events in agenda
+:PROPERTIES:
+:CUSTOM_ID: b1bd7cd
+:END:
+
 * v1.7.9
 :PROPERTIES:
 :CUSTOM_ID: v1.7.9
@@ -185,7 +228,7 @@
 :CUSTOM_ID: v1.7.2
 :END:
 
-** FEAT Sort search results by event time (o.e) :beta1:
+** FEAT Sort search results by event time (~o.e~) :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 1d79cfc
 :END:
@@ -389,11 +432,11 @@
 :CUSTOM_ID: v1.6.8
 :END:
 
-** FEAT Toggling checkboxes :beta1:
+** FEAT Toggle checkboxes :beta1:
 :PROPERTIES:
 :CUSTOM_ID: e584e3c
 :END:
-** FEAT Sorting notes by position in notebook (~o.pos~) :beta1:
+** FEAT Sort notes by position in notebook (~o.pos~) :beta1:
 :PROPERTIES:
 :CUSTOM_ID: 6c5043f
 :END:

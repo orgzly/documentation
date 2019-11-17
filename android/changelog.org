@@ -11,6 +11,33 @@
         (org-set-property "CUSTOM_ID" (format "%07x" (random #x10000000))))))
 #+END_SRC
 
+* v1.8.2
+:PROPERTIES:
+:CUSTOM_ID: v1.8.2
+:END:
+
+** FEAT Support adding trusted certificates for WebDAV repo
+:PROPERTIES:
+:CUSTOM_ID: 7603982
+:END:
+** FIX Issue causing crash on start related to deleted repositories in the past
+:PROPERTIES:
+:CUSTOM_ID: b7761a1
+:END:
+** IMPR Display number of notes to be deleted in confirmation dialog
+:PROPERTIES:
+:CUSTOM_ID: 82bfc7f
+:END:
+
+* v1.8.1
+:PROPERTIES:
+:CUSTOM_ID: v1.8.1
+:END:
+
+** IMPR Enable auto-sync for WebDAV
+:PROPERTIES:
+:CUSTOM_ID: 3671c3a
+:END:
 
 * v1.8
 :PROPERTIES:

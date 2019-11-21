@@ -34,7 +34,7 @@ you delete a notebook in the repository it will be restored after sync
 :END:
 *** Dropbox
 :PROPERTIES:
-:CUSTOM_ID: 515ac68
+:CUSTOM_ID: sync-repo-dropbox
 :END:
 
  The Dropbox app is not required for syncing, instead you will allow
@@ -46,9 +46,26 @@ you delete a notebook in the repository it will be restored after sync
  - Click on ~Dropbox~ (if you already have some repositories, click the plus icon first)
  - Enter the directory inside Dropbox (without "Dropbox" part)
 
+*** WebDAV
+:PROPERTIES:
+:CUSTOM_ID: sync-repo-webdav
+:END:
+
+You can sync your notebooks over WebDAV with any service that supports
+it, such as [[https://nextcloud.com/][Nextcloud]], for example.
+
+ - Go to ~Settings~
+ - Click on ~Sync~
+ - Click on ~Repositories~
+ - Click on ~WebDAV~ (if you already have some repositories, click the plus icon first)
+ - Enter the URL, username and password
+
+Optionally, if the server is using a self-signed certificate for
+example, you could add it here.
+
 *** Directory (local storage)
 :PROPERTIES:
-:CUSTOM_ID: 489bf92
+:CUSTOM_ID: sync-repo-directory
 :END:
 
  Notebooks can be synced with one or more directories on your device.

@@ -11,6 +11,56 @@
         (org-set-property "CUSTOM_ID" (format "%07x" (random #x10000000))))))
 #+END_SRC
 
+* v1.8.3
+:PROPERTIES:
+:CUSTOM_ID: v1.8.3
+:END:
+
+** FEAT Overdue section in agenda
+:PROPERTIES:
+:CUSTOM_ID: 45584ac
+:END:
+** FEAT UI for end-time and delay/warning period
+:PROPERTIES:
+:CUSTOM_ID: 079ae30
+:END:
+** FEAT Paste button in notebook for when it's empty
+:PROPERTIES:
+:CUSTOM_ID: 1682c58
+:END:
+** FEAT Start new plain list item on enter press while editing content
+:PROPERTIES:
+:CUSTOM_ID: 3b69402
+:END:
+** FIX Fix issue of hidden notes when ~o.e~ is used
+:PROPERTIES:
+:CUSTOM_ID: 9e737c3
+:END:
+** FIX Fix issue when pasting a large number of notes
+:PROPERTIES:
+:CUSTOM_ID: 009cdd9
+:END:
+** FIX Fix subtree unfolding (long-click)
+:PROPERTIES:
+:CUSTOM_ID: 6be3352
+:END:
+** IMPR Do not cancel sync on pull-to-sync
+:PROPERTIES:
+:CUSTOM_ID: c5ffe19
+:END:
+** IMPR Add labels and make buttons obvious in timestamp dialog
+:PROPERTIES:
+:CUSTOM_ID: 55cb7e5
+:END:
+** IMPR Underline breadcrumb links
+:PROPERTIES:
+:CUSTOM_ID: 4f0fc3a
+:END:
+** IMPR Do not fold other notes on refile's go-to action
+:PROPERTIES:
+:CUSTOM_ID: 5680593
+:END:
+
 * v1.8.2
 :PROPERTIES:
 :CUSTOM_ID: v1.8.2

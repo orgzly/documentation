@@ -11,6 +11,72 @@
         (org-set-property "CUSTOM_ID" (format "%07x" (random #x10000000))))))
 #+END_SRC
 
+* v1.8.4
+:PROPERTIES:
+:CUSTOM_ID: v1.8.4
+:END:
+
+** FEAT Sticky agenda headers
+:PROPERTIES:
+:CUSTOM_ID: 0f404d7
+:END:
+** FEAT Preference for time for daily reminders
+:PROPERTIES:
+:CUSTOM_ID: 82b7f73
+:END:
+** FEAT Button to open tags dropdown menu
+:PROPERTIES:
+:CUSTOM_ID: a32124a
+:END:
+** FEAT Preview title in note view
+:PROPERTIES:
+:CUSTOM_ID: f0cea21
+:END:
+** FEAT Switch for changing note's view/edit mode
+:PROPERTIES:
+:CUSTOM_ID: cb3eb6b
+:END:
+** IMPR Enter edit mode on title or content click in note view
+:PROPERTIES:
+:CUSTOM_ID: db952ad
+:END:
+** IMPR Remove share activity from recent apps
+:PROPERTIES:
+:CUSTOM_ID: 0231dee
+:END:
+** IMPR Maximize height of clickable area for the folding button
+:PROPERTIES:
+:CUSTOM_ID: bea1aa8
+:END:
+** IMPR Remember location in refile dialog
+:PROPERTIES:
+:CUSTOM_ID: ee5256e
+:END:
+** IMPR Swipe down to sync in search results
+:PROPERTIES:
+:CUSTOM_ID: 2cb7e33
+:END:
+** IMPR Enable reminders by default
+:PROPERTIES:
+:CUSTOM_ID: efe3362
+:END:
+** FIX Fix broken notebook shortcuts
+:PROPERTIES:
+:CUSTOM_ID: df2f6a1
+:END:
+** FIX Fix parsing of link with square brackets in its name
+:PROPERTIES:
+:CUSTOM_ID: 59f0a6a
+:END:
+** FIX Fix PROPERTY line parsing
+:PROPERTIES:
+:CUSTOM_ID: de5fd52
+:END:
+** FIX Use local-specific time format everywhere
+:PROPERTIES:
+:CUSTOM_ID: e6fe54a
+:END:
+
 * v1.8.3
 :PROPERTIES:
 :CUSTOM_ID: v1.8.3

@@ -287,7 +287,7 @@ Files are *relative to the main storage directory* (e.g. =/sdcard=).
 - =file:Music/song.mp3=
 
 In Settings, you can change the relative root to point to any directory on your
-phone. There is one setting to set the root for absolute links (e.g. =file:/readme.txt=),
+device. There is one setting to set the root for absolute links (e.g. =file:/readme.txt=),
 and another setting to set the root for relative links (e.g. =file:readme.txt=).
 
 ** Note

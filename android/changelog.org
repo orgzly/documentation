@@ -11,6 +11,57 @@
         (org-set-property "CUSTOM_ID" (format "%07x" (random #x10000000))))))
 #+END_SRC
 
+
+* v1.8.5
+:PROPERTIES:
+:CUSTOM_ID: v1.8.5
+:END:
+
+** FEAT Support ~.tn~ search operator
+:PROPERTIES:
+:CUSTOM_ID: f1fa800
+:END:
+** FEAT Preference to insert new note at the beginning of notebook
+:PROPERTIES:
+:CUSTOM_ID: 7de9adc
+:END:
+** FEAT Preference to define root directory for file links
+:PROPERTIES:
+:CUSTOM_ID: da32fd0
+:END:
+** FEAT Gray out notes with =ARCHIVE= tag
+:PROPERTIES:
+:CUSTOM_ID: 8c6beab
+:END:
+** IMPR Support =+= as a bullet for lists
+:PROPERTIES:
+:CUSTOM_ID: 21b61c9
+:END:
+** IMPR Support "Keep screen on" option in note view
+:PROPERTIES:
+:CUSTOM_ID: 9334041
+:END:
+** IMPR Allow picking directory for saved searches export
+:PROPERTIES:
+:CUSTOM_ID: 6933f04
+:END:
+** FIX Fix list continuing on some keyboards
+:PROPERTIES:
+:CUSTOM_ID: 5920ee2
+:END:
+** FIX Handle escaped brackets in links
+:PROPERTIES:
+:CUSTOM_ID: 47aba62
+:END:
+** FIX Few fixes for timestamps without time part set (fix for ~s.now~ and reminders)
+:PROPERTIES:
+:CUSTOM_ID: 5cb0be3
+:END:
+** FIX Ignore inactive scheduled and deadline times in agenda
+:PROPERTIES:
+:CUSTOM_ID: 67b1145
+:END:
+
 * v1.8.4
 :PROPERTIES:
 :CUSTOM_ID: v1.8.4

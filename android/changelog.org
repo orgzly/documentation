@@ -37,7 +37,7 @@
 :PROPERTIES:
 :CUSTOM_ID: 21b61c9
 :END:
-** IMPR Support "Keep screen on" option in note view
+** IMPR Support “Keep screen on” option in note view
 :PROPERTIES:
 :CUSTOM_ID: 9334041
 :END:
@@ -1473,12 +1473,12 @@ Added for new notebooks, notes and saved searches.
 :PROPERTIES:
 :CUSTOM_ID: v1.4
 :END:
-** FEAT Add "Fold content" option :beta4:
+** FEAT Add “Fold content” option :beta4:
 :PROPERTIES:
 :CUSTOM_ID: 95c3d29
 :END:
 
-** FEAT Add "Display content in search" option :beta4:
+** FEAT Add “Display content in search” option :beta4:
 :PROPERTIES:
 :CUSTOM_ID: 4b0ca7b
 :END:
@@ -1488,7 +1488,7 @@ Added for new notebooks, notes and saved searches.
 :CUSTOM_ID: cd90ff5
 :END:
 
-** FEAT Update "What's New" dialog's button when DB upgrade is in progress :beta4:
+** FEAT Update “What's New” dialog's button when DB upgrade is in progress :beta4:
 :PROPERTIES:
 :CUSTOM_ID: d33e588
 :END:
@@ -1579,7 +1579,7 @@ With dark theme sync error messages were difficult to read.
 :PROPERTIES:
 :CUSTOM_ID: v1.3.4
 :END:
-** FEAT Support using Orgzly for "Note to self" voice action :beta1:
+** FEAT Support using Orgzly for “Note to self” voice action :beta1:
 :PROPERTIES:
 :CUSTOM_ID: f7338ea
 :END:
@@ -1595,7 +1595,7 @@ With dark theme sync error messages were difficult to read.
 :PROPERTIES:
 :CUSTOM_ID: 8c1bd9f
 :END:
-** IMPR "What's New" layout cleanup :beta1:
+** IMPR “What's New” layout cleanup :beta1:
 :PROPERTIES:
 :CUSTOM_ID: ea83e81
 :END:

@@ -12,6 +12,24 @@
 #+END_SRC
 
 
+* v1.8.6
+:PROPERTIES:
+:CUSTOM_ID: v1.8.6
+:END:
+
+** FEAT Target Android 11
+:PROPERTIES:
+:CUSTOM_ID: fb38b0f
+:END:
+** FEAT New “System” color scheme
+:PROPERTIES:
+:CUSTOM_ID: 4538664
+:END:
+** IMPR WebDAV sync fixes and digest authentication support
+:PROPERTIES:
+:CUSTOM_ID: 4894cb7
+:END:
+
 * v1.8.5
 :PROPERTIES:
 :CUSTOM_ID: v1.8.5

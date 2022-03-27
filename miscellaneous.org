@@ -357,7 +357,7 @@ Some of them support ~.~ (NOT) operator (see the last column).
 | =it.STATE-TYPE= | With state type          | ~.it.done~        | Y |
 | =b.NOTEBOOK=    | From notebook            | ~.b.Work~         | Y |
 | =t.TAG=         | With tag (inherited too) | ~t.errand~        | Y |
-| =tn.TAG=        | With tag (note's only)   | ~tn.toRead~       | N |
+| =tn.TAG=        | With tag (note's only)   | ~tn.toRead~       | Y |
 | =p.PRIORITY=    | Having priority          | ~.p.c~            | Y |
 | =ps.PRIORITY=   | Having set priority      | ~ps.b~            | Y |
 |-----------------+--------------------------+-------------------+---|

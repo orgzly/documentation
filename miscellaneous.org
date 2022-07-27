@@ -538,17 +538,10 @@ working on either iOS version or a Web application.
 
 * Privacy Policy
 :PROPERTIES:
-:CUSTOM_ID: b07d90c
-:END:
-** Other Data
-:PROPERTIES:
-:CUSTOM_ID: debf9ed
+:CUSTOM_ID: privacy
 :END:
 
-When you give Orgzly access to Dropbox, an authentication token is
-stored on your device to allow receiving and sending of notebooks from
-and to Dropbox. No other data is being transferred. Your Dropbox
-credentials are not visible to Orgzly.
+See [[http:privacy][Privacy Policy]].
 
 * Contact
 :PROPERTIES:

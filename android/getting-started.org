@@ -12,15 +12,15 @@ Fling it left to open a different menu.
 
 ** Fold a note which contains sub-notes by clicking the icon next to it
 
-Long-click the icon to unfold entire subtree.
+Long-click the icon to unfold the entire subtree.
 
-*** There is no limit in number of levels you can have
+*** There is no limit to the number of levels you can have
 **** Use this to better organize your notes
 
 ** Note can have tags :tag1:tag2:
 *** Sub-note inherits the tags :tag3:
 
-If you search for notes with tag “tag1” using “t.tag1” query, this note will be included in search results.
+If you search for notes tagged with “tag1” using “t.tag1” query, this note will be included in the search results.
 
 *** A note that has the =ARCHIVE= tag set is grayed out :ARCHIVE:
 
@@ -42,9 +42,16 @@ SCHEDULED: <2015-02-16 Mon .+2d>
 ** You can also set a deadline time
 DEADLINE: <2015-02-20 Fri>
 
-** Reminders for scheduled and deadline times are supported
+** Event times can be used anywhere in the note's content
 
-They are disabled by default and need to be enabled in Settings.
+You can have multiple event times:
+
+- <2015-02-20 Fri>
+- <2015-02-21 Sat>
+
+** Reminders for notes with scheduled, deadline, or event times are supported
+
+Mark the note as done to shift the repeater.
 
 ** [#A] Note can have a priority
 
@@ -68,18 +75,18 @@ You can make words *bold*, /italic/, _underlined_, =verbatim=, ~code~ and +strik
 - [ ] Task 2
 - [ ] Task 3
 
-Click the checkbox to toggle it. Press new-line button at the end of the line to create a new item.
+Click the checkbox to toggle it. Press the new-line button at the end of the line to create a new item.
 
 * Search
 ** There are many search operators supported
 
-You can search notes by state, tag, scheduled or deadline time etc.
+You can search notes by state, tag, scheduled, deadline or event times, etc.
 
 See http://www.orgzly.com/help#search to learn more.
 
 ** Search queries can be saved for quick access
 
-Try sample searches from navigation drawer and note the queries they use.
+Try sample searches from the navigation drawer and note the queries they use.
 
 You can create your own saved searches by clicking on “Searches” in the navigation drawer.
 
@@ -87,8 +94,8 @@ You can create your own saved searches by clicking on “Searches” in the navi
 
 ** Notebooks can be saved as plain-text files
 
-Files are in the format used by “Org mode”.
+Files are in the format used by [[https://orgmode.org/][Org mode]].
 
 ** Location (repository) type
 
-You can keep notebooks synced with a directory on your mobile device, SD card or Dropbox.
+A repository is a location you can sync your notebooks with. A repository can be a directory on your mobile device, SD card, or Dropbox.

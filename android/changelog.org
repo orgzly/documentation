@@ -11,6 +11,33 @@
         (org-set-property "CUSTOM_ID" (format "%07x" (random #x10000000))))))
 #+END_SRC
 
+* v1.8.8
+:PROPERTIES:
+:CUSTOM_ID: v1.8.8
+:END:
+
+** FIX Fix slow sync and app start due to shortcuts refreshing
+:PROPERTIES:
+:CUSTOM_ID: 5ba6603
+:END:
+** FIX Stop using alarm clock for reminders
+:PROPERTIES:
+:CUSTOM_ID: 145e20e
+:END:
+** FIX Add Sync back to the overflow menu
+:PROPERTIES:
+:CUSTOM_ID: 67699ea
+:END:
+** FIX Fix a graphics glitch with a transparent navigation bar on Android 8.1
+:PROPERTIES:
+:CUSTOM_ID: 4540cf9
+:END:
+** FIX Stop hiding the top of the content under the toolbar on the keyboard open
+:PROPERTIES:
+:CREATED:  [2022-09-08 Thu 09:47]
+:CUSTOM_ID: cd34461
+:END:
+
 * v1.8.7
 :PROPERTIES:
 :CUSTOM_ID: v1.8.7

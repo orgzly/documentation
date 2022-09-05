@@ -11,6 +11,35 @@
         (org-set-property "CUSTOM_ID" (format "%07x" (random #x10000000))))))
 #+END_SRC
 
+* v1.8.7
+:PROPERTIES:
+:CUSTOM_ID: v1.8.7
+:END:
+
+** FEAT Target Android 12L
+:PROPERTIES:
+:CUSTOM_ID: bcb577f
+:END:
+** FEAT Scroll to the top on action bar click
+:PROPERTIES:
+:CUSTOM_ID: 9db9d5a
+:END:
+** IMPR Use Material 3
+:PROPERTIES:
+:CUSTOM_ID: e8bd403
+:END:
+** IMPR Use larger agenda dividers with a background color
+:PROPERTIES:
+:CUSTOM_ID: 9f2b125
+:END:
+** FIX Render images, allow using monospaced font and register checkbox changes for notebook preface
+:PROPERTIES:
+:CUSTOM_ID: 38b4030
+:END:
+** FIX Fix the permission issue when creating a “New note” widget
+:PROPERTIES:
+:CUSTOM_ID: f67918b
+:END:
 
 * v1.8.6
 :PROPERTIES:
@@ -1385,11 +1414,11 @@ was being displayed below drawer.
 and within square brackets (both with and without the name).  In other
 words:
 
-#+BEGIN_EXAMPLE
+#+BEGIN_SRC
 http://www.orgzly.com
 [[mailto:support@orgzly.com][Support]]
 [[http://www.orgzly.com/help]]
-#+END_EXAMPLE
+#+END_SRC
 
 should all work and be displayed as expected.
 

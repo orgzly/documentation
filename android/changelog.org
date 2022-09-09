@@ -1,6 +1,6 @@
 #+TITLE: Change Log
 #+AUTHOR: Orgzly
-#+OPTIONS: html-postamble:nil num:nil html-style:nil tags:nil
+#+OPTIONS: html-postamble:nil num:nil html-style:nil tags:nil H:1 toc:nil
 #+TODO: FEAT(f) IMPR(i) FIX(b) | DONE(d)
 
 #+BEGIN_SRC elisp :exports none :results silent

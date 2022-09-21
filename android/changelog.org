@@ -11,6 +11,20 @@
         (org-set-property "CUSTOM_ID" (format "%07x" (random #x10000000))))))
 #+END_SRC
 
+* v1.8.9
+:PROPERTIES:
+:CUSTOM_ID: v1.8.9
+:END:
+
+** FEAT Dynamic color scheme
+:PROPERTIES:
+:CUSTOM_ID: df1b6df
+:END:
+** FIX Fix starting sync from the background (e.g. auto-sync or ActionReceiver)
+:PROPERTIES:
+:CUSTOM_ID: 09d9a91
+:END:
+
 * v1.8.8
 :PROPERTIES:
 :CUSTOM_ID: v1.8.8

@@ -57,13 +57,13 @@
 :CUSTOM_ID: v1.8.7
 :END:
 
-** FEAT Target Android 12L
-:PROPERTIES:
-:CUSTOM_ID: bcb577f
-:END:
 ** FEAT Scroll to the top on action bar click
 :PROPERTIES:
 :CUSTOM_ID: 9db9d5a
+:END:
+** IMPR Target Android 12L
+:PROPERTIES:
+:CUSTOM_ID: bcb577f
 :END:
 ** IMPR Use Material 3
 :PROPERTIES:
@@ -87,13 +87,13 @@
 :CUSTOM_ID: v1.8.6
 :END:
 
-** FEAT Target Android 11
-:PROPERTIES:
-:CUSTOM_ID: fb38b0f
-:END:
 ** FEAT New “System” color scheme
 :PROPERTIES:
 :CUSTOM_ID: 4538664
+:END:
+** IMPR Target Android 11
+:PROPERTIES:
+:CUSTOM_ID: fb38b0f
 :END:
 ** IMPR WebDAV sync fixes and digest authentication support
 :PROPERTIES:
@@ -1987,7 +1987,7 @@ example.
 Since file name is not available in all cases, a dialog with a
 notebook name is now displayed after choosing a file.
 
-** FEAT Target API 22 (Android 5.1) :beta7:
+** IMPR Target API 22 (Android 5.1) :beta7:
 :PROPERTIES:
 :CUSTOM_ID: 45f312d
 :END:

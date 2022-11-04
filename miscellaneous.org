@@ -239,7 +239,7 @@ instead of the link (e.g. =[[link][name]]=).
 :CUSTOM_ID: 6874100
 :END:
 
-=http://www.orgzly.com=
+=https://www.orgzly.com=
 
 ** Email
 :PROPERTIES:
@@ -548,7 +548,7 @@ See [[http:privacy][Privacy Policy]].
 :CUSTOM_ID: contact
 :END:
 
-Email us at [[mailto:support@orgzly.com][support@orgzly.com]] and visit [[http://www.orgzly.com][Orgzly.com]].
+Email us at [[mailto:support@orgzly.com][support@orgzly.com]] and visit [[https://www.orgzly.com][Orgzly.com]].
 
 Follow us on [[https://twitter.com/Orgzly][Twitter]] and [[https://www.facebook.com/Orgzly][Facebook]].
 

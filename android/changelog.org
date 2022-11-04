@@ -1482,9 +1482,9 @@ and within square brackets (both with and without the name).  In other
 words:
 
 #+BEGIN_SRC
-http://www.orgzly.com
+https://www.orgzly.com
 [[mailto:support@orgzly.com][Support]]
-[[http://www.orgzly.com/help]]
+[[https://www.orgzly.com/help]]
 #+END_SRC
 
 should all work and be displayed as expected.
@@ -1824,7 +1824,7 @@ You can now create, edit, delete and re-position saved searches.
 :CUSTOM_ID: 726fc61
 :END:
 
-Search by priority. See http://www.orgzly.com/help#Search.
+Search by priority. See https://www.orgzly.com/help#Search.
 
 ** FEAT Search operator ~s.day~ improved :beta1:
 :PROPERTIES:
@@ -1832,7 +1832,7 @@ Search by priority. See http://www.orgzly.com/help#Search.
 :END:
 
 Search by scheduled time -- ~s.2d~ will find those scheduled for the
-day after tomorrow or earlier.  See http://www.orgzly.com/help#Search.
+day after tomorrow or earlier.  See https://www.orgzly.com/help#Search.
 
 ** FIX Tags parsing :beta1:
 :PROPERTIES:

@@ -1,4 +1,4 @@
-#+TITLE: Change Log
+#+TITLE: Changelog
 #+AUTHOR: Orgzly
 #+OPTIONS: html-postamble:nil num:nil html-style:nil tags:nil H:1 toc:nil
 #+TODO: FEAT(f) IMPR(i) FIX(b) | DONE(d)
@@ -10,6 +10,32 @@
       (unless (org-entry-get (point) "CUSTOM_ID")
         (org-set-property "CUSTOM_ID" (format "%07x" (random #x10000000))))))
 #+END_SRC
+
+* v1.8.10
+:PROPERTIES:
+:CUSTOM_ID: v1.8.10
+:END:
+
+** FEAT Allow using alarm clock for scheduling reminders with a time of day
+:PROPERTIES:
+:CUSTOM_ID: 8ca22f4
+:END:
+** FEAT Log and view major events (e.g. scheduling reminders)
+:PROPERTIES:
+:CUSTOM_ID: 0232ce3
+:END:
+** FIX Check for reminders since the last run on boot and data-change
+:PROPERTIES:
+:CUSTOM_ID: 8f9ea2a
+:END:
+** IMPR Remove edit/view modes from note, single tap to edit and position the cursor correctly
+:PROPERTIES:
+:CUSTOM_ID: 388b103
+:END:
+** IMPR Replace quick menus with popup windows
+:PROPERTIES:
+:CUSTOM_ID: 17b3891
+:END:
 
 * v1.8.9
 :PROPERTIES:

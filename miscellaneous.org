@@ -541,7 +541,7 @@ working on either iOS version or a Web application.
 :CUSTOM_ID: privacy
 :END:
 
-See [[http:privacy][Privacy Policy]].
+See [[https://www.orgzly.com/privacy][Privacy Policy]].
 
 * Contact
 :PROPERTIES:

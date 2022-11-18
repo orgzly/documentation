@@ -3,7 +3,7 @@
 
 * Orgzly Search
 
-This is a proposal for extending the [[http://www.orgzly.com/help/#Search][current search]] support in [[https://www.orgzly.com][Orgzly]].
+This is a proposal for extending the [[https://www.orgzly.com/docs/#Search][current search]] support in [[https://www.orgzly.com][Orgzly]].
 
 Search results, agenda or a specific note must all be accessible using
 a query. That way everything can be swipe&click away (drawer) or be

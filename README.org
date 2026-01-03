@@ -1,6 +1,2 @@
 - [[miscellaneous.org][A little bit of Everything]]       :: Content of [[https://www.orgzly.com/docs]]
 - [[searching-proposal.org][Search queries syntax (Proposal)]] :: Full specification to be implemented
-
-* Android App
-- [[android/changelog.org][Change Log]]                  :: What's New
-- [[android/getting-started.org][Getting Started with Orgzly]] :: Imported Notebook

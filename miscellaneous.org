@@ -530,11 +530,7 @@ Play's version of the app.
 :CUSTOM_ID: ios
 :END:
 
-No, only Android version is available at the moment.
-
-After implementing some of the important features which are still
-missing in the current Android version, there is an idea to start
-working on either iOS version or a Web application.
+Not yet.
 
 * Privacy Policy
 :PROPERTIES:
@@ -549,7 +545,5 @@ See [[https://www.orgzly.com/privacy][Privacy Policy]].
 :END:
 
 Email us at [[mailto:support@orgzly.com][support@orgzly.com]] and visit [[https://www.orgzly.com][Orgzly.com]].
-
-Follow us on [[https://twitter.com/Orgzly][Twitter]] and [[https://www.facebook.com/Orgzly][Facebook]].
 
 Help us localize Orgzly by joining our [[https://crowdin.com/project/orgzly][Crowdin project]].
